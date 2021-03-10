@@ -1,0 +1,18 @@
+<header class="header">
+	{{back-button}}
+	{{header-button class="right group" action=(action 'showRequests')}}
+	<h1>People attending</h1>
+</header>
+{{#pull-to-refresh pull-to-refresh=ptr reload='reload'}}
+	{{#each model.attending as |user|}}
+		<div class="attending-card">
+			{{profile-photo user}}
+			<p>{{user.name}}</p>
+			{{#unless (isEventCreator model user)}}
+				<button {{action 'remove' user}}></button>
+			{{/unless}}
+		</div>
+	{{else}}
+		<p class="super-hero">Kinda lonely in here.</p>
+	{{/each}}
+{{/pull-to-refresh}}

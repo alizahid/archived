@@ -1,0 +1,166 @@
+@import '../../styles/variables';
+
+.hero {
+  display: flex;
+  padding: 1em;
+
+  // header
+  > header {
+    margin-right: 2em;
+
+    // details
+    > div {
+      margin-top: 1em;
+
+      // name
+      > h2 {
+        font-size: 1.5em;
+        margin: 0;
+      }
+
+      // attributes
+      > ul {
+        margin-top: 1em;
+
+        > li {
+          background: $border;
+          border-radius: $radius;
+          color: $color-text;
+          list-style: none;
+          padding: 0.5em;
+
+          &:not(:first-child) {
+            margin-top: 1em;
+          }
+
+          &.radiant {
+            background: #0091b9;
+          }
+
+          &.dire {
+            background: #f57401;
+          }
+
+          &.strength {
+            background: #cf0600;
+          }
+
+          &.agility {
+            background: #3d7a00;
+          }
+
+          &.intelligence {
+            background: #006abb;
+          }
+        }
+      }
+    }
+  }
+
+  // counters
+  > main {
+    flex: 1;
+
+    // strong / weak
+    > section {
+      &:not(:first-child) {
+        margin-top: 2em;
+      }
+
+      // title
+      > h3 {
+        margin: 0;
+      }
+
+      // counters
+      > div {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0.5em -0.5em -0.5em;
+
+        // add
+        > div {
+          margin: 0.5em;
+
+          // add
+          > button {
+            appearance: none;
+            background: $overlay url('../../assets/add.svg') center no-repeat;
+            background-size: auto 50%;
+            border-radius: $radius;
+            border: none;
+            cursor: pointer;
+            height: 100%;
+            min-height: 56px;
+            opacity: 0.5;
+            transition: $transition;
+            width: 100px;
+
+            &:hover {
+              opacity: 0.75;
+            }
+
+            &:active {
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // modal
+  .modal {
+    // textarea
+    textarea {
+      background: $overlay-light;
+    }
+
+    // modal content
+    > section {
+      // hero
+      > header {
+        align-items: center;
+        display: flex;
+        margin: 1em 0;
+
+        // avatar
+        > figure {
+          margin-right: 1em;
+        }
+
+        // clear
+        > button {
+          appearance: none;
+          background: $overlay url('../../assets/clear.svg') center no-repeat;
+          background-size: auto 50%;
+          border-radius: $radius;
+          border: none;
+          cursor: pointer;
+          height: 3em;
+          margin-left: auto;
+          opacity: 0.5;
+          transition: $transition;
+          width: 3em;
+
+          &:hover {
+            opacity: 0.75;
+          }
+
+          &:active {
+            opacity: 1;
+          }
+        }
+      }
+
+      // form
+      > form {
+        // dropdown
+        select {
+          background-color: $overlay-light;
+        }
+      }
+    }
+  }
+}

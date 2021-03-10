@@ -1,0 +1,17 @@
+<header>
+	{{back-button}}
+	<h1>Contact</h1>
+</header>
+<main>
+	<form {{action 'send' on='submit'}}>
+		{{error-message error}}
+		{{success-message sent 'Thank you for getting in touch. We will get back to you soon!'}}
+		<label>
+			{{textarea value=message placeholder="Hello. How can we help you?"}}
+		</label>
+		<p>
+			<button disabled={{busy}}>Send</button>
+		</p>
+	</form>
+</main>
+{{nav-bar}}

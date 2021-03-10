@@ -1,0 +1,44 @@
+<header class={{theme}}>
+	<h1>Settings</h1>
+	{{link-to '' 'logout' class="action logout"}}
+</header>
+<main>
+	<section class="list-menu">
+		{{#link-to 'settings.about' tagName="article"}}
+			<img src="assets/icons/about.png">
+			<h4>About</h4>
+		{{/link-to}}
+		{{#link-to 'invite' tagName="article"}}
+			<img src="assets/icons/invite.png">
+			<h4>Invite</h4>
+		{{/link-to}}
+		<article {{action 'toggleNotifications'}}>
+			<img src="assets/icons/notifications.png">
+			<h4>Notifications</h4>
+			<form>
+				{{#if busy}}
+					<input type="checkbox" disabled>
+				{{else}}
+					{{#if model.notifications}}
+						<input type="checkbox" checked>
+					{{else}}
+						<input type="checkbox">
+					{{/if}}
+				{{/if}}
+			</form>
+		</article>
+		<article {{action 'rateApp'}}>
+			<img src="assets/icons/star.png">
+			<h4>Rate</h4>
+		</article>
+		<article {{action 'shareApp'}}>
+			<img src="assets/icons/share.png">
+			<h4>Share</h4>
+		</article>
+		{{#link-to 'settings.terms' tagName="article"}}
+			<img src="assets/icons/terms.png">
+			<h4>Terms</h4>
+		{{/link-to}}
+	</section>
+</main>
+{{nav-footer}}

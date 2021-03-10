@@ -1,0 +1,759 @@
+// Variable
+
+$primary: #3F51B5;
+$primaryDark: #303F9F;
+$accent: #E91E63;
+
+$error: #F44336;
+$success: #4CAF50;
+$message: #2196F3;
+
+$background: #FFF;
+$color: #333;
+$highlight: rgba(255, 255, 255, 0.1);
+$shadow: rgba(0, 0, 0, 0.25);
+
+$type: normal 14px/1 'San Francisco', sans-serif;
+
+// Global
+
+*,
+*:after,
+*:before {
+	border-radius: 0;
+	box-sizing: border-box;
+	font-weight: normal;
+	margin: 0;
+	outline: none;
+	padding: 0;
+	user-select: none;
+	-webkit-tap-highlight-color: transparent;
+}
+
+// Styles
+
+body {
+	background: $background;
+	color: $color;
+	cursor: default;
+	font: $type;
+	margin: 0 auto;
+}
+
+a {
+	color: $primary;
+	text-decoration: none;
+	transition: all 300ms ease;
+
+	&:hover {
+		color: $primaryDark;
+	}
+}
+
+em {
+	color: $primaryDark;
+	font-style: normal;
+	font-weight: 500;
+}
+
+form {
+	label,
+	p {
+		display: block;
+		line-height: 1;
+		margin: 1em 0;
+
+		&.error,
+		&.message,
+		&.success {
+			border: 1px solid $error;
+			border-radius: 0.25em;
+			color: $error;
+			padding: 1em;
+		}
+
+		&.success {
+			border-color: $success;
+			color: $success;
+		}
+
+		&.message {
+			border-color: $message;
+			color: $message;
+		}
+
+		strong {
+			margin-bottom: 1em;
+		}
+	}
+
+	button,
+	input {
+		appearance: none;
+		background: none;
+		border: none;
+		font: inherit;
+		width: 100%;
+	}
+
+	button {
+		@extend button;
+
+		&:disabled {
+			background: darken($background, 30%);
+		}
+
+		&.ghost {
+			background: $background;
+			border: 1px solid $primary;
+			color: $primary;
+			padding: 1em 1.5em;
+
+			&:active {
+				background: darken($background, 3%);
+			}
+		}
+	}
+
+	input {
+		background: darken($background, 3%);
+		border-radius: 0.25em;
+		padding: 1em;
+		user-select: text;
+	}
+}
+
+h1,
+h2,
+h3 {
+	color: $accent;
+	font-weight: 100;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2,
+h3 {
+	font-size: 2em;
+}
+
+h3 {
+	font-weight: 500;
+}
+
+hr {
+	border: none;
+	margin: 4em 0;
+}
+
+img {
+	border: none;
+	max-width: 100%;
+	vertical-align: top;
+}
+
+p {
+	line-height: 1.6;
+	margin: 1em 0;
+}
+
+strong {
+	color: $primaryDark;
+	display: block;
+	font-weight: 500;
+	margin-bottom: 0.5em;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 1em 0;
+	table-layout: fixed;
+	width: 100%;
+
+	thead,
+	tfoot {
+		tr {
+			background: darken($background, 6%);
+		}
+	}
+
+	tbody {
+		tr:nth-child(even) {
+			background: darken($background, 3%);
+		}
+	}
+
+	th,
+	td {
+		padding: 1em;
+		text-align: left;
+		vertical-align: middle;
+	}
+
+	th {
+		font-weight: 500;
+	}
+}
+
+// Layout
+
+.ember-application {
+	> .ember-view {
+		display: flex;
+		flex-direction: column;
+		height: 100vh;
+		position: relative;
+
+		> header {
+			background: $primary;
+			padding: 8em 1em 1em;
+			position: relative;
+			flex: 0 0 auto;
+
+			h1 {
+				color: $background;
+				font-size: 2em;
+			}
+
+			a {
+				cursor: pointer;
+				transition: none;
+
+				&:active {
+					background-color: $highlight;
+				}
+
+				&.action {
+					background-position: center;
+					background-repeat: no-repeat;
+					background-size: 1.75em;
+					height: 3em;
+					position: absolute;
+					right: 0;
+					top: 0;
+					width: 3em;
+
+					&.menu {
+						background-image: url('img/menu.png');
+					}
+
+					&.settings {
+						background-image: url('img/settings.png');
+					}
+
+					&.save {
+						background-image: url('img/check.png');
+					}
+				}
+
+				&.back {
+					background-image: url('img/left.png');
+					left: 0;
+					right: auto;
+				}
+			}
+		}
+
+		> main {
+			flex: 1;
+			overflow-y: scroll;
+			padding: 0 1em;
+			position: relative;
+			-webkit-overflow-scrolling: touch;
+
+			&.full {
+				padding: 0;
+			}
+		}
+
+		> footer {
+			bottom: 0;
+			justify-content: space-between;
+			display: flex;
+			padding: 1em;
+			position: fixed;
+			width: 100vw;
+			z-index: 2000;
+
+			button {
+				border-radius: 100%;
+				height: 4em;
+				padding: 0;
+				width: 4em;
+
+				&:first-child {
+					background: $primary;
+
+					&:active {
+						background: darken($primary, 10%);
+					}
+
+					&:before {
+						content: 'Buy';
+					}
+				}
+
+				&:last-child {
+					&:before {
+						content: 'Sell';
+					}
+				}
+			}
+		}
+	}
+}
+
+// Components
+
+button {
+	appearance: none;
+	background: $accent;
+	border: none;
+	border-radius: 0.25em;
+	color: $background;
+	cursor: pointer;
+	font: $type;
+	padding: calc(1em + 1px) 1.5em;
+	transition: all 300ms ease;
+	width: 100%;
+
+	&:active {
+		background: darken($accent, 10%);
+	}
+}
+
+ul.action {
+	li {
+		cursor: pointer;
+		list-style: none;
+		padding: 1em 1em 1em 3em;
+		position: relative;
+
+		&:active {
+			background: darken($background, 3%);
+		}
+
+		&:not(.divider) {
+			&:before {
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: 1.75em;
+				content: '';
+				height: 3em;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 3em;
+			}
+
+			&.orders:before {
+				background-image: url('img/orders.png');
+			}
+
+			&.payment:before {
+				background-image: url('img/payment.png');
+			}
+
+			&.profile:before {
+				background-image: url('img/profile.png');
+			}
+
+			&.password:before {
+				background-image: url('img/password.png');
+			}
+
+			&.logout:before {
+				background-image: url('img/logout.png');
+			}
+		}
+
+		&.divider {
+			border: none;
+			height: 2em;
+			padding: 0;
+		}
+	}
+}
+
+.credit-card {
+	.number {
+		&.identified {
+			background-image: url('img/card.png');
+			background-position: calc(100% - 10px) center;
+			background-repeat: no-repeat;
+			background-size: 30px;
+			padding-right: 50px;
+
+			&.visa {
+				background-image: url('img/visa.png');
+			}
+
+			&.mastercard {
+				background-image: url('img/mastercard.png');
+			}
+		}
+	}
+}
+
+// Screens
+
+main {
+	&.map {
+		display: flex;
+
+		.leaflet-container {
+			flex: 1;
+		}
+
+		.leaflet-popup-pane {
+			cursor: default;
+		}
+
+		.leaflet-popup-content-wrapper,
+		.leaflet-popup-tip {
+			box-shadow: 0 0 2em $shadow;
+		}
+
+		.leaflet-popup-close-button {
+			background: url('img/close.png') bottom left no-repeat;
+			background-size: 1em;
+			height: 24px;
+			overflow: hidden;
+			padding: 0;
+			text-indent: 10em;
+			width: 24px;
+		}
+
+		.leaflet-popup-content {
+			margin: 0 1rem;
+
+			h2,
+			p {
+				margin: 1rem 0;
+			}
+
+			h2 {
+				font: $type;
+				font-size: 1.5em;
+				font-weight: 500;
+				text-transform: uppercase;
+
+				&.diesel {
+					text-transform: capitalize;
+				}
+			}
+
+			p {
+				font: $type;
+				font-size: 1em;
+			}
+		}
+
+		button {
+			display: block;
+			margin: 1em 0;
+			padding: 1em;
+		}
+	}
+
+	&.buy,
+	&.sell,
+	&.user {
+		form {
+			flex-direction: column;
+			display: flex;
+
+			section {
+				flex: 1;
+
+				&:last-of-type {
+					h2 {
+						text-transform: capitalize;
+					}
+				}
+
+				h2 {
+					margin: 1rem 0;
+					text-transform: uppercase;
+				}
+
+				div {
+					display: flex;
+
+					aside,
+					label {
+						margin: 0;
+						width: 100%;
+
+						&:first-child {
+							margin-right: 1em;
+						}
+					}
+
+					aside {
+						margin: 0.5em 0;
+					}
+				}
+			}
+		}
+	}
+
+	&.buy {
+		label {
+			max-width: 50%;
+		}
+	}
+
+	&.user {
+		aside {
+			font-size: 1.5em;
+		}
+
+		h3 {
+			border: 2px solid $primary;
+			color: $primary;
+			border-radius: 0.25em;
+			font-weight: 100;
+			margin: 2rem 0 1rem 0;
+			padding: 1rem;
+			text-align: center;
+		}
+
+		img {
+			height: 1em;
+		}
+	}
+
+	&.profile {
+		text-align: center;
+
+		button,
+		input {
+			max-width: 50%;
+			text-align: center;
+		}
+
+		h1 {
+			margin: 0 0 1em;
+		}
+
+		h3 {
+			color: $primary;
+			font-size: 1em;
+			margin: 1rem 0;
+		}
+
+		hr {
+			margin: 2em 0;
+		}
+
+		strong {
+			color: $accent;
+		}
+	}
+
+	&.payment {
+		h1,
+		h2 {
+			margin: 1rem 0;
+		}
+
+		.premium {
+			color: $success;
+		}
+
+		.basic {
+			color: $error;
+			overflow: hidden;
+
+			button {
+				background: url('img/upgrade.png') 0.5em center no-repeat;
+				background-size: auto 2em;
+				color: $primary;
+				margin-left: 1em;
+				padding: 1em 1em 1em 3em;
+				text-transform: uppercase;
+				width: auto;
+
+				&:active {
+					background-color: $primary;
+					color: $background;
+				}
+			}
+		}
+	}
+
+	&.orders {
+		li {
+			cursor: pointer;
+			list-style: none;
+			padding: 1em;
+
+			&:active {
+				background: darken($background, 3%);
+			}
+
+			&:not(:first-child) {
+				border-top: 1px solid darken($background, 3%);
+			}
+
+			p {
+				margin-bottom: 0;
+
+				&:last-child {
+					background: $primary;
+					border-radius: 0.25em;
+					color: $background;
+					display: inline-block;
+					line-height: 1;
+					padding: 0.5em;
+					text-transform: capitalize;
+
+					&.completed {
+						background: $success;
+					}
+
+					&.refunded {
+						background: $accent;
+					}
+				}
+			}
+		}
+	}
+
+	&.order {
+		h2 {
+			font-weight: 100;
+			margin: 1rem 0;
+
+			&:not(:first-of-type) {
+				margin-top: 2em;
+			}
+		}
+
+		table {
+			tfoot {
+				td:first-child {
+					text-align: right;
+				}
+			}
+		}
+
+		section {
+			background: darken($background, 6%);
+			border-radius: 0.25em;
+			color: $background;
+			padding: 1em;
+			text-align: center;
+
+			h3 {
+				color: $primary;
+			}
+
+			p:last-of-type {
+				margin-bottom: 0;
+			}
+
+			a {
+				background: $accent;
+				color: $background;
+				border-radius: 0.25em;
+				display: inline-block;
+				padding: 0.5em 1em;
+			}
+		}
+
+		.status {
+			background: $primary;
+			border-radius: 0.25em;
+			color: $background;
+			display: inline-block;
+			line-height: 1;
+			margin: 0 0 1em;
+			padding: 0.5em;
+			text-transform: capitalize;
+
+			&.completed {
+				background: $success;
+			}
+
+			&.refunded {
+				background: $accent;
+			}
+		}
+
+		ul {
+			display: flex;
+			margin: 1em 0;
+
+			li {
+				flex: 1;
+				list-style: none;
+
+				&:not(:first-child) {
+					margin-left: 1em;
+				}
+			}
+		}
+
+		.complete {
+			background: $success;
+		}
+
+		.cancel {
+			background: $error;
+		}
+	}
+}
+
+// AJAX
+
+#nprogress {
+	.bar {
+		background: $accent;
+		height: 3px;
+	}
+
+	.peg {
+		box-shadow: 0 0 10px $accent, 0 0 5px $accent;
+	}
+
+	.spinner {
+		display: none;
+	}
+}
+
+// Responsive
+
+@media (min-width: 480px) {
+	.ember-application:not(.full) {
+		background: darken($background, 5%);
+
+		> .ember-view {
+			> header {
+				margin: 0 auto;
+				width: 480px;
+
+				&:before {
+					background: darken($primary, 5%);
+					content: '';
+					height: calc(8em + 3em);
+					left: 0;
+					position: fixed;
+					top: 0;
+					width: 100%;
+					z-index: -1;
+				}
+			}
+
+			> main {
+				background: $background;
+				margin: 0 auto;
+				width: 480px;
+			}
+		}
+	}
+}

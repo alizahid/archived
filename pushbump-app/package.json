@@ -1,0 +1,40 @@
+{
+  "name": "pushbump-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "ios": "react-native run-ios",
+    "test": "jest"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "moment": "^2.23.0",
+    "react": "16.7.0",
+    "react-native": "0.57.8",
+    "react-native-camera": "^1.6.4",
+    "react-native-code-push": "^5.5.1",
+    "react-native-dotenv": "^0.2.0",
+    "react-native-firebase": "^5.1.1",
+    "react-native-qrcode-svg": "^5.1.1",
+    "react-native-sentry": "^0.40.2",
+    "react-native-svg": "^8.0.10",
+    "short-hash": "^1.0.0",
+    "shortid": "^2.2.14"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.51.1",
+    "react-test-renderer": "16.7.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "babel": {
+    "presets": [
+      "module:metro-react-native-babel-preset",
+      "module:react-native-dotenv"
+    ]
+  }
+}

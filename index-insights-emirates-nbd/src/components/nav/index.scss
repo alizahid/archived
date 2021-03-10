@@ -1,0 +1,50 @@
+@import '../../styles/variables';
+
+.nav {
+  a {
+    align-items: center;
+    display: flex;
+    position: relative;
+
+    &:not(.active) {
+      filter: grayscale(1);
+      opacity: 0.5;
+    }
+
+    &:hover {
+      opacity: 1;
+
+      span {
+        opacity: 1;
+      }
+    }
+
+    img {
+      height: 2em;
+    }
+
+    span {
+      align-items: center;
+      background: $color-tooltip;
+      border-radius: $layout-border-radius;
+      color: $color-background;
+      display: flex;
+      font-size: 0.75em;
+      left: calc(100% + 0.5em);
+      opacity: 0;
+      padding: 0.5em;
+      pointer-events: none;
+      position: absolute;
+      transition: 300ms;
+
+      &:after {
+        border: 0.35em solid transparent;
+        border-right-color: $color-tooltip;
+        content: '';
+        pointer-events: none;
+        position: absolute;
+        right: 100%;
+      }
+    }
+  }
+}

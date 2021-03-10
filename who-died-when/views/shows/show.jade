@@ -1,0 +1,21 @@
+extends /layout
+
+block content
+	h1=show.name
+	.tools
+		a.call-to-action(href="/shows/" + show.id + "/add", data-action="dialog", data-title="Add character") Add character
+	.characters
+		each character in show.characters
+			div
+				.character
+					h2=character.name
+					if character.death
+							p.death="Season " + character.death.season + " Episode " + character.death.episode
+							if character.death.killer
+								p.killer=character.death.killer
+							p.description=character.death.description
+				if character.death
+					.dead Dead
+				else
+					.alive Alive
+					a.kill.call-to-action(href="/shows/death/" + character.id, title="Is this character dead?", data-action="dialog", data-title="Report death")

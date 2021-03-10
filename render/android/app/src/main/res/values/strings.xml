@@ -1,0 +1,4 @@
+<resources>
+  <string name="app_name">Render</string>
+  <string name="CodePushDeploymentKey" />
+</resources>

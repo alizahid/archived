@@ -1,0 +1,29 @@
+<header>
+	{{back-button}}
+	<h1>Buy from {{first-name model.name}}</h1>
+</header>
+<main class="user">
+	<p>Once you place the order, your card will be charged. Once you've received the gas, you can complete the order from the {{link-to 'Orders' 'orders'}} page. If you change your mind, you can also cancel your order.</p>
+	<form {{action 'save' on='submit'}}>
+		{{#each model.gas as |item|}}
+		<section>
+			<h2>{{item.type}}</h2>
+			<div>
+				<label>
+					{{input type="number" value=item.order placeholder="Litres" step="1" min="0" max=item.quantity}}
+				</label>
+				<aside>
+					<img src="assets/img/multiply.png">
+					{{format-currency item.price}}
+					<img src="assets/img/equal.png">
+					{{format-currency item.total}}
+				</aside>
+			</div>
+		</section>
+		{{/each}}
+		<h3>Total {{format-currency total}}</h3>
+		<p>
+			<button disabled={{working}}>Place order</button>
+		</p>
+	</form>
+</main>

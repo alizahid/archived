@@ -1,0 +1,65 @@
+<header>
+	{{back-button}}
+	<h1>Sign up</h1>
+</header>
+<section>
+	<form {{action 'signup' on="submit"}} class="super-hero sign-up">
+		{{#if step.name}}
+			<label>
+				<p>Hello. What's your name?</p>
+				{{input type="text" value=user.name placeholder="Name" required="required"}}
+			</label>
+		{{/if}}
+		{{#if step.about}}
+			<label>
+				<p>Tell us about yourself.</p>
+				{{textarea value=user.about placeholder="About" required="required" maxlength="160"}}
+			</label>
+		{{/if}}
+		{{#if step.email}}
+			<label>
+				<p>Give us your email. We promise never to spam you.</p>
+				{{input type="email" value=user.email placeholder="Email" required="required"}}
+			</label>
+		{{/if}}
+		{{#if step.password}}
+			<label>
+				<p>And of course, a password. Can't get in without one of those.</p>
+				{{input type="password" value=user.password placeholder="Password" required="required"}}
+			</label>
+		{{/if}}
+		{{#if step.phone}}
+			<label>
+				<p>Can we have your phone number? We promise not to tell anyone!</p>
+				{{select-menu content=countries value=user.country}}
+			</label>
+			<label>
+				{{input type="tel" value=user.phone placeholder="Phone number" required="required"}}
+			</label>
+		{{/if}}
+		{{#if step.photo}}
+			<p>Now, show us that pretty face of yours.</p>
+			{{profile-photo user class="photo-camera" action=(action 'takePhoto') canRotate=true}}
+		{{/if}}
+		{{#if step.final}}
+			{{#if error}}
+				<p class="error">{{error}}</p>
+				<p class="navigation">
+					<button type="button" class="previous" {{action 'previous'}}></button>
+				</p>
+			{{else}}
+				<p>
+					<button type="submit" disabled="{{disabled}}">All done! Sign up</button>
+				</p>
+			{{/if}}
+		{{else}}
+			<p>{{currentStep}} / {{steps}}</p>
+			<p class="navigation">
+				{{#unless step.name}}
+					<button type="button" class="previous" {{action 'previous'}}></button>
+				{{/unless}}
+				<button type="button" class="next" {{action 'next'}}></button>
+			</p>
+		{{/if}}
+	</form>
+</section>

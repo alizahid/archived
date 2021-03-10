@@ -1,0 +1,1919 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2019 The New York Times Company.  All Rights Reserved.",
+  "num_results": 1727,
+  "results": [
+    {
+      "url": "https://www.nytimes.com/2019/05/26/us/politics/ufo-sightings-navy-pilots.html",
+      "adx_keywords": "United States Defense and Military Forces;Unidentified Flying Objects (UFO);Pilots;United States Navy;Military Aircraft;Defense Department;East Coast (US)",
+      "column": null,
+      "section": "U.S.",
+      "byline": "By HELENE COOPER, RALPH BLUMENTHAL and LESLIE KEAN",
+      "type": "Article",
+      "title": "\u2018Wow, What Is That?\u2019 Navy Pilots Report Unexplained Flying Objects",
+      "abstract": "No one at the Pentagon is saying that the objects are extraterrestrial, but the Navy has issued new classified guidance for reporting unexplained aerial phenomena.",
+      "published_date": "2019-05-26",
+      "source": "The New York Times",
+      "id": 100000006515727,
+      "asset_id": 100000006515727,
+      "views": 1,
+      "des_facet": [
+        "UNITED STATES DEFENSE AND MILITARY FORCES",
+        "UNIDENTIFIED FLYING OBJECTS (UFO)",
+        "PILOTS",
+        "MILITARY AIRCRAFT"
+      ],
+      "org_facet": ["UNITED STATES NAVY", "DEFENSE DEPARTMENT"],
+      "per_facet": "",
+      "geo_facet": ["EAST COAST (US)"],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Navy pilots from the VFA-11 \u201cRed Rippers\u201d squadron aboard the aircraft carrier Theodore Roosevelt in 2015. The squadron began noticing strange objects just after the Navy upgraded the radar systems on its F/A-18 fighter planes.",
+          "copyright": "Adam Ferguson for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/05/28/us/politics/00dc-ufo2/00dc-ufo2-square320.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/28/us/politics/00dc-ufo2/00dc-ufo2-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/28/us/politics/00dc-ufo2/merlin_98047735_3653fd43-cc8d-4ece-8947-bc0653b1d92d-articleInline.jpg",
+              "format": "Normal",
+              "height": 127,
+              "width": 190
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/28/us/politics/00dc-ufo2/merlin_98047735_3653fd43-cc8d-4ece-8947-bc0653b1d92d-sfSpan.jpg",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/28/us/politics/00dc-ufo2/merlin_98047735_3653fd43-cc8d-4ece-8947-bc0653b1d92d-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 683,
+              "width": 1024
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/28/us/politics/00dc-ufo2/merlin_98047735_3653fd43-cc8d-4ece-8947-bc0653b1d92d-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1365,
+              "width": 2048
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/28/us/politics/00dc-ufo2/00dc-ufo2-square640.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/28/us/politics/00dc-ufo2/00dc-ufo2-thumbLarge.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/28/us/politics/00dc-ufo2/merlin_98047735_3653fd43-cc8d-4ece-8947-bc0653b1d92d-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/28/us/politics/00dc-ufo2/merlin_98047735_3653fd43-cc8d-4ece-8947-bc0653b1d92d-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.nytimes.com/2019/05/27/world/asia/pakistan-china-trafficking.html",
+      "adx_keywords": "Pakistan;China;Human Trafficking;Marriages;Women's Rights;Women and Girls;Prostitution",
+      "column": null,
+      "section": "World",
+      "byline": "By SALMAN MASOOD and AMY QIN",
+      "type": "Article",
+      "title": "She Thought She\u2019d Married a Rich Chinese Farmer. She Hadn\u2019t.",
+      "abstract": "Pakistan has charged dozens of people with trafficking women to China as wives. Rabia Kanwal was one bride who says she was lied to. In China, her husband has a different story.",
+      "published_date": "2019-05-27",
+      "source": "The New York Times",
+      "id": 100000006508137,
+      "asset_id": 100000006508137,
+      "views": 2,
+      "des_facet": ["HUMAN TRAFFICKING", "MARRIAGES"],
+      "org_facet": ["WOMEN'S RIGHTS", "WOMEN AND GIRLS", "PROSTITUTION"],
+      "per_facet": "",
+      "geo_facet": ["PAKISTAN", "CHINA"],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Rabia Kanwal and Zhang Shuchen were married in Islamabad in January. Eight days after they went to his home in China, she left to return to Pakistan.",
+          "copyright": "",
+          "approved_for_syndication": 0,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/05/16/world/00pakistan-china-4/merlin_154911414_e7eb13e1-6942-44cf-af63-b9a900eb747b-square320.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/16/world/00pakistan-china-4/00pakistan-china-4-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/16/world/00pakistan-china-4/merlin_154911414_e7eb13e1-6942-44cf-af63-b9a900eb747b-articleInline.jpg",
+              "format": "Normal",
+              "height": 190,
+              "width": 190
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/16/world/00pakistan-china-4/00pakistan-china-4-sfSpan.jpg",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/16/world/00pakistan-china-4/merlin_154911414_e7eb13e1-6942-44cf-af63-b9a900eb747b-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 1024,
+              "width": 1024
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/16/world/00pakistan-china-4/merlin_154911414_e7eb13e1-6942-44cf-af63-b9a900eb747b-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1200,
+              "width": 1200
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/16/world/00pakistan-china-4/merlin_154911414_e7eb13e1-6942-44cf-af63-b9a900eb747b-square640.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/16/world/00pakistan-china-4/00pakistan-china-4-thumbLarge.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/16/world/00pakistan-china-4/00pakistan-china-4-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/16/world/00pakistan-china-4/00pakistan-china-4-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.nytimes.com/2019/05/26/world/asia/mount-everest-deaths.html",
+      "adx_keywords": "Mount Everest;Mountaineering;Mountains;Politics and Government;Deaths (Fatalities);Accidents and Safety;Nepal",
+      "column": null,
+      "section": "World",
+      "byline": "By KAI SCHULTZ, JEFFREY GETTLEMAN, MUJIB MASHAL and BHADRA SHARMA",
+      "type": "Article",
+      "title": "\u2018It Was Like a Zoo\u2019: Death on an Unruly, Overcrowded Everest",
+      "abstract": "This has been one of the deadliest climbing seasons on the world\u2019s highest peak. Veteran climbers blame increased permits for climbers, including many who are inexperienced.",
+      "published_date": "2019-05-26",
+      "source": "The New York Times",
+      "id": 100000006527032,
+      "asset_id": 100000006527032,
+      "views": 3,
+      "des_facet": [
+        "MOUNTAINEERING",
+        "MOUNTAINS",
+        "POLITICS AND GOVERNMENT",
+        "ACCIDENTS AND SAFETY"
+      ],
+      "org_facet": ["DEATHS (FATALITIES)"],
+      "per_facet": "",
+      "geo_facet": ["MOUNT EVEREST", "NEPAL"],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A long line of climbers waiting to summit Mount Everest on May 22.",
+          "copyright": "@nimsdai/Project Possible, via Agence France-Presse \u2014 Getty Images",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/05/27/world/26everest2-print/26everest2-print-square320-v2.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/27/world/26everest2-print/26everest2-print-thumbStandard-v2.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/27/world/26everest2-print/merlin_155279730_9a078aae-b874-4b50-9ff4-72a8ec2a93ae-articleInline.jpg",
+              "format": "Normal",
+              "height": 127,
+              "width": 190
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/27/world/26everest2-print/merlin_155279730_9a078aae-b874-4b50-9ff4-72a8ec2a93ae-sfSpan.jpg",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/27/world/26everest2-print/merlin_155279730_9a078aae-b874-4b50-9ff4-72a8ec2a93ae-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 682,
+              "width": 1024
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/27/world/26everest2-print/merlin_155279730_9a078aae-b874-4b50-9ff4-72a8ec2a93ae-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1365,
+              "width": 2048
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/27/world/26everest2-print/26everest2-print-square640-v2.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/27/world/26everest2-print/26everest2-print-thumbLarge-v2.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/27/world/26everest2-print/26everest2-print-mediumThreeByTwo210-v3.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/27/world/26everest2-print/26everest2-print-mediumThreeByTwo440-v3.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.nytimes.com/2019/05/30/us/politics/trump-russia-help-elected.html",
+      "adx_keywords": "Trump, Donald J;Mueller, Robert S III;Special Prosecutors (Independent Counsel);Russian Interference in 2016 US Elections and Ties to Trump Associates;Impeachment;United States Politics and Government;Justice Department;Barr, William P",
+      "column": null,
+      "section": "U.S.",
+      "byline": "By PETER BAKER and EILEEN SULLIVAN",
+      "type": "Article",
+      "title": "Trump Accuses Mueller of a Personal Vendetta as Calls for Impeachment Grow",
+      "abstract": "President Trump dismissed comments from Robert S. Mueller III, the special counsel, that the Russia inquiry did not clear the president of wrongdoing. \u201cHe\u2019s somebody that dislikes Donald Trump.\u201d",
+      "published_date": "2019-05-30",
+      "source": "The New York Times",
+      "id": 100000006532341,
+      "asset_id": 100000006532341,
+      "views": 4,
+      "des_facet": [
+        "RUSSIAN INTERFERENCE IN 2016 US ELECTIONS AND TIES TO TRUMP ASSOCIATES",
+        "UNITED STATES POLITICS AND GOVERNMENT"
+      ],
+      "org_facet": [
+        "SPECIAL PROSECUTORS (INDEPENDENT COUNSEL)",
+        "IMPEACHMENT",
+        "JUSTICE DEPARTMENT"
+      ],
+      "per_facet": [
+        "TRUMP, DONALD J",
+        "MUELLER, ROBERT S III",
+        "BARR, WILLIAM P"
+      ],
+      "geo_facet": "",
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Doug Mills/The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-trumprussia-videosub/30dc-trumprussia-videosub-square320.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-trumprussia-videosub/30dc-trumprussia-videosub-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-trumprussia-videosub/merlin_155666235_0e9ac1bb-f539-421a-909b-bcfab3da1fe0-articleInline.jpg",
+              "format": "Normal",
+              "height": 122,
+              "width": 190
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-trumprussia-videosub/30dc-trumprussia-videosub-sfSpan.jpg",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-trumprussia-videosub/merlin_155666235_0e9ac1bb-f539-421a-909b-bcfab3da1fe0-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 659,
+              "width": 1024
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-trumprussia-videosub/merlin_155666235_0e9ac1bb-f539-421a-909b-bcfab3da1fe0-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1317,
+              "width": 2048
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-trumprussia-videosub/30dc-trumprussia-videosub-square640.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-trumprussia-videosub/30dc-trumprussia-videosub-thumbLarge.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-trumprussia-videosub/30dc-trumprussia-videosub-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-trumprussia-videosub/30dc-trumprussia-videosub-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.nytimes.com/2019/05/25/us/nsa-hacking-tool-baltimore.html",
+      "adx_keywords": "Cyberwarfare and Defense;Cyberattacks and Hackers;Classified Information and State Secrets;Computer Security;Extortion and Blackmail;Espionage and Intelligence Services;National Security Agency;Federal Bureau of Investigation;Shadow Brokers;Baltimore (Md)",
+      "column": null,
+      "section": "U.S.",
+      "byline": "By NICOLE PERLROTH and SCOTT SHANE",
+      "type": "Article",
+      "title": "In Baltimore and Beyond, a Stolen N.S.A. Tool Wreaks Havoc",
+      "abstract": "American cities are being hijacked with an N.S.A. cyberweapon that has already done billions of dollars in damage overseas. The N.S.A. will say nothing.",
+      "published_date": "2019-05-25",
+      "source": "The New York Times",
+      "id": 100000006525385,
+      "asset_id": 100000006525385,
+      "views": 5,
+      "des_facet": [
+        "CYBERWARFARE AND DEFENSE",
+        "CLASSIFIED INFORMATION AND STATE SECRETS"
+      ],
+      "org_facet": [
+        "CYBERATTACKS AND HACKERS",
+        "COMPUTER SECURITY",
+        "EXTORTION AND BLACKMAIL",
+        "ESPIONAGE AND INTELLIGENCE SERVICES",
+        "NATIONAL SECURITY AGENCY",
+        "FEDERAL BUREAU OF INVESTIGATION",
+        "SHADOW BROKERS"
+      ],
+      "per_facet": "",
+      "geo_facet": ["BALTIMORE (MD)"],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The National Security Agency headquarters in Maryland. A leaked N.S.A. cyberweapon, EternalBlue, has caused billions of dollars in damage worldwide. A recent attack took place in Baltimore, the agency\u2019s own backyard.",
+          "copyright": "Jim Lo Scalzo/EPA, via REX, via Shutterstock",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/05/25/multimedia/25nsa-01/25nsa-01-square320.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/25/multimedia/25nsa-01/25nsa-01-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/25/multimedia/25nsa-01/merlin_155371923_6b11a80d-c00a-41bc-a77a-2fa05767d991-articleInline.jpg",
+              "format": "Normal",
+              "height": 127,
+              "width": 190
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/25/multimedia/25nsa-01/merlin_155371923_6b11a80d-c00a-41bc-a77a-2fa05767d991-sfSpan.jpg",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/25/multimedia/25nsa-01/merlin_155371923_6b11a80d-c00a-41bc-a77a-2fa05767d991-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 683,
+              "width": 1024
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/25/multimedia/25nsa-01/merlin_155371923_6b11a80d-c00a-41bc-a77a-2fa05767d991-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1365,
+              "width": 2048
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/25/multimedia/25nsa-01/25nsa-01-square640.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/25/multimedia/25nsa-01/25nsa-01-thumbLarge.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/25/multimedia/25nsa-01/merlin_155371923_6b11a80d-c00a-41bc-a77a-2fa05767d991-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/25/multimedia/25nsa-01/merlin_155371923_6b11a80d-c00a-41bc-a77a-2fa05767d991-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.nytimes.com/interactive/2019/05/30/us/children-heart-surgery-cardiac.html",
+      "adx_keywords": "Surgery and Surgeons;Heart;Children and Childhood;Ethics and Official Misconduct;Hospitals;UNC Children's Hospital;UNC Health Care;Deaths (Fatalities);University of North Carolina;Doctors;Malpractice",
+      "column": "",
+      "section": "U.S.",
+      "byline": "By ELLEN GABLER",
+      "type": "Interactive",
+      "title": "Doctors Were Alarmed: \u2018Would I Have My Children Have Surgery Here?\u2019",
+      "abstract": "Secret recordings captured physicians\u2019 concerns that more children seemed to fare poorly after heart surgery. Their hospital kept doing the operations.",
+      "published_date": "2019-05-30",
+      "source": "The New York Times",
+      "id": 100000006528829,
+      "asset_id": 100000006528829,
+      "views": 6,
+      "des_facet": [
+        "SURGERY AND SURGEONS",
+        "HEART",
+        "ETHICS AND OFFICIAL MISCONDUCT",
+        "HOSPITALS",
+        "DEATHS (FATALITIES)",
+        "DOCTORS",
+        "MALPRACTICE"
+      ],
+      "org_facet": [
+        "CHILDREN AND CHILDHOOD",
+        "UNC CHILDREN'S HOSPITAL",
+        "UNC HEALTH CARE",
+        "UNIVERSITY OF NORTH CAROLINA"
+      ],
+      "per_facet": "",
+      "geo_facet": "",
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "North Carolina Children\u2019s Hospital, part of the University of North Carolina medical center, performs about 100 to 150 pediatric heart surgeries a year.",
+          "copyright": "",
+          "approved_for_syndication": 0,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/05/30/us/30cardiac4/merlin_151018062_f631daca-d8b5-45de-aeae-184b81a271fe-square320.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/30/us/30cardiac4/merlin_151018062_f631daca-d8b5-45de-aeae-184b81a271fe-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/30/us/30cardiac4/merlin_151018062_f631daca-d8b5-45de-aeae-184b81a271fe-articleInline.jpg",
+              "format": "Normal",
+              "height": 143,
+              "width": 190
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/30/us/30cardiac4/merlin_151018062_f631daca-d8b5-45de-aeae-184b81a271fe-sfSpan.jpg",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/30/us/30cardiac4/merlin_151018062_f631daca-d8b5-45de-aeae-184b81a271fe-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 768,
+              "width": 1024
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/30/us/30cardiac4/merlin_151018062_f631daca-d8b5-45de-aeae-184b81a271fe-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1536,
+              "width": 2048
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/30/us/30cardiac4/merlin_151018062_f631daca-d8b5-45de-aeae-184b81a271fe-square640.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/30/us/30cardiac4/merlin_151018062_f631daca-d8b5-45de-aeae-184b81a271fe-thumbLarge.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/30/us/30cardiac4/merlin_151018062_f631daca-d8b5-45de-aeae-184b81a271fe-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/30/us/30cardiac4/merlin_151018062_f631daca-d8b5-45de-aeae-184b81a271fe-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.nytimes.com/2019/05/29/us/politics/mueller-special-counsel.html",
+      "adx_keywords": "Mueller, Robert S III;Special Prosecutors (Independent Counsel);Russian Interference in 2016 US Elections and Ties to Trump Associates;Trump, Donald J;Barr, William P;Justice Department;United States Politics and Government;Democratic Party;House of Representatives;Senate;Impeachment",
+      "column": null,
+      "section": "U.S.",
+      "byline": "By SHARON LaFRANIERE",
+      "type": "Article",
+      "title": "Mueller, in First Comments on Russia Inquiry, Declines to Clear Trump",
+      "abstract": "Though he did not rule out congressional testimony, the special counsel also said that he would only testify about the facts already in the report.",
+      "published_date": "2019-05-29",
+      "source": "The New York Times",
+      "id": 100000006530597,
+      "asset_id": 100000006530597,
+      "views": 7,
+      "des_facet": [
+        "SPECIAL PROSECUTORS (INDEPENDENT COUNSEL)",
+        "RUSSIAN INTERFERENCE IN 2016 US ELECTIONS AND TIES TO TRUMP ASSOCIATES",
+        "UNITED STATES POLITICS AND GOVERNMENT"
+      ],
+      "org_facet": [
+        "JUSTICE DEPARTMENT",
+        "DEMOCRATIC PARTY",
+        "HOUSE OF REPRESENTATIVES",
+        "SENATE",
+        "IMPEACHMENT"
+      ],
+      "per_facet": [
+        "MUELLER, ROBERT S III",
+        "TRUMP, DONALD J",
+        "BARR, WILLIAM P"
+      ],
+      "geo_facet": "",
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Robert S. Mueller III, the special counsel, at the Justice Department on Wednesday.",
+          "copyright": "Doug Mills/The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/05/29/us/politics/29dc-mueller-vid-sub/29dc-mueller-vid-sub-square320-v3.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/29/us/politics/29dc-mueller-vid-sub/29dc-mueller-vid-sub-thumbStandard-v3.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/29/us/politics/29dc-mueller-vid-sub/29dc-mueller-vid-sub-articleInline-v3.jpg",
+              "format": "Normal",
+              "height": 129,
+              "width": 190
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/29/us/politics/29dc-mueller-vid-sub/29dc-mueller-vid-sub-sfSpan-v3.jpg",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/29/us/politics/29dc-mueller-vid-sub/29dc-mueller-vid-sub-jumbo-v3.jpg",
+              "format": "Jumbo",
+              "height": 697,
+              "width": 1024
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/29/us/politics/29dc-mueller-vid-sub/29dc-mueller-vid-sub-superJumbo-v3.jpg",
+              "format": "superJumbo",
+              "height": 1394,
+              "width": 2048
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/29/us/politics/29dc-mueller-vid-sub/29dc-mueller-vid-sub-square640-v3.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/29/us/politics/29dc-mueller-vid-sub/29dc-mueller-vid-sub-thumbLarge-v3.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/29/us/politics/29dc-mueller-vid-sub/29dc-mueller-vid-sub-mediumThreeByTwo210-v3.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/29/us/politics/29dc-mueller-vid-sub/29dc-mueller-vid-sub-mediumThreeByTwo440-v3.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.nytimes.com/2019/05/25/us/hawaii-hiker.html",
+      "adx_keywords": "Eller, Amanda;Hikes and Hiking;Rescues;Maui (Hawaii)",
+      "column": null,
+      "section": "U.S.",
+      "byline": "By BREENA KERR",
+      "type": "Article",
+      "title": "Amanda Eller, Hiker Lost in Hawaii Forest, Is Found Alive After 17 Days",
+      "abstract": "Amanda Eller, 35, said she had started a short hike in a vast forest preserve on Maui when she lost her way.",
+      "published_date": "2019-05-25",
+      "source": "The New York Times",
+      "id": 100000006526666,
+      "asset_id": 100000006526666,
+      "views": 8,
+      "des_facet": ["HIKES AND HIKING"],
+      "org_facet": ["RESCUES"],
+      "per_facet": ["ELLER, AMANDA"],
+      "geo_facet": ["MAUI (HAWAII)"],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Amanda Eller with her rescuers 17 days after she went missing in the Makawao Forest Reserve in North Maui, Hawaii.",
+          "copyright": "Javier Cantellops",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/05/27/multimedia/26hiker-p1sub/25hiker1-square320.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/27/multimedia/26hiker-p1sub/25hiker1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/27/multimedia/26hiker-p1sub/25hiker1-articleInline.jpg",
+              "format": "Normal",
+              "height": 168,
+              "width": 190
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/27/multimedia/26hiker-p1sub/25hiker1-sfSpan.jpg",
+              "format": "Large",
+              "height": 264,
+              "width": 395
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/27/multimedia/26hiker-p1sub/25hiker1-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 907,
+              "width": 1024
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/27/multimedia/26hiker-p1sub/25hiker1-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1362,
+              "width": 1538
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/27/multimedia/26hiker-p1sub/25hiker1-square640.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/27/multimedia/26hiker-p1sub/25hiker1-thumbLarge.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/27/multimedia/26hiker-p1sub/25hiker1-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/27/multimedia/26hiker-p1sub/25hiker1-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.nytimes.com/2019/05/25/opinion/sunday/donald-trump-nancy-pelosi.html",
+      "adx_keywords": "Trump, Donald J;United States Politics and Government;Pelosi, Nancy",
+      "column": "Op-Ed Columnist",
+      "section": "Opinion",
+      "byline": "By MAUREEN DOWD",
+      "type": "Article",
+      "title": "Crazy Is as Crazy Does",
+      "abstract": "Nancy Pelosi gets to the core of the Trump con, but he just rages on.",
+      "published_date": "2019-05-25",
+      "source": "The New York Times",
+      "id": 100000006525826,
+      "asset_id": 100000006525826,
+      "views": 9,
+      "des_facet": ["UNITED STATES POLITICS AND GOVERNMENT"],
+      "org_facet": "",
+      "per_facet": ["TRUMP, DONALD J", "PELOSI, NANCY"],
+      "geo_facet": "",
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Trump in the White House Rose Garden on Wednesday.",
+          "copyright": "Doug Mills/The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/05/26/opinion/sunday/26Dowd/merlin_155251578_7b186b25-ccf5-4022-9ee4-d5d1eedca525-square320.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/26/opinion/sunday/26Dowd/26Dowd-thumbStandard-v2.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/26/opinion/sunday/26Dowd/merlin_155251578_7b186b25-ccf5-4022-9ee4-d5d1eedca525-articleInline.jpg",
+              "format": "Normal",
+              "height": 192,
+              "width": 190
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/26/opinion/sunday/26Dowd/26Dowd-sfSpan-v2.jpg",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/26/opinion/sunday/26Dowd/merlin_155251578_7b186b25-ccf5-4022-9ee4-d5d1eedca525-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 1024,
+              "width": 1015
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/26/opinion/sunday/26Dowd/merlin_155251578_7b186b25-ccf5-4022-9ee4-d5d1eedca525-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 2048,
+              "width": 2029
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/26/opinion/sunday/26Dowd/merlin_155251578_7b186b25-ccf5-4022-9ee4-d5d1eedca525-square640.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/26/opinion/sunday/26Dowd/26Dowd-thumbLarge-v2.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/26/opinion/sunday/26Dowd/26Dowd-mediumThreeByTwo210-v2.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/26/opinion/sunday/26Dowd/26Dowd-mediumThreeByTwo440-v2.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.nytimes.com/2019/05/30/us/census-citizenship-question-hofeller.html",
+      "adx_keywords": "Hofeller, Thomas B (1943-2018);Redistricting and Reapportionment;Census;Supreme Court (US);Republican Party;Citizenship and Naturalization;Voter Registration and Requirements;Justice Department;United States Politics and Government",
+      "column": null,
+      "section": "U.S.",
+      "byline": "By MICHAEL WINES",
+      "type": "Article",
+      "title": "Deceased G.O.P. Strategist\u2019s Hard Drives Reveal New Details on the Census Citizenship Question",
+      "abstract": "Weeks before the Supreme Court rules on the legality of the citizenship question, evidence filed in court could further erode the Trump administration\u2019s rationale for the question.",
+      "published_date": "2019-05-30",
+      "source": "The New York Times",
+      "id": 100000006529792,
+      "asset_id": 100000006529792,
+      "views": 10,
+      "des_facet": [
+        "REDISTRICTING AND REAPPORTIONMENT",
+        "VOTER REGISTRATION AND REQUIREMENTS",
+        "UNITED STATES POLITICS AND GOVERNMENT"
+      ],
+      "org_facet": [
+        "CENSUS",
+        "SUPREME COURT (US)",
+        "REPUBLICAN PARTY",
+        "CITIZENSHIP AND NATURALIZATION",
+        "JUSTICE DEPARTMENT"
+      ],
+      "per_facet": ["HOFELLER, THOMAS B (1943-2018)"],
+      "geo_facet": "",
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Thomas B. Hofeller, a leading Republican strategist, died in August and left a trove of computer files containing evidence that could now be relevant in a Supreme Court case.",
+          "copyright": "via C-SPAN",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/05/31/us/31census-p1/29census-01-square320.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/31/us/31census-p1/29census-01-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/31/us/31census-p1/29census-01-articleInline.jpg",
+              "format": "Normal",
+              "height": 127,
+              "width": 190
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/31/us/31census-p1/29census-01-sfSpan.jpg",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/31/us/31census-p1/29census-01-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 683,
+              "width": 1024
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/31/us/31census-p1/29census-01-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 957,
+              "width": 1435
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/31/us/31census-p1/29census-01-square640.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/31/us/31census-p1/29census-01-thumbLarge.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/31/us/31census-p1/29census-01-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/31/us/31census-p1/29census-01-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.nytimes.com/2019/05/31/realestate/tony-sopranos-house-for-sale.html",
+      "adx_keywords": "Real Estate and Housing (Residential);Gandolfini, James;Caldwell (NJ);The Sopranos (TV Program);Home Box Office",
+      "column": "Exclusive",
+      "section": "Real Estate",
+      "byline": "By STEFANOS CHEN",
+      "type": "Article",
+      "title": "Tony Soprano\u2019s House Hits the Market",
+      "abstract": "The owners of the 5,600-square-foot New Jersey home have set a \u201cstarting price\u201d of $3.4 million.",
+      "published_date": "2019-05-31",
+      "source": "The New York Times",
+      "id": 100000006525497,
+      "asset_id": 100000006525497,
+      "views": 11,
+      "des_facet": ["REAL ESTATE AND HOUSING (RESIDENTIAL)"],
+      "org_facet": ["HOME BOX OFFICE"],
+      "per_facet": ["GANDOLFINI, JAMES"],
+      "geo_facet": ["CALDWELL (NJ)"],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The patio and backyard, where Tony Soprano had panic attacks and communed with ducks.\u00a0",
+          "copyright": "Stefano Ukmar for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/06/02/realestate/31EXCLUSIVE-SOPRANOS-slide-4SEN/31EXCLUSIVE-SOPRANOS-slide-4SEN-square320.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/06/02/realestate/31EXCLUSIVE-SOPRANOS-slide-4SEN/31EXCLUSIVE-SOPRANOS-slide-4SEN-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/06/02/realestate/31EXCLUSIVE-SOPRANOS-slide-4SEN/31EXCLUSIVE-SOPRANOS-slide-4SEN-articleInline.jpg",
+              "format": "Normal",
+              "height": 127,
+              "width": 190
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/06/02/realestate/31EXCLUSIVE-SOPRANOS-slide-4SEN/31EXCLUSIVE-SOPRANOS-slide-4SEN-sfSpan.jpg",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/06/02/realestate/31EXCLUSIVE-SOPRANOS-slide-4SEN/31EXCLUSIVE-SOPRANOS-slide-4SEN-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 683,
+              "width": 1024
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/06/02/realestate/31EXCLUSIVE-SOPRANOS-slide-4SEN/31EXCLUSIVE-SOPRANOS-slide-4SEN-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1365,
+              "width": 2048
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/06/02/realestate/31EXCLUSIVE-SOPRANOS-slide-4SEN/31EXCLUSIVE-SOPRANOS-slide-4SEN-square640.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/06/02/realestate/31EXCLUSIVE-SOPRANOS-slide-4SEN/31EXCLUSIVE-SOPRANOS-slide-4SEN-thumbLarge.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/06/02/realestate/31EXCLUSIVE-SOPRANOS-slide-4SEN/31EXCLUSIVE-SOPRANOS-slide-4SEN-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/06/02/realestate/31EXCLUSIVE-SOPRANOS-slide-4SEN/31EXCLUSIVE-SOPRANOS-slide-4SEN-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.nytimes.com/2019/05/27/us/politics/trump-climate-science.html",
+      "adx_keywords": "United States Politics and Government;Greenhouse Gas Emissions;Global Warming;Regulation and Deregulation of Industry;Environmental Protection Agency;United States Geological Survey;Happer, William (1939- );Trump, Donald J",
+      "column": null,
+      "section": "U.S.",
+      "byline": "By CORAL DAVENPORT and MARK LANDLER",
+      "type": "Article",
+      "title": "Trump Administration Hardens Its Attack on Climate Science",
+      "abstract": "In a significant escalation, policymakers are seeking to undermine or discard research showing the most dire risks of inaction on climate change.",
+      "published_date": "2019-05-27",
+      "source": "The New York Times",
+      "id": 100000006523569,
+      "asset_id": 100000006523569,
+      "views": 12,
+      "des_facet": [
+        "UNITED STATES POLITICS AND GOVERNMENT",
+        "GREENHOUSE GAS EMISSIONS"
+      ],
+      "org_facet": [
+        "GLOBAL WARMING",
+        "REGULATION AND DEREGULATION OF INDUSTRY",
+        "ENVIRONMENTAL PROTECTION AGENCY",
+        "UNITED STATES GEOLOGICAL SURVEY"
+      ],
+      "per_facet": ["HAPPER, WILLIAM (1939- )", "TRUMP, DONALD J"],
+      "geo_facet": "",
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Huntington Canyon coal-fired power plant in Utah. The White House, already pursuing major rollbacks of greenhouse-gas emission restrictions, is amplifying its attack on fundamental climate-science conclusions.",
+          "copyright": "Brandon Thibodeaux for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/05/24/us/politics/00dc-cli-trump1/00dc-cli-trump1-square320.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/24/us/politics/00dc-cli-trump1/00dc-cli-trump1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/24/us/politics/00dc-cli-trump1/merlin_151256502_8b48e75c-4479-4e89-a186-ae5f913c1c7b-articleInline.jpg",
+              "format": "Normal",
+              "height": 127,
+              "width": 190
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/24/us/politics/00dc-cli-trump1/00dc-cli-trump1-sfSpan.jpg",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/24/us/politics/00dc-cli-trump1/merlin_151256502_8b48e75c-4479-4e89-a186-ae5f913c1c7b-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 683,
+              "width": 1024
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/24/us/politics/00dc-cli-trump1/merlin_151256502_8b48e75c-4479-4e89-a186-ae5f913c1c7b-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1367,
+              "width": 2048
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/24/us/politics/00dc-cli-trump1/00dc-cli-trump1-square640.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/24/us/politics/00dc-cli-trump1/00dc-cli-trump1-thumbLarge.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/24/us/politics/00dc-cli-trump1/00dc-cli-trump1-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/24/us/politics/00dc-cli-trump1/00dc-cli-trump1-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.nytimes.com/2019/05/31/us/virginia-beach-shooting.html",
+      "adx_keywords": "Virginia Beach, Va, Shooting (2019);Murders, Attempted Murders and Homicides;Virginia Beach (Va);Craddock, DeWayne",
+      "column": null,
+      "section": "U.S.",
+      "byline": "By KATE ANDREWS, CHRISTOPHER MELE and JOHN ELIGON",
+      "type": "Article",
+      "title": "12 Killed in Rampage at Municipal Center in Virginia",
+      "abstract": "Chief James A. Cervera of the Virginia Beach Police Department said at an evening news conference that the scene could \u201cbest be described as a war zone.\u201d",
+      "published_date": "2019-05-31",
+      "source": "The New York Times",
+      "id": 100000006535424,
+      "asset_id": 100000006535424,
+      "views": 13,
+      "des_facet": [
+        "VIRGINIA BEACH, VA, SHOOTING (2019)",
+        "MURDERS, ATTEMPTED MURDERS AND HOMICIDES"
+      ],
+      "org_facet": "",
+      "per_facet": ["CRADDOCK, DEWAYNE"],
+      "geo_facet": ["VIRGINIA BEACH (VA)"],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Police officers remained outside the Virginia Beach Municipal Center after a gunman killed 11 people there on Friday.",
+          "copyright": "Benjamin Donald Boshart for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/05/31/multimedia/31xp-virginia1/31xp-virginia1-square320-v2.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/31/multimedia/31xp-virginia1/31xp-virginia1-thumbStandard-v2.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/31/multimedia/31xp-virginia1/31xp-virginia1-articleInline-v2.jpg",
+              "format": "Normal",
+              "height": 127,
+              "width": 190
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/31/multimedia/31xp-virginia1/31xp-virginia1-sfSpan-v2.jpg",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/31/multimedia/31xp-virginia1/31xp-virginia1-jumbo-v2.jpg",
+              "format": "Jumbo",
+              "height": 683,
+              "width": 1024
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/31/multimedia/31xp-virginia1/31xp-virginia1-superJumbo-v2.jpg",
+              "format": "superJumbo",
+              "height": 1365,
+              "width": 2048
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/31/multimedia/31xp-virginia1/31xp-virginia1-square640-v2.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/31/multimedia/31xp-virginia1/31xp-virginia1-thumbLarge-v2.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/31/multimedia/31xp-virginia1/31xp-virginia1-mediumThreeByTwo210-v2.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/31/multimedia/31xp-virginia1/31xp-virginia1-mediumThreeByTwo440-v2.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.nytimes.com/2019/05/31/us/national-spelling-bee-champions.html",
+      "adx_keywords": "Scripps National Spelling Bee;Spelling;Contests and Prizes;Maryland",
+      "column": null,
+      "section": "U.S.",
+      "byline": "By DANIEL VICTOR",
+      "type": "Article",
+      "title": "National Spelling Bee, at a Loss for Words, Crowns 8 Co-Champions",
+      "abstract": "A group of adolescents broke the Scripps National Spelling Bee, with eight contestants crowned co-champions after the competition said it was running out of challenging words.",
+      "published_date": "2019-05-31",
+      "source": "The New York Times",
+      "id": 100000006533973,
+      "asset_id": 100000006533973,
+      "views": 14,
+      "des_facet": [
+        "SCRIPPS NATIONAL SPELLING BEE",
+        "SPELLING",
+        "CONTESTS AND PRIZES"
+      ],
+      "org_facet": "",
+      "per_facet": "",
+      "geo_facet": ["MARYLAND"],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The co-champions of the 2019 Scripps National Spelling Bee, from left: Shruthika Padhy, Erin Howard, Rishik Gandhasri, Christopher Serrao, Saketh Sundar, Sohum Sukhatankar, Rohan Raja, and Abhijay Kodali.",
+          "copyright": "Susan Walsh/Associated Press",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/05/31/world/31xp-spellingbee-1/merlin_155687544_c9235910-9dc0-4af4-987a-e33920b39a5f-square320.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/31/world/31xp-spellingbee-1/merlin_155687544_c9235910-9dc0-4af4-987a-e33920b39a5f-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/31/world/31xp-spellingbee-1/merlin_155687544_c9235910-9dc0-4af4-987a-e33920b39a5f-articleInline.jpg",
+              "format": "Normal",
+              "height": 127,
+              "width": 190
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/31/world/31xp-spellingbee-1/merlin_155687544_c9235910-9dc0-4af4-987a-e33920b39a5f-sfSpan.jpg",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/31/world/31xp-spellingbee-1/merlin_155687544_c9235910-9dc0-4af4-987a-e33920b39a5f-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 683,
+              "width": 1024
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/31/world/31xp-spellingbee-1/merlin_155687544_c9235910-9dc0-4af4-987a-e33920b39a5f-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1366,
+              "width": 2048
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/31/world/31xp-spellingbee-1/merlin_155687544_c9235910-9dc0-4af4-987a-e33920b39a5f-square640.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/31/world/31xp-spellingbee-1/merlin_155687544_c9235910-9dc0-4af4-987a-e33920b39a5f-thumbLarge.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/31/world/31xp-spellingbee-1/merlin_155687544_c9235910-9dc0-4af4-987a-e33920b39a5f-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/31/world/31xp-spellingbee-1/merlin_155687544_c9235910-9dc0-4af4-987a-e33920b39a5f-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.nytimes.com/interactive/2019/books/summer-reading.html",
+      "adx_keywords": "Books and Literature;Cari Mora (Book);Harris, Thomas (Author);Beyond All Reasonable Doubt (Book);Persson Giolito, Malin;A Nearly Normal Family (Book);Edvardsson, M T;All the Lost Things (Book);Sacks, Michelle (Author);Into the Jungle (Book);Ferencik, Erica (Author);The Paper Wasp (Book);Acampora, Lauren (1974- );Temper (Book);Fargo, Layne (Author);Seven at Sea: Why a New York City Family Cast Off Convention for a Life-Changing Year on a Sailboat (Book);The Salt Path (Book);This Much Country (Book);In Putin's Footsteps: Searching for the Soul of an Empire Across Russia's Eleven Time Zones (Book);Lotharingia: A Personal History of Europe's Lost Country (Book);Ottoman Odyssey: Travels through a Lost Empire (Book);Pagan Light: Dreams of Freedom and Beauty in Capri (Book);See You in the Piazza: New Places to Discover in Italy (Book);Off the Rails: Aboard the Crazy Train in the Blizzard of Ozz (Book);Monsieur Mediocre: One American Learns the High Art of Being Everyday French (Book);Ballpark: Baseball in the American City (Book);When the Crowd Didn't Roar: How Baseball's Strangest Game Ever Gave a Broken City Hope (Book);The World's Fastest Man: The Extraordinary Life of Cyclist Major Taylor, America's First Black Sports Hero (Book);The Cost of These Dreams: Sports Stories and Other Serious Business (Book);The Great American Sports Page: A Century of Classic Columns from Ring Lardner to Sally Jenkins (Book);SprawlBall: A Visual Tour of the New Era of the NBA (Book);Murder by the Book: The Crime That Shocked Dickens's London (Book);Where Monsters Hide: Sex, Murder, and Madness in the Midwest (Book);City of Omens: A Search for the Missing Women of the Borderlands (Book);The Five: The Untold Lives of the Women Killed by Jack the Ripper (Book);The Belle of Bedford Avenue: The Sensational Brooks-Burns Murder in Turn-Of-the-Century New York (Book);Norco '80: The True Story of the Most Spectacular Bank Robbery in American History (Book);William S Burroughs and the Cult of Rock 'n' Roll (Book);This Searing Light, the Sun and Everything Else: Joy Division: the Oral History (Book);More Fun in the New World: The Unmaking and Legacy of L A Punk (Book);CSNY: Crosby, Stills, Nash and Young (Book);Crosby, Stills, Nash and Young: The Wild, Definitive Saga of Rock's Greatest Supergroup (Book);Chamber Music: Wu-Tang and America (Book);The Hunger (Book);Song for the Unraveling of the World (Book);The Nest (Book);When Darkness Loves Us (Book);The Laws of the Skies (Book);Inspection (Book);Flight Or Fright (Book);The Daughter's Tale (Book);Mistress of the Ritz (Book);The Spies of Shilling Lane (Book);A Bend in the Stars (Book);The Red Daughter (Book);American Princess (Book);Paris, 7 A.M. (Book);Zaitoun: Recipes From the Palestinian Kitchen (Book);Black Sea: Dispatches and Recipes, Through Darkness and Light (Book);My Mexico City Kitchen: Recipes and Convictions (Book);Indian-ish: Recipes and Antics from a Modern American Family (Book);Vietnamese Food Any Day: Simple Recipes for True, Fresh Flavors (Book);The Modern Cook's Year: More Than 250 Vibrant Vegetarian Recipes to See You Through the Seasons (Book);Love and Lemons Every Day: Easy, Seasonal Vegetarian Recipes That Make Inspired Everyday Cooking Attainable (Book);Franklin Steak: Dry-Aged, Live-Fired, Pure Beef (Book);Simple Cake: All You Need to Keep Your Friends and Family in Cake (Book);Dappled: Baking Recipes for Fruit Lovers (Book);Happiness Is Baking: Cakes, Pies, Tarts, Muffins, Brownies, Cookies: Favorite Desserts From the Queen of Cake (Book);In Pursuit of Flavor (Book);A Way to Garden: A Hands-On Primer for Every Season (Book);The Kitchen Garden (Book);Pruning Simplified: A Visual Guide to 50 Trees and Shrubs (Book);Beginner Gardening Step by Step (Book);Wings in the Light: Wild Butterflies in North America (Book);Blooms: Contemporary Floral Design (Book);The Tree Book (Book);The Hidden Life of Trees: What They Feel, How They Communicate - Discoveries From a Secret World (Book);The Secret Wisdom of Nature: Trees, Animals, and the Extraordinary Balance of All Living Things (Book);Sprout Lands: Tending the Endless Gift of Trees (Book);How to Be a Good Creature: A Memoir in Thirteen Animals (Book)",
+      "column": "",
+      "section": "Books",
+      "byline": "By THE NEW YORK TIMES",
+      "type": "Interactive",
+      "title": "Summer Reading",
+      "abstract": "Dive in! Here are 75 of the latest and greatest books to keep you company as temperatures climb and days grow long.",
+      "published_date": "2019-05-23",
+      "source": "The New York Times",
+      "id": 100000006513014,
+      "asset_id": 100000006513014,
+      "views": 15,
+      "des_facet": ["BOOKS AND LITERATURE"],
+      "org_facet": "",
+      "per_facet": [
+        "HARRIS, THOMAS (AUTHOR)",
+        "PERSSON GIOLITO, MALIN",
+        "EDVARDSSON, M T",
+        "SACKS, MICHELLE (AUTHOR)",
+        "FERENCIK, ERICA (AUTHOR)",
+        "ACAMPORA, LAUREN (1974- )",
+        "FARGO, LAYNE (AUTHOR)"
+      ],
+      "geo_facet": "",
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Nishant Choksi",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/06/02/books/review/02SummerReading-INTRO/02SummerReading-INTRO-square320.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/06/02/books/review/02SummerReading-INTRO/02SummerReading-INTRO-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/06/02/books/review/02SummerReading-INTRO/02SummerReading-INTRO-articleInline.jpg",
+              "format": "Normal",
+              "height": 184,
+              "width": 190
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/06/02/books/review/02SummerReading-INTRO/02SummerReading-INTRO-sfSpan.jpg",
+              "format": "Large",
+              "height": 264,
+              "width": 395
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/06/02/books/review/02SummerReading-INTRO/02SummerReading-INTRO-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 740,
+              "width": 1024
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/06/02/books/review/02SummerReading-INTRO/02SummerReading-INTRO-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1479,
+              "width": 2048
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/06/02/books/review/02SummerReading-INTRO/02SummerReading-INTRO-square640.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/06/02/books/review/02SummerReading-INTRO/02SummerReading-INTRO-thumbLarge.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/06/02/books/review/02SummerReading-INTRO/02SummerReading-INTRO-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/06/02/books/review/02SummerReading-INTRO/02SummerReading-INTRO-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.nytimes.com/interactive/2019/arts/television/best-movies-on-netflix.html",
+      "adx_keywords": "Netflix Inc;Movies;Video Recordings, Downloads and Streaming",
+      "column": "",
+      "section": "Arts",
+      "byline": "By JASON BAILEY",
+      "type": "Interactive",
+      "title": "The 50 Best Movies on Netflix Right Now",
+      "abstract": "We\u2019ve plucked out the 50 best films currently streaming on Netflix in the United States. Take a look.",
+      "published_date": "2019-03-06",
+      "source": "The New York Times",
+      "id": 100000006330108,
+      "asset_id": 100000006330108,
+      "views": 16,
+      "des_facet": ["MOVIES", "VIDEO RECORDINGS, DOWNLOADS AND STREAMING"],
+      "org_facet": ["NETFLIX INC"],
+      "per_facet": "",
+      "geo_facet": "",
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Uma Thurman in \u201cPulp Fiction.\u201d",
+          "copyright": "Linda R. Chen/Miramax Films",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2016/06/19/watching/pulp-fiction-watching-recommendation/pulp-fiction-watching-recommendation-square320.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://static01.nyt.com/images/2016/06/19/watching/pulp-fiction-watching-recommendation/pulp-fiction-watching-recommendation-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2016/06/19/watching/pulp-fiction-watching-recommendation/pulp-fiction-watching-recommendation-articleInline.jpg",
+              "format": "Normal",
+              "height": 129,
+              "width": 190
+            },
+            {
+              "url": "https://static01.nyt.com/images/2016/06/19/watching/pulp-fiction-watching-recommendation/pulp-fiction-watching-recommendation-sfSpan.jpg",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https://static01.nyt.com/images/2016/06/19/watching/pulp-fiction-watching-recommendation/pulp-fiction-watching-recommendation-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 653,
+              "width": 962
+            },
+            {
+              "url": "https://static01.nyt.com/images/2016/06/19/watching/pulp-fiction-watching-recommendation/pulp-fiction-watching-recommendation-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 653,
+              "width": 962
+            },
+            {
+              "url": "https://static01.nyt.com/images/2016/06/19/watching/pulp-fiction-watching-recommendation/pulp-fiction-watching-recommendation-square640.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://static01.nyt.com/images/2016/06/19/watching/pulp-fiction-watching-recommendation/pulp-fiction-watching-recommendation-thumbLarge.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https://static01.nyt.com/images/2016/06/19/watching/pulp-fiction-watching-recommendation/pulp-fiction-watching-recommendation-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2016/06/19/watching/pulp-fiction-watching-recommendation/pulp-fiction-watching-recommendation-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.nytimes.com/2019/05/28/world/asia/china-tiananmen-square-massacre.html",
+      "adx_keywords": "Tiananmen Square (Beijing);Jiang Lin (Journalist);Demonstrations, Protests and Riots;Communist Party of China;Liberation Army Daily;Beijing (China);Defense and Military Forces;Politics and Government;Central Military Commission (China);China;Human Rights and Human Rights Violations",
+      "column": null,
+      "section": "World",
+      "byline": "By CHRIS BUCKLEY",
+      "type": "Article",
+      "title": "30 Years After Tiananmen, a Chinese Military Insider Warns: Never Forget",
+      "abstract": "A former People\u2019s Liberation Army journalist defied a political taboo to describe the bloody crackdown in Beijing and urge a national reckoning.",
+      "published_date": "2019-05-28",
+      "source": "The New York Times",
+      "id": 100000006521291,
+      "asset_id": 100000006521291,
+      "views": 17,
+      "des_facet": [
+        "DEMONSTRATIONS, PROTESTS AND RIOTS",
+        "DEFENSE AND MILITARY FORCES",
+        "POLITICS AND GOVERNMENT",
+        "HUMAN RIGHTS AND HUMAN RIGHTS VIOLATIONS"
+      ],
+      "org_facet": [
+        "COMMUNIST PARTY OF CHINA",
+        "LIBERATION ARMY DAILY",
+        "CENTRAL MILITARY COMMISSION (CHINA)"
+      ],
+      "per_facet": ["JIANG LIN (JOURNALIST)"],
+      "geo_facet": ["TIANANMEN SQUARE (BEIJING)", "BEIJING (CHINA)", "CHINA"],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Vehicles on fire on the night of the crackdown in Tiananmen Square in Beijing on June 4, 1989.",
+          "copyright": "Peter Charlesworth/LightRocket, via Getty Images",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/05/28/world/00china-tiananmen-8/00china-tiananmen-8-square320.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/28/world/00china-tiananmen-8/00china-tiananmen-6-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/28/world/00china-tiananmen-8/merlin_155529279_5b5c2658-8abf-4757-949e-71158c19906d-articleInline.jpg",
+              "format": "Normal",
+              "height": 126,
+              "width": 190
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/28/world/00china-tiananmen-8/00china-tiananmen-8-sfSpan.jpg",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/28/world/00china-tiananmen-8/merlin_155529279_5b5c2658-8abf-4757-949e-71158c19906d-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 677,
+              "width": 1024
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/28/world/00china-tiananmen-8/merlin_155529279_5b5c2658-8abf-4757-949e-71158c19906d-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1354,
+              "width": 2048
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/28/world/00china-tiananmen-8/00china-tiananmen-8-square640.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/28/world/00china-tiananmen-8/00china-tiananmen-6-thumbLarge.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/28/world/00china-tiananmen-8/00china-tiananmen-8-mediumThreeByTwo210-v2.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/28/world/00china-tiananmen-8/00china-tiananmen-8-mediumThreeByTwo440-v2.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.nytimes.com/ja/2019/04/29/world/asia/abdication-princess-masako-japanese-translation.html",
+      "adx_keywords": "Royal Families;Akihito;Japan",
+      "column": "\u7687\u4f4d\u306e\u5b58\u7d9a\uff1a\u30a8\u30d4\u30bd\u30fc\u30c94",
+      "section": "World",
+      "byline": "By MOTOKO RICH",
+      "type": "Article",
+      "title": "\u7c60\u306e\u4e2d\u306e\u7687\u592a\u5b50\u5983",
+      "abstract": "\u7687\u5ba4\u306e\u5b58\u7d9a\u306f\u3001\u5f7c\u5973\u306e\u80a9\u306b\u304b\u304b\u3063\u3066\u3044\u305f\u3002\u305d\u3057\u3066\u3001\u305d\u306e\u546a\u7e1b\u304b\u3089\u9003\u308c\u3089\u308c\u306a\u304b\u3063\u305f\u3002",
+      "published_date": "2019-04-29",
+      "source": "The New York Times",
+      "id": 100000006484502,
+      "asset_id": 100000006484502,
+      "views": 18,
+      "des_facet": ["ROYAL FAMILIES"],
+      "org_facet": "",
+      "per_facet": ["AKIHITO"],
+      "geo_facet": ["JAPAN"],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Pool photo",
+          "approved_for_syndication": 0,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/04/30/world/00throne-08/00throne-08-square320-v9.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/04/30/world/00throne-08/00throne-08-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/04/30/world/00throne-08/00throne-08-articleInline.jpg",
+              "format": "Normal",
+              "height": 129,
+              "width": 190
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/04/30/world/00throne-08/00throne-08-sfSpan.jpg",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/04/30/world/00throne-08/00throne-08-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 1024,
+              "width": 1024
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/04/30/world/00throne-08/00throne-08-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1216,
+              "width": 1785
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/04/30/world/00throne-08/00throne-08-square640-v6.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/04/30/world/00throne-08/00throne-08-thumbLarge.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/04/30/world/00throne-08/00throne-08-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/04/30/world/00throne-08/00throne-08-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.nytimes.com/2019/05/29/us/politics/uss-mccain-navy-ship.html",
+      "adx_keywords": "United States Politics and Government;United States Defense and Military Forces;USS John S McCain (Ship);Military Bases and Installations;United States Navy;McCain, John;Shanahan, Patrick M (1962- );Trump, Donald J;Japan",
+      "column": null,
+      "section": "U.S.",
+      "byline": "By MAGGIE HABERMAN and HELENE COOPER",
+      "type": "Article",
+      "title": "Navy Destroyer John McCain Hidden During Trump\u2019s Japan Visit",
+      "abstract": "While Navy officials insisted they did not hide the ship, they did give all of sailors aboard the day off on Tuesday as President Trump visited Yokosuka Naval Base in Japan.",
+      "published_date": "2019-05-29",
+      "source": "The New York Times",
+      "id": 100000006531877,
+      "asset_id": 100000006531877,
+      "views": 19,
+      "des_facet": [
+        "UNITED STATES POLITICS AND GOVERNMENT",
+        "UNITED STATES DEFENSE AND MILITARY FORCES"
+      ],
+      "org_facet": [
+        "USS JOHN S MCCAIN (SHIP)",
+        "MILITARY BASES AND INSTALLATIONS",
+        "UNITED STATES NAVY"
+      ],
+      "per_facet": [
+        "MCCAIN, JOHN",
+        "SHANAHAN, PATRICK M (1962- )",
+        "TRUMP, DONALD J"
+      ],
+      "geo_facet": ["JAPAN"],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Navy destroyer the John S. McCain near the Philippines in 2014.",
+          "copyright": "Bullit Marquez/Associated Press",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-mccain/29dc-mccain-square320.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-mccain/29dc-mccain-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-mccain/69eebec85bf643fda28f10ae8b6b39af-articleInline.jpg",
+              "format": "Normal",
+              "height": 139,
+              "width": 190
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-mccain/69eebec85bf643fda28f10ae8b6b39af-sfSpan.jpg",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-mccain/69eebec85bf643fda28f10ae8b6b39af-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 748,
+              "width": 1024
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-mccain/69eebec85bf643fda28f10ae8b6b39af-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1496,
+              "width": 2048
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-mccain/29dc-mccain-square640.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-mccain/29dc-mccain-thumbLarge.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-mccain/69eebec85bf643fda28f10ae8b6b39af-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-mccain/69eebec85bf643fda28f10ae8b6b39af-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.nytimes.com/interactive/2019/05/28/nyregion/subway-dogs.html",
+      "adx_keywords": "Metropolitan Transportation Authority;Subways;Dogs;Transit Systems;Byford, Andrew;New York City;your-feed-onlyinnewyork",
+      "column": "",
+      "section": "New York",
+      "byline": "By EMMA G. FITZSIMMONS",
+      "type": "Interactive",
+      "title": "Your Tales of Subway Oddities: Dog in a Bag Edition",
+      "abstract": "We\u2019re taking a break from chronicling your subway woes to appreciate one of the best parts about riding the train: The weird and beautiful sights you regularly stumble upon.",
+      "published_date": "2019-05-28",
+      "source": "The New York Times",
+      "id": 100000006522146,
+      "asset_id": 100000006522146,
+      "views": 20,
+      "des_facet": ["SUBWAYS", "TRANSIT SYSTEMS", "YOUR-FEED-ONLYINNEWYORK"],
+      "org_facet": ["METROPOLITAN TRANSPORTATION AUTHORITY", "DOGS"],
+      "per_facet": ["BYFORD, ANDREW"],
+      "geo_facet": ["NEW YORK CITY"],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Jacqui Cheng via Twitter",
+          "approved_for_syndication": 0,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/05/29/multimedia/subwayoddities-1558558990709/subwayoddities-1558558990709-square320-v2.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/29/multimedia/subwayoddities-1558558990709/subwayoddities-1558558990709-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/29/multimedia/subwayoddities-1558558990709/subwayoddities-1558558990709-articleInline.jpg",
+              "format": "Normal",
+              "height": 127,
+              "width": 190
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/29/multimedia/subwayoddities-1558558990709/subwayoddities-1558558990709-sfSpan.jpg",
+              "format": "Large",
+              "height": 264,
+              "width": 395
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/29/multimedia/subwayoddities-1558558990709/subwayoddities-1558558990709-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 683,
+              "width": 1024
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/29/multimedia/subwayoddities-1558558990709/subwayoddities-1558558990709-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 844,
+              "width": 1265
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/29/multimedia/subwayoddities-1558558990709/subwayoddities-1558558990709-square640-v2.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/29/multimedia/subwayoddities-1558558990709/subwayoddities-1558558990709-thumbLarge.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/29/multimedia/subwayoddities-1558558990709/subwayoddities-1558558990709-mediumThreeByTwo210-v2.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/05/29/multimedia/subwayoddities-1558558990709/subwayoddities-1558558990709-mediumThreeByTwo440-v2.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+<header class={{theme}}>
+	<h1>Loading post&#8230;</h1>
+</header>
+<main>
+	<div class="post single">
+		<aside>
+			{{hearts 0}}
+		</aside>
+		<section>
+			<p>Loading&#8230;</p>
+			<small>{{moment-from-now 0}}</small>
+		</section>
+	</div>
+	<header class="content">
+		<h3>Replies</h3>
+	</header>
+	{{loading-spinner false true}}
+</main>
+{{nav-footer 'feed'}}

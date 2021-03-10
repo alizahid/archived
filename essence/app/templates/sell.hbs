@@ -1,0 +1,25 @@
+<header>
+	{{back-button}}
+	{{action-button class="save" action=(action 'save')}}
+	<h1>Sell</h1>
+</header>
+<main class="sell">
+	<p>Which types of gas do you have? And in what quantity? And how much are you willing to sell it for?</p>
+	<form {{action 'save' on='submit'}}>
+		{{#each gas as |item|}}
+		<section>
+			<h2>{{item.type}}</h2>
+			<div>
+				<label>
+					<strong>Litres</strong>
+					{{input type="number" value=item.quantity placeholder="Litre" step="1" min="0" required=true}}
+				</label>
+				<label>
+					<strong>Price per litre</strong>
+					{{input type="number" value=item.price placeholder="Price" step="1" min="0" required=true}}
+				</label>
+			</div>
+		</section>
+		{{/each}}
+	</form>
+</main>

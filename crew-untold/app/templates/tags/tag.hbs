@@ -1,0 +1,14 @@
+<header class={{theme}}>
+	{{back-button}}
+	<h1>Posts about <em>{{tag.name}}</em></h1>
+	{{action-button class="create" action=(action 'create')}}
+</header>
+<main>
+	{{#each model as |post|}}
+		{{rage-post post}}
+	{{else}}
+		{{empty-message 'No posts yet' true}}
+	{{/each}}
+	{{infinity-loader infinityModel=model scrollable="main"}}
+</main>
+{{nav-footer}}

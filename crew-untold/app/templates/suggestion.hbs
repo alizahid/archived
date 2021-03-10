@@ -1,0 +1,18 @@
+<header class={{theme}}>
+	{{back-button}}
+	<h1>Suggest</h1>
+</header>
+<main class="content">
+	<form {{action 'create' on='submit'}}>
+		<label>
+			{{input type="text" value=tag placeholder="Name of the tag" required=true}}
+		</label>
+		<label>
+			{{textarea value=description placeholder="What is it about? Why should it be on this app?"}}
+		</label>
+		<p>
+			<button disabled={{busy}} class={{if busy 'loading'}}>Suggest</button>
+		</p>
+	</form>
+</main>
+{{nav-footer 'tags'}}

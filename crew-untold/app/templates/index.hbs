@@ -1,0 +1,16 @@
+{{#header-menu}}
+	<h1><em>{{if type type 'Latest'}}</em> posts</h1>
+	<ul>
+		<li {{action 'changeType' 'popular'}}>Popular</li>
+		<li {{action 'changeType' undefined}}>Latest</li>
+	</ul>
+{{/header-menu}}
+<main>
+	{{#each model as |post|}}
+		{{rage-post post}}
+	{{else}}
+		{{empty-message 'No posts yet' true}}
+	{{/each}}
+	{{infinity-loader infinityModel=model scrollable="main"}}
+</main>
+{{nav-footer}}

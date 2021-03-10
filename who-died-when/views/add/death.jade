@@ -1,0 +1,12 @@
+extends /layout
+
+block content
+	h1=title
+	p
+		| To add a death to WDW,
+		a.call-to-action(href="#", data-action="focus-search") search
+		| or
+		a.call-to-action(href="/shows") browse
+		| for the show, and click the
+		img.button(src="/img/death.png", alt="skull")
+		| on a character to report their death.

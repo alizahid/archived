@@ -1,0 +1,18 @@
+<header>
+	{{back-button}}
+	<h1>Discount</h1>
+</header>
+<main>
+	<img src={{model.place.image}} class="place-image">
+	<h2>{{model.place.name}}</h2>
+	<h3>{{model.discount}} discount</h3>
+	<ul class="toolbar">
+		<li class="map" {{action 'openMap'}}>Map</li>
+		<li class="share" {{action 'share'}}>Share</li>
+	</ul>
+	<p><strong>Address</strong> {{model.place.address}}</p>
+	<p><strong>Phone</strong> <a href="tel:{{model.place.phone}}">{{model.place.phone}}</a></p>
+	<p><strong>Email</strong> <a href="mailto:{{model.place.email}}">{{model.place.email}}</a></p>
+	<p>{{model.description}}</p>
+</main>
+{{nav-bar}}

@@ -1,0 +1,18 @@
+<main class="hero">
+	<form {{action 'login' on='submit'}}>
+		<img src="assets/images/crew-untold.png" class="logo">
+		{{message-bar error=error}}
+		<label>
+			{{input type="email" value=email placeholder="Email" required=true}}
+		</label>
+		<label>
+			{{input type="password" value=password placeholder="Password" required=true}}
+		</label>
+		<p>
+			<button disabled={{busy}} class={{if busy 'loading'}}>Login</button>
+		</p>
+		<p>
+			{{link-to 'New user?' 'sign-up' tagName="button" class="ghost"}}
+		</p>
+	</form>
+</main>

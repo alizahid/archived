@@ -1,0 +1,626 @@
+{
+  "version": "0.2.2",
+  "steps": [
+    {
+      "stepType": "CreateModel",
+      "name": "Post",
+      "embedded": false
+    },
+    {
+      "stepType": "CreateModel",
+      "name": "Location",
+      "embedded": false
+    },
+    {
+      "stepType": "CreateModel",
+      "name": "Rating",
+      "embedded": false
+    },
+    {
+      "stepType": "CreateModel",
+      "name": "Comment",
+      "embedded": false
+    },
+    {
+      "stepType": "CreateModel",
+      "name": "Conversation",
+      "embedded": false
+    },
+    {
+      "stepType": "CreateModel",
+      "name": "Message",
+      "embedded": false
+    },
+    {
+      "stepType": "CreateModel",
+      "name": "User",
+      "embedded": false
+    },
+    {
+      "stepType": "CreateField",
+      "model": "Post",
+      "name": "id",
+      "type": {
+        "Base": "String"
+      },
+      "arity": "required",
+      "isUnique": false,
+      "id": {
+        "strategy": "Auto",
+        "sequence": null
+      },
+      "default": {
+        "Expression": ["cuid", "String", []]
+      }
+    },
+    {
+      "stepType": "CreateField",
+      "model": "Post",
+      "name": "body",
+      "type": {
+        "Base": "String"
+      },
+      "arity": "required",
+      "isUnique": false
+    },
+    {
+      "stepType": "CreateField",
+      "model": "Post",
+      "name": "comments",
+      "type": {
+        "Relation": {
+          "to": "Comment",
+          "to_fields": [],
+          "name": "CommentToPost",
+          "on_delete": "None"
+        }
+      },
+      "arity": "list",
+      "isUnique": false
+    },
+    {
+      "stepType": "CreateField",
+      "model": "Post",
+      "name": "rating",
+      "type": {
+        "Base": "Int"
+      },
+      "arity": "required",
+      "isUnique": false,
+      "default": {
+        "Int": 1
+      }
+    },
+    {
+      "stepType": "CreateField",
+      "model": "Post",
+      "name": "ratings",
+      "type": {
+        "Relation": {
+          "to": "Rating",
+          "to_fields": [],
+          "name": "PostToRating",
+          "on_delete": "None"
+        }
+      },
+      "arity": "list",
+      "isUnique": false
+    },
+    {
+      "stepType": "CreateField",
+      "model": "Post",
+      "name": "user",
+      "type": {
+        "Relation": {
+          "to": "User",
+          "to_fields": ["id"],
+          "name": "PostToUser",
+          "on_delete": "None"
+        }
+      },
+      "arity": "required",
+      "isUnique": false
+    },
+    {
+      "stepType": "CreateField",
+      "model": "Post",
+      "name": "created",
+      "type": {
+        "Base": "DateTime"
+      },
+      "arity": "required",
+      "isUnique": false,
+      "default": {
+        "Expression": ["now", "DateTime", []]
+      }
+    },
+    {
+      "stepType": "CreateField",
+      "model": "Post",
+      "name": "location",
+      "type": {
+        "Relation": {
+          "to": "Location",
+          "to_fields": ["id"],
+          "name": "LocationToPost",
+          "on_delete": "None"
+        }
+      },
+      "arity": "optional",
+      "isUnique": false
+    },
+    {
+      "stepType": "CreateField",
+      "model": "Location",
+      "name": "id",
+      "type": {
+        "Base": "String"
+      },
+      "arity": "required",
+      "isUnique": false,
+      "id": {
+        "strategy": "Auto",
+        "sequence": null
+      },
+      "default": {
+        "Expression": ["cuid", "String", []]
+      }
+    },
+    {
+      "stepType": "CreateField",
+      "model": "Location",
+      "name": "city",
+      "type": {
+        "Base": "String"
+      },
+      "arity": "required",
+      "isUnique": false
+    },
+    {
+      "stepType": "CreateField",
+      "model": "Location",
+      "name": "country",
+      "type": {
+        "Base": "String"
+      },
+      "arity": "required",
+      "isUnique": false
+    },
+    {
+      "stepType": "CreateField",
+      "model": "Location",
+      "name": "posts",
+      "type": {
+        "Relation": {
+          "to": "Post",
+          "to_fields": [],
+          "name": "LocationToPost",
+          "on_delete": "None"
+        }
+      },
+      "arity": "list",
+      "isUnique": false
+    },
+    {
+      "stepType": "CreateField",
+      "model": "Rating",
+      "name": "id",
+      "type": {
+        "Base": "String"
+      },
+      "arity": "required",
+      "isUnique": false,
+      "id": {
+        "strategy": "Auto",
+        "sequence": null
+      },
+      "default": {
+        "Expression": ["cuid", "String", []]
+      }
+    },
+    {
+      "stepType": "CreateField",
+      "model": "Rating",
+      "name": "direction",
+      "type": {
+        "Base": "Int"
+      },
+      "arity": "required",
+      "isUnique": false,
+      "default": {
+        "Int": 1
+      }
+    },
+    {
+      "stepType": "CreateField",
+      "model": "Rating",
+      "name": "user",
+      "type": {
+        "Relation": {
+          "to": "User",
+          "to_fields": ["id"],
+          "name": "RatingToUser",
+          "on_delete": "None"
+        }
+      },
+      "arity": "required",
+      "isUnique": false
+    },
+    {
+      "stepType": "CreateField",
+      "model": "Rating",
+      "name": "created",
+      "type": {
+        "Base": "DateTime"
+      },
+      "arity": "required",
+      "isUnique": false,
+      "default": {
+        "Expression": ["now", "DateTime", []]
+      }
+    },
+    {
+      "stepType": "CreateField",
+      "model": "Rating",
+      "name": "updated",
+      "type": {
+        "Base": "DateTime"
+      },
+      "arity": "required",
+      "isUnique": false
+    },
+    {
+      "stepType": "CreateField",
+      "model": "Rating",
+      "name": "post",
+      "type": {
+        "Relation": {
+          "to": "Post",
+          "to_fields": ["id"],
+          "name": "PostToRating",
+          "on_delete": "None"
+        }
+      },
+      "arity": "optional",
+      "isUnique": false
+    },
+    {
+      "stepType": "CreateField",
+      "model": "Comment",
+      "name": "id",
+      "type": {
+        "Base": "String"
+      },
+      "arity": "required",
+      "isUnique": false,
+      "id": {
+        "strategy": "Auto",
+        "sequence": null
+      },
+      "default": {
+        "Expression": ["cuid", "String", []]
+      }
+    },
+    {
+      "stepType": "CreateField",
+      "model": "Comment",
+      "name": "body",
+      "type": {
+        "Base": "String"
+      },
+      "arity": "required",
+      "isUnique": false
+    },
+    {
+      "stepType": "CreateField",
+      "model": "Comment",
+      "name": "user",
+      "type": {
+        "Relation": {
+          "to": "User",
+          "to_fields": ["id"],
+          "name": "CommentToUser",
+          "on_delete": "None"
+        }
+      },
+      "arity": "required",
+      "isUnique": false
+    },
+    {
+      "stepType": "CreateField",
+      "model": "Comment",
+      "name": "created",
+      "type": {
+        "Base": "DateTime"
+      },
+      "arity": "required",
+      "isUnique": false,
+      "default": {
+        "Expression": ["now", "DateTime", []]
+      }
+    },
+    {
+      "stepType": "CreateField",
+      "model": "Comment",
+      "name": "post",
+      "type": {
+        "Relation": {
+          "to": "Post",
+          "to_fields": ["id"],
+          "name": "CommentToPost",
+          "on_delete": "None"
+        }
+      },
+      "arity": "optional",
+      "isUnique": false
+    },
+    {
+      "stepType": "CreateField",
+      "model": "Conversation",
+      "name": "id",
+      "type": {
+        "Base": "String"
+      },
+      "arity": "required",
+      "isUnique": false,
+      "id": {
+        "strategy": "Auto",
+        "sequence": null
+      },
+      "default": {
+        "Expression": ["cuid", "String", []]
+      }
+    },
+    {
+      "stepType": "CreateField",
+      "model": "Conversation",
+      "name": "messages",
+      "type": {
+        "Relation": {
+          "to": "Message",
+          "to_fields": [],
+          "name": "ConversationToMessage",
+          "on_delete": "None"
+        }
+      },
+      "arity": "list",
+      "isUnique": false
+    },
+    {
+      "stepType": "CreateField",
+      "model": "Conversation",
+      "name": "users",
+      "type": {
+        "Relation": {
+          "to": "User",
+          "to_fields": ["id"],
+          "name": "ConversationToUser",
+          "on_delete": "None"
+        }
+      },
+      "arity": "list",
+      "isUnique": false
+    },
+    {
+      "stepType": "CreateField",
+      "model": "Conversation",
+      "name": "created",
+      "type": {
+        "Base": "DateTime"
+      },
+      "arity": "required",
+      "isUnique": false,
+      "default": {
+        "Expression": ["now", "DateTime", []]
+      }
+    },
+    {
+      "stepType": "CreateField",
+      "model": "Conversation",
+      "name": "updated",
+      "type": {
+        "Base": "DateTime"
+      },
+      "arity": "required",
+      "isUnique": false
+    },
+    {
+      "stepType": "CreateField",
+      "model": "Message",
+      "name": "id",
+      "type": {
+        "Base": "String"
+      },
+      "arity": "required",
+      "isUnique": false,
+      "id": {
+        "strategy": "Auto",
+        "sequence": null
+      },
+      "default": {
+        "Expression": ["cuid", "String", []]
+      }
+    },
+    {
+      "stepType": "CreateField",
+      "model": "Message",
+      "name": "body",
+      "type": {
+        "Base": "String"
+      },
+      "arity": "required",
+      "isUnique": false
+    },
+    {
+      "stepType": "CreateField",
+      "model": "Message",
+      "name": "user",
+      "type": {
+        "Relation": {
+          "to": "User",
+          "to_fields": ["id"],
+          "name": "MessageToUser",
+          "on_delete": "None"
+        }
+      },
+      "arity": "required",
+      "isUnique": false
+    },
+    {
+      "stepType": "CreateField",
+      "model": "Message",
+      "name": "created",
+      "type": {
+        "Base": "DateTime"
+      },
+      "arity": "required",
+      "isUnique": false,
+      "default": {
+        "Expression": ["now", "DateTime", []]
+      }
+    },
+    {
+      "stepType": "CreateField",
+      "model": "Message",
+      "name": "conversation",
+      "type": {
+        "Relation": {
+          "to": "Conversation",
+          "to_fields": ["id"],
+          "name": "ConversationToMessage",
+          "on_delete": "None"
+        }
+      },
+      "arity": "optional",
+      "isUnique": false
+    },
+    {
+      "stepType": "CreateField",
+      "model": "User",
+      "name": "id",
+      "type": {
+        "Base": "String"
+      },
+      "arity": "required",
+      "isUnique": false,
+      "id": {
+        "strategy": "Auto",
+        "sequence": null
+      },
+      "default": {
+        "Expression": ["cuid", "String", []]
+      }
+    },
+    {
+      "stepType": "CreateField",
+      "model": "User",
+      "name": "comments",
+      "type": {
+        "Relation": {
+          "to": "Comment",
+          "to_fields": [],
+          "name": "CommentToUser",
+          "on_delete": "None"
+        }
+      },
+      "arity": "list",
+      "isUnique": false
+    },
+    {
+      "stepType": "CreateField",
+      "model": "User",
+      "name": "conversations",
+      "type": {
+        "Relation": {
+          "to": "Conversation",
+          "to_fields": ["id"],
+          "name": "ConversationToUser",
+          "on_delete": "None"
+        }
+      },
+      "arity": "list",
+      "isUnique": false
+    },
+    {
+      "stepType": "CreateField",
+      "model": "User",
+      "name": "messages",
+      "type": {
+        "Relation": {
+          "to": "Message",
+          "to_fields": [],
+          "name": "MessageToUser",
+          "on_delete": "None"
+        }
+      },
+      "arity": "list",
+      "isUnique": false
+    },
+    {
+      "stepType": "CreateField",
+      "model": "User",
+      "name": "notifications",
+      "type": {
+        "Base": "Boolean"
+      },
+      "arity": "required",
+      "isUnique": false,
+      "default": {
+        "Boolean": true
+      }
+    },
+    {
+      "stepType": "CreateField",
+      "model": "User",
+      "name": "posts",
+      "type": {
+        "Relation": {
+          "to": "Post",
+          "to_fields": [],
+          "name": "PostToUser",
+          "on_delete": "None"
+        }
+      },
+      "arity": "list",
+      "isUnique": false
+    },
+    {
+      "stepType": "CreateField",
+      "model": "User",
+      "name": "ratings",
+      "type": {
+        "Relation": {
+          "to": "Rating",
+          "to_fields": [],
+          "name": "RatingToUser",
+          "on_delete": "None"
+        }
+      },
+      "arity": "list",
+      "isUnique": false
+    },
+    {
+      "stepType": "CreateField",
+      "model": "User",
+      "name": "created",
+      "type": {
+        "Base": "DateTime"
+      },
+      "arity": "required",
+      "isUnique": false,
+      "default": {
+        "Expression": ["now", "DateTime", []]
+      }
+    },
+    {
+      "stepType": "CreateField",
+      "model": "User",
+      "name": "updated",
+      "type": {
+        "Base": "DateTime"
+      },
+      "arity": "required",
+      "isUnique": false
+    }
+  ]
+}

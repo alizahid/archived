@@ -1,0 +1,127 @@
+.ember-application > .ember-view {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+
+	& > header {
+		box-shadow: 0 0 0.5em $shadow;
+		flex: 0 0 auto;
+		font-size: 1rem;
+		padding: 1em;
+		position: relative;
+		z-index: 1;
+
+		h1 {
+			color: $background;
+			font-size: 1em;
+			font-weight: normal;
+			margin: 0;
+			text-align: center;
+
+			em {
+				font-style: normal;
+				font-weight: 500;
+			}
+		}
+
+		.action,
+		.back {
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 50%;
+			cursor: pointer;
+			display: block;
+			filter: invert(1);
+			height: 3em;
+			position: absolute;
+			transition: 100ms;
+			top: 0;
+			width: 3em;
+
+			&:active {
+				opacity: 0.25;
+			}
+		}
+
+		.action {
+			right: 0;
+
+			&.add {
+				background-image: url('icons/add.png');
+			}
+
+			&.create {
+				background-image: url('icons/create.png');
+			}
+
+			&.settings {
+				background-image: url('icons/settings.png');
+			}
+
+			&.share {
+				background-image: url('icons/share.png');
+			}
+
+			&.logout {
+				background-image: url('icons/logout.png');
+			}
+		}
+
+		.back {
+			background-image: url('icons/back.png');
+			left: 0;
+		}
+	}
+
+	& > main {
+		background: $background;
+		flex: 1;
+		overflow-y: scroll;
+		-webkit-overflow-scrolling: touch;
+
+		&.content {
+			padding: 0 1em;
+		}
+
+		&.hero {
+			align-items: center;
+			display: flex;
+			justify-content: center;
+		}
+
+		&.inverted {
+			display: flex;
+			flex-direction: column;
+			padding: 0 1em;
+		}
+
+		header {
+			align-items: center;
+			display: flex;
+			justify-content: space-between;
+
+			&.content {
+				margin: 1em;
+			}
+
+			h3 {
+				margin: 0;
+			}
+		}
+
+		footer {
+			align-items: center;
+			display: flex;
+			justify-content: center;
+			margin: 2em 0;
+		}
+	}
+
+	& > footer {
+		box-shadow: 0 0 0.5em $shadow;
+		display: flex;
+		font-size: 1rem;
+		flex: 0 0 auto;
+		z-index: 1;
+	}
+}

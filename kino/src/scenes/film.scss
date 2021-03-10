@@ -1,0 +1,89 @@
+@import '../assets/variables';
+
+.film {
+  header {
+    figure {
+      background-position: center;
+      background-size: cover;
+      padding-bottom: 60%;
+      position: relative;
+
+      figcaption {
+        background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+        bottom: 0;
+        color: $color-background;
+        left: 0;
+        margin: 0;
+        padding: 2em;
+        position: absolute;
+        right: 0;
+
+        h1 {
+          margin: 0;
+        }
+
+        p {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  section {
+    display: flex;
+    padding: 2em;
+
+    aside {
+      background: $color-background-dark;
+      margin: -2em -2em -2em 2em;
+      padding: 2em;
+      width: 30em;
+
+      .favorite {
+        appearance: none;
+        background: $color-accent;
+        border-radius: 0.25em;
+        border: none;
+        color: $color-background;
+        cursor: pointer;
+        font: inherit;
+        padding: 1em;
+        transition: 0.3s;
+        width: 100%;
+
+        &:hover {
+          background: lighten($color-accent, 10%);
+        }
+
+        &:active {
+          background: darken($color-accent, 10%);
+        }
+      }
+
+      hr {
+        border: none;
+        margin: 1em 0 0;
+      }
+
+      h3 {
+        font-size: 1em;
+        font-weight: bold;
+      }
+    }
+
+    h2 {
+      font-weight: bold;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+
+    .film-cast,
+    .film-crew {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 -2em -2em 0;
+    }
+  }
+}

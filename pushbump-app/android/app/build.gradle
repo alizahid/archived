@@ -1,0 +1,85 @@
+apply plugin: 'com.android.application'
+
+import com.android.build.OutputFile
+import com.google.gms.googleservices.GoogleServicesPlugin
+
+project.ext.react = [
+        entryFile: 'index.js'
+]
+
+apply from: '../../node_modules/react-native/react.gradle'
+apply from: '../../node_modules/react-native-code-push/android/codepush.gradle'
+apply from: '../../node_modules/react-native-sentry/sentry.gradle'
+
+def enableSeparateBuildPerCPUArchitecture = false
+
+def enableProguardInReleaseBuilds = false
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        applicationId 'app.pushbump'
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 4
+        versionName '1.0'
+        ndk {
+            abiFilters 'armeabi-v7a', 'x86'
+        }
+    }
+    splits {
+        abi {
+            reset()
+            enable enableSeparateBuildPerCPUArchitecture
+            universalApk false
+            include 'armeabi-v7a', 'x86'
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled enableProguardInReleaseBuilds
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def versionCodes = ['armeabi-v7a': 1, 'x86': 2]
+            def abi = output.getFilter(OutputFile.ABI)
+
+            if (abi != null) {
+                output.versionCodeOverride = versionCodes.get(abi) * 1048576 + defaultConfig.versionCode
+            }
+        }
+    }
+}
+
+dependencies {
+    implementation project(':react-native-camera')
+    implementation project(':react-native-code-push')
+    implementation project(':react-native-firebase')
+    implementation project(':react-native-sentry')
+    implementation project(':react-native-svg')
+
+    implementation 'com.google.android.gms:play-services-base:16.0.1'
+    implementation 'com.google.firebase:firebase-core:16.0.6'
+    implementation 'com.google.firebase:firebase-auth:16.1.0'
+    implementation 'com.google.firebase:firebase-firestore:17.1.5'
+    implementation 'com.google.firebase:firebase-messaging:17.3.4'
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
+
+    implementation 'com.facebook.react:react-native:+'
+}
+
+task copyDownloadableDepsToLibs(type: Copy) {
+    from configurations.compile
+    into 'libs'
+}
+
+apply plugin: 'com.google.gms.google-services'
+
+GoogleServicesPlugin.config.disableVersionCheck = true

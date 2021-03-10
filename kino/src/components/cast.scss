@@ -1,0 +1,24 @@
+@import '../assets/variables';
+
+.cast {
+  margin: 0 2em 2em 0;
+  width: 10em;
+
+  figure {
+    background-color: $color-background-dark;
+    background-position: center;
+    background-size: cover;
+    border-radius: 0.25em;
+    padding-bottom: 150%;
+  }
+
+  h3 {
+    line-height: 1.2;
+    margin: 1rem 0 0.5rem;
+  }
+
+  p {
+    color: $color-text-light;
+    margin: 0;
+  }
+}

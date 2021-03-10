@@ -1,0 +1,90 @@
+@import '../../styles/variables';
+
+.table {
+  form {
+    margin-bottom: 2em;
+
+    input {
+      width: 50%;
+    }
+  }
+
+  table {
+    border-collapse: collapse;
+    font-size: 0.875em;
+    width: 100%;
+
+    thead {
+    }
+
+    tbody {
+      tr {
+        &:nth-child(even) {
+          td {
+            background: lighten($color-highlight, 50%);
+          }
+        }
+      }
+    }
+
+    td,
+    th {
+      padding: 0.75em;
+      text-align: left;
+      vertical-align: middle;
+
+      &:first-child {
+        border-radius: $layout-border-radius 0 0 $layout-border-radius;
+      }
+
+      &:last-child {
+        border-radius: 0 $layout-border-radius $layout-border-radius 0;
+      }
+
+      &[data-icon-left],
+      &[data-icon-right] {
+        white-space: nowrap;
+      }
+
+      &[data-icon-left] {
+        img {
+          margin-right: 0.5em;
+        }
+      }
+
+      &[data-icon-right] {
+        img {
+          margin-left: 0.5em;
+        }
+      }
+
+      &[data-cash] {
+        text-align: right;
+      }
+    }
+
+    td {
+      img {
+        height: 1em;
+      }
+    }
+
+    th {
+      background: $color-highlight;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+  }
+
+  a {
+    color: $color-text;
+  }
+
+  .green {
+    color: $color-success;
+  }
+
+  .red {
+    color: $color-failure;
+  }
+}

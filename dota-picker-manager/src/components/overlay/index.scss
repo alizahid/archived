@@ -1,0 +1,38 @@
+@import '../../styles/variables';
+
+.overlay {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+
+  // semi opaque
+  &.veil {
+    background: rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+    z-index: 3;
+  }
+
+  // children
+  > section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+
+    // not found
+    &.not-found {
+      &:before {
+        background: url('../../assets/error.svg') center no-repeat;
+        content: '';
+        height: 3em;
+        margin-bottom: 1em;
+        width: 3em;
+      }
+    }
+  }
+}

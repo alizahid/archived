@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  main:
+    command: node index.js
+    image: node
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/www
+    working_dir: /www
+  home-service:
+    build: .
+    command: node services/home.js
+    image: node
+    volumes:
+      - .:/www
+    working_dir: /www
+  search-service:
+    command: node services/search.js
+    image: node
+    volumes:
+      - .:/www
+    working_dir: /www
+  redis:
+    image: redis

@@ -1,0 +1,13 @@
+<header class={{theme}}>
+	<h1>Tags</h1>
+	{{action-button class="add" action=(action 'suggest')}}
+</header>
+<main class="tags">
+	{{#each model as |tag|}}
+		{{mad-tag tag}}
+	{{/each}}
+	<footer>
+		{{link-to 'Suggest a tag' 'suggestion' class="button"}}
+	</footer>
+</main>
+{{nav-footer}}

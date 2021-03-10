@@ -1,0 +1,51 @@
+@import '../../styles/variables';
+
+.picker {
+  margin: 1em 0;
+  min-width: 20em;
+
+  // search
+  > input {
+    appearance: none;
+    background: $overlay-light;
+    border-radius: $radius;
+    border: none;
+    color: $color-text;
+    font: inherit;
+    padding: 1em;
+    width: 100%;
+  }
+
+  // results
+  > ul {
+    margin: 1em 0;
+    max-height: calc(28px * 3 + 2em);
+    overflow: auto;
+
+    > li {
+      align-items: center;
+      border-radius: $radius;
+      cursor: pointer;
+      display: flex;
+      list-style: none;
+      margin-top: 1em;
+      transition: $transition;
+
+      &:first-child {
+        margin-top: 0;
+      }
+
+      &:hover {
+        background: $overlay-light;
+      }
+
+      &:active {
+        background: $overlay-dark;
+      }
+
+      figure {
+        margin-right: 1em;
+      }
+    }
+  }
+}

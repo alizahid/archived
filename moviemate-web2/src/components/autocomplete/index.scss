@@ -1,0 +1,72 @@
+@import '../../variables';
+
+.autocomplete {
+	.results {
+		position: relative;
+
+		&:before {
+			border-color: transparent transparent #f7692c transparent;
+			border-width: 0.5em;
+			border-style: solid;
+			content: '';
+			height: 0;
+			left: calc(50% - 0.5em);
+			position: absolute;
+			top: 0;
+			width: 0;
+		}
+
+		.spinner {
+			padding: 1em;
+
+			&:before {
+				border-top-color: $background;
+			}
+		}
+
+		ul {
+			background: linear-gradient(45deg, $primary, $accent);
+			border-radius: 0.25em;
+			max-height: 30vh;
+			overflow-y: auto;
+			margin: 1em 0 0;
+			position: absolute;
+			width: 100%;
+			z-index: 1;
+
+			li {
+				align-items: center;
+				color: $background;
+				display: flex;
+				list-style: none;
+				padding: 1em;
+				transition: 200ms;
+
+				&:not(.static) {
+					cursor: pointer;
+
+					&:hover {
+						border-color: $accent;
+						background: transparentize($background, 0.9);
+					}
+
+					&:active {
+						border-color: $primary;
+						background: transparentize($color, 0.9);
+					}
+				}
+
+				figure {
+					background-color: transparentize($background, 0.8);
+					background-position: center;
+					background-repeat: no-repeat;
+					background-size: cover;
+					border-radius: 0.25em;
+					height: 4em;
+					margin-right: 1em;
+					width: 3em;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+@import '../../styles/variables';
+
+.spinner {
+  animation: spinner 1s infinite linear;
+  border-radius: 100%;
+  border: 0.08em solid transparent;
+  border-top-color: $accent;
+  height: 2em;
+  margin: auto;
+  transform: translate3d(0, 0, 0);
+  width: 2em;
+
+  &.button {
+    border-top-color: $color-text;
+    border-width: 0.075em;
+    height: 1.2142857143em;
+    width: 1.2142857143em;
+  }
+
+  &.large {
+    font-size: 2em;
+  }
+}

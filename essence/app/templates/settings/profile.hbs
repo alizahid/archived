@@ -1,0 +1,38 @@
+<header>
+	{{back-button}}
+	{{action-button class="save" action=(action 'save')}}
+	<h1>Profile</h1>
+</header>
+<main class="profile">
+	<form {{action 'save' on='submit'}}>
+		<h3>Hello,</h3>
+		<h1>{{model.name}}</h1>
+		<h3>What's your phone number?</h3>
+		<label>
+			{{input type="tel" value=model.phone placeholder="Phone" required=true}}
+		</label>
+		<hr>
+		<h3>Where are you?</h3>
+		{{#if model.location}}
+		<hr>
+		{{#if area}}
+		<p>
+			<strong>Area</strong>
+			{{area}}
+		</p>
+		{{/if}}
+		<p>
+			<strong>Latitude</strong>
+			{{model.location.latitude}}
+		</p>
+		<p>
+			<strong>Longitude</strong>
+			{{model.location.longitude}}
+		</p>
+		<hr>
+		{{/if}}
+		<p>
+			<button type="button" disabled={{locating}} {{action 'getLocation'}}>{{if locating 'Getting location...' 'Update location'}}</button>
+		</p>
+	</form>
+</main>

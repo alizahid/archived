@@ -1,0 +1,37 @@
+<header>
+	{{back-button}}
+	{{action-button class="save" action=(action 'save')}}
+	<h1>Buy</h1>
+</header>
+<main class="buy">
+	<p>Which types of gas do you want? And in what quantity? We'll only show you relevant sellers on the map.</p>
+	<form {{action 'save' on='submit'}}>
+		<section>
+			<h2>{{gas.spg5.type}}</h2>
+			<div>
+				<label>
+					<strong>Litres</strong>
+					{{input type="number" value=gas.spg5.quantity placeholder="Litre" step="1" min="0" required=true}}
+				</label>
+			</div>
+		</section>
+		<section>
+			<h2>{{gas.spg8.type}}</h2>
+			<div>
+				<label>
+					<strong>Litres</strong>
+					{{input type="number" value=gas.spg8.quantity placeholder="Litre" step="1" min="0" required=true}}
+				</label>
+			</div>
+		</section>
+		<section>
+			<h2>{{gas.diesel.type}}</h2>
+			<div>
+				<label>
+					<strong>Litres</strong>
+					{{input type="number" value=gas.diesel.quantity placeholder="Litre" step="1" min="0" required=true}}
+				</label>
+			</div>
+		</section>
+	</form>
+</main>

@@ -1,0 +1,33 @@
+<header>
+	<h1>Profile</h1>
+</header>
+<main class="full">
+	<section class="user-profile">
+		<h2>{{model.name}}</h2>
+		<p>{{model.email}}</p>
+		<p>{{model.phone.number}}</p>
+	</section>
+	<ul class="list-menu">
+		<li {{action 'about'}}>
+			<img src="assets/icons/color/info.png">
+			About
+		</li>
+		<li {{action 'contact'}}>
+			<img src="assets/icons/color/phone.png">
+			Contact
+		</li>
+		<li {{action 'rate'}}>
+			<img src="assets/icons/color/rate.png">
+			Rate
+		</li>
+		<li {{action 'share'}}>
+			<img src="assets/icons/color/share.png">
+			Share
+		</li>
+		<li {{action 'logout'}}>
+			<img src="assets/icons/color/logout.png">
+			Logout
+		</li>
+	</ul>
+</main>
+{{nav-bar}}

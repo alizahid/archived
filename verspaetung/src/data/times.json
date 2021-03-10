@@ -1,0 +1,77 @@
+[
+  {
+    "lineId": 0,
+    "stopId": 0,
+    "time": "10:00:00"
+  },
+  {
+    "lineId": 0,
+    "stopId": 1,
+    "time": "10:02:00"
+  },
+  {
+    "lineId": 0,
+    "stopId": 2,
+    "time": "10:05:00"
+  },
+  {
+    "lineId": 0,
+    "stopId": 3,
+    "time": "10:07:00"
+  },
+  {
+    "lineId": 0,
+    "stopId": 4,
+    "time": "10:09:00"
+  },
+  {
+    "lineId": 1,
+    "stopId": 5,
+    "time": "10:01:00"
+  },
+  {
+    "lineId": 1,
+    "stopId": 6,
+    "time": "10:04:00"
+  },
+  {
+    "lineId": 1,
+    "stopId": 7,
+    "time": "10:06:00"
+  },
+  {
+    "lineId": 1,
+    "stopId": 3,
+    "time": "10:08:00"
+  },
+  {
+    "lineId": 1,
+    "stopId": 8,
+    "time": "10:10:00"
+  },
+  {
+    "lineId": 2,
+    "stopId": 3,
+    "time": "10:08:00"
+  },
+  {
+    "lineId": 2,
+    "stopId": 9,
+    "time": "10:09:00"
+  },
+  {
+    "lineId": 2,
+    "stopId": 4,
+    "time": "10:11:00"
+  },
+  {
+    "lineId": 2,
+    "stopId": 10,
+    "time": "10:13:00"
+  },
+  {
+    "lineId": 2,
+    "stopId": 11,
+    "time": "10:15:00"
+  }
+]

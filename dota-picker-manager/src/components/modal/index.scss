@@ -1,0 +1,69 @@
+@import '../../styles/variables';
+
+.modal {
+  background: $overlay;
+  border-radius: $radius;
+  cursor: default;
+  max-height: calc(100vh - 2em);
+  max-width: calc(100vw - 2em);
+  overflow: auto;
+  z-index: 1;
+
+  // header
+  > header {
+    background: $overlay-light;
+    display: flex;
+
+    // title
+    > h4 {
+      flex: 1;
+      margin: 0;
+      padding: 1em;
+    }
+
+    // close button
+    > button {
+      appearance: none;
+      background: url('../../assets/clear.svg') center no-repeat;
+      background-size: auto 50%;
+      border: none;
+      cursor: pointer;
+      font: inherit;
+      height: 3em;
+      width: 3em;
+    }
+  }
+
+  // content
+  > section {
+    padding: 0 1em;
+
+    // forms
+    > form {
+      > .error,
+      > .message {
+        border-radius: 0;
+        margin: 0 -1em;
+      }
+
+      // buttons
+      > div:last-child {
+        display: flex;
+        margin: 4em -1em 0 -1em;
+
+        > button {
+          border-radius: 0;
+          flex: 1;
+
+          &:first-child {
+            border-bottom-left-radius: $radius;
+          }
+
+          &:last-child {
+            border-bottom-right-radius: $radius;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{{#if placeholder}}
+	<option disabled selected hidden value="">{{placeholder}}</option>
+{{/if}}
+{{#each content as |option index|}}
+	{{#if (equals this.value option.value)}}
+		<option value="{{option.value}}" data-index="{{index}}" selected>{{option.label}}</option>
+	{{else}}
+		<option value="{{option.value}}" data-index="{{index}}">{{option.label}}</option>
+	{{/if}}
+{{/each}}

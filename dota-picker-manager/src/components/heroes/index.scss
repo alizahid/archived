@@ -1,0 +1,33 @@
+@import '../../styles/variables';
+
+.heroes {
+  // sections
+  > section {
+    // header
+    > header {
+      padding: 2em 1em 1em;
+
+      // title
+      > h2 {
+        margin: 0;
+      }
+    }
+
+    // heroes
+    > div {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0.5em;
+
+      // link
+      > a {
+        margin: 0.5em;
+
+        &:hover {
+          transform: scale(1.5);
+          z-index: 1;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+<header>
+	<h1>Two Factor app</h1>
+	<nav>
+		<button class="action" {{action 'logout'}}>Logout</button>
+	</nav>
+</header>
+<main>
+	<section class="profile">
+		{{profile-photo model.name}}
+		<div class="details">
+			<h2>{{model.name}}</h2>
+			<h3>{{model.email}}</h3>
+			<h3>{{model.phone.number}}</h3>
+		</div>
+	</section>
+	<section class="two-factor">
+		{{#if twoFactor}}
+			<button class="small" {{action 'disable'}}>Disable Two Factor authentication</button>
+			{{link-to 'View OneTouch requests' 'requests' tagName="button" class="small"}}
+		{{else}}
+			<button class="small" {{action 'enable'}}>Enable Two Factor authentication</button>
+		{{/if}}
+	</section>
+</main>

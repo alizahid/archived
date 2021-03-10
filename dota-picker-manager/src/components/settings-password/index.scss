@@ -1,0 +1,11 @@
+@import '../../styles/variables';
+
+.settings-password {
+  width: 20em;
+
+  > .error,
+  > .message {
+    cursor: pointer;
+    max-width: 80%;
+  }
+}

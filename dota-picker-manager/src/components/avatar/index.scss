@@ -1,0 +1,30 @@
+@import '../../styles/variables';
+
+.avatar {
+  &.large > img {
+    height: 112px;
+    width: 200px;
+  }
+
+  &.small > img {
+    height: 56px;
+    width: 100px;
+  }
+
+  &.tiny > img {
+    height: 28px;
+    width: 50px;
+  }
+
+  > img {
+    border-radius: $radius;
+  }
+
+  > figcaption {
+    background: $overlay;
+    border-bottom-left-radius: $radius;
+    border-bottom-right-radius: $radius;
+    color: $color-text-dark;
+    padding: 0.5em;
+  }
+}

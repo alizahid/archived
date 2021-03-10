@@ -1,0 +1,28 @@
+<header class={{theme}}>
+	{{back-button}}
+	<h1>Invite</h1>
+</header>
+<main class="content">
+	<div class="invite-code">
+		<p>Tap the code below to share it with your friends to invite them to join Crew Untold</p>
+		<h2 {{action 'share'}}>{{model.code}}</h2>
+	</div>
+	<hr>
+	<form {{action 'invite' on='submit'}}>
+		<p>You can also invite them by email</p>
+		{{message-bar error=error success=success}}
+		<label>
+			{{input type="email" value=emailOne placeholder="Email"}}
+		</label>
+		<label>
+			{{input type="email" value=emailTwo placeholder="Email"}}
+		</label>
+		<label>
+			{{input type="email" value=emailThree placeholder="Email"}}
+		</label>
+		<p>
+			<button disabled={{busy}} class={{if busy 'loading'}}>Invite</button>
+		</p>
+	</form>
+</main>
+{{nav-footer 'settings'}}

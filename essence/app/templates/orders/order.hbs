@@ -1,0 +1,56 @@
+<header>
+	{{back-button}}
+	<h1>Order {{model.id}}</h1>
+</header>
+<main class="order">
+	<h2>Details</h2>
+	<table>
+		<thead>
+			<tr>
+				<th>Type</th>
+				<th>Quantity</th>
+				<th>Price</th>
+				<th>Total</th>
+			</tr>
+		</thead>
+		<tbody>
+			{{#each model.items as |item|}}
+			<tr>
+				<td class={{item.type}}>{{item.type}}</td>
+				<td>{{item.quantity}} litres</td>
+				<td>{{format-currency item.price}}</td>
+				<td>{{format-currency item.total}}</td>
+			</tr>
+			{{/each}}
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="3">Total</td>
+				<td>{{format-currency model.total}}</td>
+			</tr>
+		</tfoot>
+	</table>
+	<h2>Seller</h2>
+	<section>
+		<h3>{{model.seller.name}}</h3>
+		<p>
+			<strong>Phone</strong>
+			<a href="tel:{{model.seller.phone}}">{{model.seller.phone}}</a>
+		</p>
+		<p>
+			<strong>Email</strong>
+			<a href="mailto:{{model.seller.email}}">{{model.seller.email}}</a>
+		</p>
+	</section>
+	<h2>Status</h2>
+	<p class="status {{model.status}}">{{model.status}}</p>
+	<p>Have you accepted the gas? Press <em>Complete</em> below to pay your seller. If you'd like to cancel the order and get a refund, press <em>Cancel</em>.</p>
+	<ul>
+		<li>
+			<button class="complete">Complete</button>
+		</li>
+		<li>
+			<button class="cancel">Cancel</button>
+		</li>
+	</ul>
+</main>

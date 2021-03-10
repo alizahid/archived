@@ -1,0 +1,18 @@
+# logs
+*.log
+
+# dependency directories
+node_modules
+
+# cache
+.DS_Store
+
+# output
+public/assets/css/main.css
+public/index.html
+
+# env
+.env
+
+# deployment
+.last_deploy

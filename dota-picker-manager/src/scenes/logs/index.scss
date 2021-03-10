@@ -1,0 +1,15 @@
+@import '../../styles/variables';
+
+.logs {
+  padding: 0 1em;
+
+  .action {
+    font-family: 'Consolas', monospace;
+  }
+
+  .changes {
+    font-family: 'Consolas', monospace;
+    line-height: 1.4;
+    white-space: pre;
+  }
+}

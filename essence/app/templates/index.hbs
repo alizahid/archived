@@ -1,0 +1,28 @@
+<header>
+	{{action-button class="settings" link='settings'}}
+	<h1>Find gas</h1>
+</header>
+<main class="map full">
+	{{#leaflet-map lat=location.latitude lng=location.longitude zoom=location.zoom}}
+		{{tile-layer url="https://api.mapbox.com/styles/v1/mapbox/streets-v8/tiles/{z}/{x}/{y}?access_token={accessToken}" options=mapOptions}}
+		{{#each sellers as |seller|}}
+			{{#marker-layer location=(format-location seller.location)}}
+				{{#each seller.gas as |item|}}
+					{{#if item.quantity}}
+						<h2 class={{item.type}}>{{item.type}}</h2>
+						<p>{{item.quantity}} litres at &euro; {{item.price}} / litre</p>
+					{{/if}}
+				{{/each}}
+				{{#if me.premium}}
+					{{link-to 'Buy' 'seller' seller tagName="button"}}
+				{{else}}
+					{{link-to 'Upgrade' 'settings.payment' tagName="button"}}
+				{{/if}}
+			{{/marker-layer}}
+		{{/each}}
+	{{/leaflet-map}}
+</main>
+<footer>
+	{{link-to null 'buy' tagName="button"}}
+	{{link-to null 'sell' tagName="button"}}
+</footer>

@@ -1,0 +1,22 @@
+$primary: #222;
+$accent: rgb(81, 160, 62);
+
+$color: #222;
+$color-light: lighten($color, 40%);
+$color-dark: darken($color, 10%);
+
+$background: #fff;
+$gray: darken($background, 2%);
+$border: darken($background, 4%);
+$shadow: rgba(0, 0, 0, 0.1);
+$overlay: rgba(0, 0, 0, 0.5);
+
+$success: #4cd964;
+$error: #ff3b30;
+$message: #007aff;
+
+$theme-one: linear-gradient(to right bottom, rgb(118, 94, 230), rgb(28, 159, 255));
+$theme-two: linear-gradient(to right bottom, rgb(232, 79, 83), rgb(235, 189, 148));
+$theme-three: linear-gradient(to right bottom, rgb(149, 77, 176), rgb(113, 89, 240));
+$theme-four: linear-gradient(to right bottom, rgb(81, 160, 62), rgb(170, 223, 93));
+$theme-five: linear-gradient(to right bottom, rgb(85, 141, 235), rgb(83, 210, 229));

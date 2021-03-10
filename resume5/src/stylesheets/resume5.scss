@@ -1,0 +1,178 @@
+@import 'variables';
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+	border-radius: 0;
+	margin: 0;
+	outline: none;
+	padding: 0;
+	user-select: none;
+	text-size-adjust: none;
+	-webkit-touch-callout: none;
+	-webkit-tap-highlight-color: transparent;
+}
+
+body {
+	background: $background;
+	color: $color;
+	cursor: default;
+	font: 400 1em/1 -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+a {
+	color: $accent;
+	text-decoration: none;
+	transition: color 200ms;
+
+	&:hover {
+		color: lighten($accent, 20%);
+	}
+}
+
+h1,
+h2,
+h3 {
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1em;
+	margin: 1em 0;
+}
+
+p {
+	margin: 1em 0;
+	line-height: 1.6;
+}
+
+// Layout
+
+body {
+	padding: 2em;
+}
+
+header {
+	h1,
+	h2 {
+		text-transform: lowercase;
+	}
+
+	h1 {
+		color: $primary;
+		font-weight: 200;
+	}
+
+	h2 {
+		color: $gray;
+		margin-top: 0.5rem;
+	}
+}
+
+section {
+	align-items: center;
+	display: flex;
+	margin-top: 2em;
+
+	a {
+		&:not(:first-child) {
+			margin-left: 1em;
+		}
+
+		&.social {
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 1.5em auto;
+			height: 1.5em;
+			width: 1.5em;
+
+			&.dribbble {
+				background-image: url('../img/dribbble.svg');
+			}
+
+			&.facebook {
+				background-image: url('../img/facebook.svg');
+			}
+
+			&.github {
+				background-image: url('../img/github.svg');
+			}
+
+			&.linkedin {
+				background-image: url('../img/linkedin.svg');
+			}
+
+			&.twitter {
+				background-image: url('../img/twitter.svg');
+			}
+		}
+	}
+}
+
+// Components
+
+.message {
+	align-items: center;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+
+	&:before {
+		background: rgba(255, 255, 255, 0.5);
+		bottom: 0;
+		content: '';
+		left: 0;
+		position: fixed;
+		right: 0;
+		top: 0;
+		z-index: 0;
+	}
+
+	&:after {
+		background: $accent;
+		border-radius: 0.5em 0.5em 0.5em 0;
+		color: $background;
+		content: 'Coming soon';
+		padding: 1em;
+		z-index: 1;
+	}
+}
+
+// Animations
+
+.fade-in {
+	animation: fade-in 500ms;
+}
+
+@keyframes fade-in {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+.fade-out {
+	animation: fade-out 500ms;
+}
+
+@keyframes fade-out {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+	}
+}

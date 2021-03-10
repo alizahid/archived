@@ -1,0 +1,44 @@
+{
+  "name": "bother-api",
+  "license": "MIT",
+  "private": true,
+  "author": {
+    "name": "Ali Zahid",
+    "email": "ali.zahid@live.com",
+    "url": "https://designplox.com"
+  },
+  "scripts": {
+    "dev": "env-cmd ts-node-dev --respawn --transpile-only --no-notify src/index.ts",
+    "postinstall": "prisma2 generate",
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "apollo-server": "^2.9.0",
+    "async": "^3.1.0",
+    "graphql": "^14.5.3",
+    "graphql-middleware": "^4.0.0",
+    "graphql-shield": "^6.0.5",
+    "graphql-tools": "^4.0.5",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "@types/async": "^3.0.1",
+    "@types/jsonwebtoken": "^8.3.3",
+    "@types/lodash": "^4.14.137",
+    "csvtojson": "^2.0.10",
+    "env-cmd": "^9.0.3",
+    "husky": "^3.0.4",
+    "prettier": "^1.18.2",
+    "pretty-quick": "^1.11.1",
+    "ts-node": "^8.3.0",
+    "ts-node-dev": "^1.0.0-pre.41",
+    "typescript": "^3.5.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "common__yes": "Yes",
+  "common__no": "No",
+  "common__error": "Error",
+
+  "screen__home__title": "Summary",
+
+  "screen__home__summary_new": "New",
+  "screen__home__summary_total": "Total",
+  "screen__home__summary_updated": "Updated at {time} on {date}",
+
+  "sceen__user__empty__message": "You need to set your location to access personalized data",
+  "sceen__user__empty__label": "Go to profile",
+
+  "screen__profile__title": "Hello",
+
+  "screen__profile__profile__menu_auth_title": "Auth",
+  "screen__profile__profile__menu_auth_description": "You can sign in by setting your location",
+  "screen__profile__profile__menu_auth_signed_in": "You're signed in",
+  "screen__profile__profile__menu_auth_not_signed_in": "You're not signed in",
+  "screen__profile__profile__menu_auth_sign_out": "Sign out",
+  "screen__profile__profile__menu_location_title": "Location",
+  "screen__profile__profile__menu_location_description": "Set your location to see more personalized data",
+  "screen__profile__profile__menu_location_map": "Find location using map",
+  "screen__profile__profile__menu_location_wifi": "Fetch location using IP address",
+  "screen__profile__profile__menu_location_list": "Pick country from list",
+  "screen__profile__profile__menu_appearance_title": "Appearance",
+  "screen__profile__profile__menu_appearance_description": "Change the appearance of the app",
+  "screen__profile__profile__menu_appearance_theme_light": "Light theme",
+  "screen__profile__profile__menu_appearance_theme_dark": "Dark theme",
+  "screen__profile__profile__menu_appearance_theme_custom": "Custom theme",
+  "screen__profile__profile__menu_locale_title": "Language",
+  "screen__profile__profile__menu_locale_description": "Change the app language",
+  "screen__profile__profile__menu_locale_locale_en": "English",
+  "screen__profile__profile__menu_locale_locale_ar": "Arabic",
+  "screen__profile__profile__menu_locale_locale_ur": "Urdu",
+
+  "screen__profile__map__title": "Find location",
+
+  "screen__profile__ip__title": "Fetch location",
+  "screen__profile__ip__message": "We'll make a request to an API to fetch your IP address and location.\nPress the button below to start.",
+  "screen__profile__ip__fetch": "Fetch",
+
+  "screen__profile__list__title": "Pick location",
+  "screen__profile__list__filter": "Filter",
+
+  "component__country__recovered": "Recovered",
+  "component__country__deaths": "Deaths",
+  "component__country__cases": "Cases",
+  "component__country__new": "New",
+  "component__country__total": "Total",
+
+  "component__details__active": "Active",
+  "component__details__confirmed": "Confirmed",
+  "component__details__deaths": "Deaths",
+  "component__details__recovered": "Recovered",
+
+  "component__date_picker__from": "From",
+  "component__date_picker__to": "To",
+
+  "hook__auth__fetchCountry__title": "Location",
+  "hook__auth__fetchCountry__message": "We've deteced your country to be {country}. Is this correct?",
+
+  "hook__details__fetch__message": "Something went wrong with the API we use to show you data. Try selecting your country from the list."
+}

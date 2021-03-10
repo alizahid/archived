@@ -1,0 +1,65 @@
+{
+  "common__yes": "اختبار",
+  "common__no": "اختبار",
+  "common__error": "اختبار",
+
+  "screen__home__title": "اختبار",
+
+  "screen__home__summary_new": "اختبار",
+  "screen__home__summary_total": "اختبار",
+  "screen__home__summary_updated": "اختبار",
+
+  "sceen__user__empty__message": "اختبار",
+  "sceen__user__empty__label": "اختبار",
+
+  "screen__profile__title": "اختبار",
+
+  "screen__profile__profile__menu_auth_title": "اختبار",
+  "screen__profile__profile__menu_auth_description": "اختبار",
+  "screen__profile__profile__menu_auth_signed_in": "اختبار",
+  "screen__profile__profile__menu_auth_not_signed_in": "اختبار",
+  "screen__profile__profile__menu_auth_sign_out": "اختبار",
+  "screen__profile__profile__menu_location_title": "اختبار",
+  "screen__profile__profile__menu_location_description": "اختبار",
+  "screen__profile__profile__menu_location_map": "اختبار",
+  "screen__profile__profile__menu_location_wifi": "اختبار",
+  "screen__profile__profile__menu_location_list": "اختبار",
+  "screen__profile__profile__menu_appearance_title": "اختبار",
+  "screen__profile__profile__menu_appearance_description": "اختبار",
+  "screen__profile__profile__menu_appearance_theme_light": "اختبار",
+  "screen__profile__profile__menu_appearance_theme_dark": "اختبار",
+  "screen__profile__profile__menu_appearance_theme_custom": "اختبار",
+  "screen__profile__profile__menu_locale_title": "اختبار",
+  "screen__profile__profile__menu_locale_description": "اختبار",
+  "screen__profile__profile__menu_locale_locale_en": "English",
+  "screen__profile__profile__menu_locale_locale_ar": "عربى",
+  "screen__profile__profile__menu_locale_locale_ur": "الأردية",
+
+  "screen__profile__map__title": "اختبار",
+
+  "screen__profile__ip__title": "اختبار",
+  "screen__profile__ip__message": "اختبار",
+  "screen__profile__ip__fetch": "اختبار",
+
+  "screen__profile__list__title": "اختبار",
+  "screen__profile__list__filter": "اختبار",
+
+  "component__country__recovered": "اختبار",
+  "component__country__deaths": "اختبار",
+  "component__country__cases": "اختبار",
+  "component__country__new": "اختبار",
+  "component__country__total": "اختبار",
+
+  "component__details__active": "اختبار",
+  "component__details__confirmed": "اختبار",
+  "component__details__deaths": "اختبار",
+  "component__details__recovered": "اختبار",
+
+  "component__date_picker__from": "اختبار",
+  "component__date_picker__to": "اختبار",
+
+  "hook__auth__fetchCountry__title": "اختبار",
+  "hook__auth__fetchCountry__message": "اختبار",
+
+  "hook__details__fetch__message": "اختبار"
+}

@@ -1,0 +1,16 @@
+$primary: #e80c30;
+$accent: #fd902b;
+
+$color: #222;
+$color-light: lighten($color, 40%);
+$color-dark: darken($color, 10%);
+
+$background: #fff;
+$gray: darken($background, 2%);
+$border: darken($background, 4%);
+$shadow: rgba(0, 0, 0, 0.75);
+$overlay: rgba(0, 0, 0, 0.5);
+
+$success: #4cd964;
+$error: #ff3b30;
+$message: #007aff;

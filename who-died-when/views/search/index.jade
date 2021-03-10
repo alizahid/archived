@@ -1,0 +1,11 @@
+extends /layout
+
+block content
+	h1="Searching for ‘" + query + "’"
+	if results.length > 0
+		.shows
+			each show in results
+				a(href="/shows/" + show.id, style="background-image: url(" + baseUrl + show.poster + ")")
+					p=show.name
+	else
+		h2.error Nothing found.

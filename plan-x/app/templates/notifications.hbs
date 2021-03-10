@@ -1,0 +1,18 @@
+<header>
+	{{back-button}}
+	{{header-button class="right done-all" action=(action 'clearNotifications')}}
+	<h1>Notifications</h1>
+</header>
+{{#pull-to-refresh pull-to-refresh=ptr reload='reload'}}
+	{{#each model as |notification|}}
+		<div {{action 'readNotification' notification}} class="notification-card {{notification.read}}">
+			{{profile-photo notification.user}}
+			<section>
+				<p>{{notification.body}}</p>
+				<small class="time">{{moment-from-now notification.created interval=60000}}</small>
+			</section>
+		</div>
+	{{else}}
+		<p class="super-hero">Kinda lonely in here.</p>
+	{{/each}}
+{{/pull-to-refresh}}

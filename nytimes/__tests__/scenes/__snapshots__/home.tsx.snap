@@ -1,0 +1,4633 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`navigate 1`] = `
+<SafeAreaView
+  forceInset={
+    Object {
+      "top": "never",
+    }
+  }
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    ItemSeparatorComponent={[Function]}
+    ListEmptyComponent={<Loading />}
+    contentContainerStyle={
+      Object {
+        "flexGrow": 1,
+      }
+    }
+    data={
+      Array [
+        Object {
+          "abstract": "The owners of the 5,600-square-foot New Jersey home have set a “starting price” of $3.4 million.",
+          "byline": "By STEFANOS CHEN",
+          "id": 100000006525497,
+          "image": "https://static01.nyt.com/images/2019/06/02/realestate/31EXCLUSIVE-SOPRANOS-slide-4SEN/31EXCLUSIVE-SOPRANOS-slide-4SEN-jumbo.jpg",
+          "published": "2019-05-30T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/06/02/realestate/31EXCLUSIVE-SOPRANOS-slide-4SEN/31EXCLUSIVE-SOPRANOS-slide-4SEN-square320.jpg",
+          "title": "Tony Soprano’s House Hits the Market",
+          "url": "https://www.nytimes.com/2019/05/31/realestate/tony-sopranos-house-for-sale.html",
+          "views": 11,
+        },
+        Object {
+          "abstract": "Chief James A. Cervera of the Virginia Beach Police Department said at an evening news conference that the scene could “best be described as a war zone.”",
+          "byline": "By KATE ANDREWS, CHRISTOPHER MELE and JOHN ELIGON",
+          "id": 100000006535424,
+          "image": "https://static01.nyt.com/images/2019/05/31/multimedia/31xp-virginia1/31xp-virginia1-jumbo-v2.jpg",
+          "published": "2019-05-30T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/31/multimedia/31xp-virginia1/31xp-virginia1-square320-v2.jpg",
+          "title": "12 Killed in Rampage at Municipal Center in Virginia",
+          "url": "https://www.nytimes.com/2019/05/31/us/virginia-beach-shooting.html",
+          "views": 13,
+        },
+        Object {
+          "abstract": "A group of adolescents broke the Scripps National Spelling Bee, with eight contestants crowned co-champions after the competition said it was running out of challenging words.",
+          "byline": "By DANIEL VICTOR",
+          "id": 100000006533973,
+          "image": "https://static01.nyt.com/images/2019/05/31/world/31xp-spellingbee-1/merlin_155687544_c9235910-9dc0-4af4-987a-e33920b39a5f-jumbo.jpg",
+          "published": "2019-05-30T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/31/world/31xp-spellingbee-1/merlin_155687544_c9235910-9dc0-4af4-987a-e33920b39a5f-square320.jpg",
+          "title": "National Spelling Bee, at a Loss for Words, Crowns 8 Co-Champions",
+          "url": "https://www.nytimes.com/2019/05/31/us/national-spelling-bee-champions.html",
+          "views": 14,
+        },
+        Object {
+          "abstract": "President Trump dismissed comments from Robert S. Mueller III, the special counsel, that the Russia inquiry did not clear the president of wrongdoing. “He’s somebody that dislikes Donald Trump.”",
+          "byline": "By PETER BAKER and EILEEN SULLIVAN",
+          "id": 100000006532341,
+          "image": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-trumprussia-videosub/merlin_155666235_0e9ac1bb-f539-421a-909b-bcfab3da1fe0-jumbo.jpg",
+          "published": "2019-05-29T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-trumprussia-videosub/30dc-trumprussia-videosub-square320.jpg",
+          "title": "Trump Accuses Mueller of a Personal Vendetta as Calls for Impeachment Grow",
+          "url": "https://www.nytimes.com/2019/05/30/us/politics/trump-russia-help-elected.html",
+          "views": 4,
+        },
+        Object {
+          "abstract": "Secret recordings captured physicians’ concerns that more children seemed to fare poorly after heart surgery. Their hospital kept doing the operations.",
+          "byline": "By ELLEN GABLER",
+          "id": 100000006528829,
+          "image": "https://static01.nyt.com/images/2019/05/30/us/30cardiac4/merlin_151018062_f631daca-d8b5-45de-aeae-184b81a271fe-jumbo.jpg",
+          "published": "2019-05-29T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/30/us/30cardiac4/merlin_151018062_f631daca-d8b5-45de-aeae-184b81a271fe-square320.jpg",
+          "title": "Doctors Were Alarmed: ‘Would I Have My Children Have Surgery Here?’",
+          "url": "https://www.nytimes.com/interactive/2019/05/30/us/children-heart-surgery-cardiac.html",
+          "views": 6,
+        },
+        Object {
+          "abstract": "Weeks before the Supreme Court rules on the legality of the citizenship question, evidence filed in court could further erode the Trump administration’s rationale for the question.",
+          "byline": "By MICHAEL WINES",
+          "id": 100000006529792,
+          "image": "https://static01.nyt.com/images/2019/05/31/us/31census-p1/29census-01-jumbo.jpg",
+          "published": "2019-05-29T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/31/us/31census-p1/29census-01-square320.jpg",
+          "title": "Deceased G.O.P. Strategist’s Hard Drives Reveal New Details on the Census Citizenship Question",
+          "url": "https://www.nytimes.com/2019/05/30/us/census-citizenship-question-hofeller.html",
+          "views": 10,
+        },
+        Object {
+          "abstract": "Though he did not rule out congressional testimony, the special counsel also said that he would only testify about the facts already in the report.",
+          "byline": "By SHARON LaFRANIERE",
+          "id": 100000006530597,
+          "image": "https://static01.nyt.com/images/2019/05/29/us/politics/29dc-mueller-vid-sub/29dc-mueller-vid-sub-jumbo-v3.jpg",
+          "published": "2019-05-28T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/29/us/politics/29dc-mueller-vid-sub/29dc-mueller-vid-sub-square320-v3.jpg",
+          "title": "Mueller, in First Comments on Russia Inquiry, Declines to Clear Trump",
+          "url": "https://www.nytimes.com/2019/05/29/us/politics/mueller-special-counsel.html",
+          "views": 7,
+        },
+        Object {
+          "abstract": "While Navy officials insisted they did not hide the ship, they did give all of sailors aboard the day off on Tuesday as President Trump visited Yokosuka Naval Base in Japan.",
+          "byline": "By MAGGIE HABERMAN and HELENE COOPER",
+          "id": 100000006531877,
+          "image": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-mccain/69eebec85bf643fda28f10ae8b6b39af-jumbo.jpg",
+          "published": "2019-05-28T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-mccain/29dc-mccain-square320.jpg",
+          "title": "Navy Destroyer John McCain Hidden During Trump’s Japan Visit",
+          "url": "https://www.nytimes.com/2019/05/29/us/politics/uss-mccain-navy-ship.html",
+          "views": 19,
+        },
+        Object {
+          "abstract": "A former People’s Liberation Army journalist defied a political taboo to describe the bloody crackdown in Beijing and urge a national reckoning.",
+          "byline": "By CHRIS BUCKLEY",
+          "id": 100000006521291,
+          "image": "https://static01.nyt.com/images/2019/05/28/world/00china-tiananmen-8/merlin_155529279_5b5c2658-8abf-4757-949e-71158c19906d-jumbo.jpg",
+          "published": "2019-05-27T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/28/world/00china-tiananmen-8/00china-tiananmen-8-square320.jpg",
+          "title": "30 Years After Tiananmen, a Chinese Military Insider Warns: Never Forget",
+          "url": "https://www.nytimes.com/2019/05/28/world/asia/china-tiananmen-square-massacre.html",
+          "views": 17,
+        },
+        Object {
+          "abstract": "We’re taking a break from chronicling your subway woes to appreciate one of the best parts about riding the train: The weird and beautiful sights you regularly stumble upon.",
+          "byline": "By EMMA G. FITZSIMMONS",
+          "id": 100000006522146,
+          "image": "https://static01.nyt.com/images/2019/05/29/multimedia/subwayoddities-1558558990709/subwayoddities-1558558990709-jumbo.jpg",
+          "published": "2019-05-27T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/29/multimedia/subwayoddities-1558558990709/subwayoddities-1558558990709-square320-v2.jpg",
+          "title": "Your Tales of Subway Oddities: Dog in a Bag Edition",
+          "url": "https://www.nytimes.com/interactive/2019/05/28/nyregion/subway-dogs.html",
+          "views": 20,
+        },
+        Object {
+          "abstract": "Pakistan has charged dozens of people with trafficking women to China as wives. Rabia Kanwal was one bride who says she was lied to. In China, her husband has a different story.",
+          "byline": "By SALMAN MASOOD and AMY QIN",
+          "id": 100000006508137,
+          "image": "https://static01.nyt.com/images/2019/05/16/world/00pakistan-china-4/merlin_154911414_e7eb13e1-6942-44cf-af63-b9a900eb747b-jumbo.jpg",
+          "published": "2019-05-26T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/16/world/00pakistan-china-4/merlin_154911414_e7eb13e1-6942-44cf-af63-b9a900eb747b-square320.jpg",
+          "title": "She Thought She’d Married a Rich Chinese Farmer. She Hadn’t.",
+          "url": "https://www.nytimes.com/2019/05/27/world/asia/pakistan-china-trafficking.html",
+          "views": 2,
+        },
+        Object {
+          "abstract": "In a significant escalation, policymakers are seeking to undermine or discard research showing the most dire risks of inaction on climate change.",
+          "byline": "By CORAL DAVENPORT and MARK LANDLER",
+          "id": 100000006523569,
+          "image": "https://static01.nyt.com/images/2019/05/24/us/politics/00dc-cli-trump1/merlin_151256502_8b48e75c-4479-4e89-a186-ae5f913c1c7b-jumbo.jpg",
+          "published": "2019-05-26T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/24/us/politics/00dc-cli-trump1/00dc-cli-trump1-square320.jpg",
+          "title": "Trump Administration Hardens Its Attack on Climate Science",
+          "url": "https://www.nytimes.com/2019/05/27/us/politics/trump-climate-science.html",
+          "views": 12,
+        },
+        Object {
+          "abstract": "No one at the Pentagon is saying that the objects are extraterrestrial, but the Navy has issued new classified guidance for reporting unexplained aerial phenomena.",
+          "byline": "By HELENE COOPER, RALPH BLUMENTHAL and LESLIE KEAN",
+          "id": 100000006515727,
+          "image": "https://static01.nyt.com/images/2019/05/28/us/politics/00dc-ufo2/merlin_98047735_3653fd43-cc8d-4ece-8947-bc0653b1d92d-jumbo.jpg",
+          "published": "2019-05-25T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/28/us/politics/00dc-ufo2/00dc-ufo2-square320.jpg",
+          "title": "‘Wow, What Is That?’ Navy Pilots Report Unexplained Flying Objects",
+          "url": "https://www.nytimes.com/2019/05/26/us/politics/ufo-sightings-navy-pilots.html",
+          "views": 1,
+        },
+        Object {
+          "abstract": "This has been one of the deadliest climbing seasons on the world’s highest peak. Veteran climbers blame increased permits for climbers, including many who are inexperienced.",
+          "byline": "By KAI SCHULTZ, JEFFREY GETTLEMAN, MUJIB MASHAL and BHADRA SHARMA",
+          "id": 100000006527032,
+          "image": "https://static01.nyt.com/images/2019/05/27/world/26everest2-print/merlin_155279730_9a078aae-b874-4b50-9ff4-72a8ec2a93ae-jumbo.jpg",
+          "published": "2019-05-25T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/27/world/26everest2-print/26everest2-print-square320-v2.jpg",
+          "title": "‘It Was Like a Zoo’: Death on an Unruly, Overcrowded Everest",
+          "url": "https://www.nytimes.com/2019/05/26/world/asia/mount-everest-deaths.html",
+          "views": 3,
+        },
+        Object {
+          "abstract": "American cities are being hijacked with an N.S.A. cyberweapon that has already done billions of dollars in damage overseas. The N.S.A. will say nothing.",
+          "byline": "By NICOLE PERLROTH and SCOTT SHANE",
+          "id": 100000006525385,
+          "image": "https://static01.nyt.com/images/2019/05/25/multimedia/25nsa-01/merlin_155371923_6b11a80d-c00a-41bc-a77a-2fa05767d991-jumbo.jpg",
+          "published": "2019-05-24T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/25/multimedia/25nsa-01/25nsa-01-square320.jpg",
+          "title": "In Baltimore and Beyond, a Stolen N.S.A. Tool Wreaks Havoc",
+          "url": "https://www.nytimes.com/2019/05/25/us/nsa-hacking-tool-baltimore.html",
+          "views": 5,
+        },
+        Object {
+          "abstract": "Amanda Eller, 35, said she had started a short hike in a vast forest preserve on Maui when she lost her way.",
+          "byline": "By BREENA KERR",
+          "id": 100000006526666,
+          "image": "https://static01.nyt.com/images/2019/05/27/multimedia/26hiker-p1sub/25hiker1-jumbo.jpg",
+          "published": "2019-05-24T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/27/multimedia/26hiker-p1sub/25hiker1-square320.jpg",
+          "title": "Amanda Eller, Hiker Lost in Hawaii Forest, Is Found Alive After 17 Days",
+          "url": "https://www.nytimes.com/2019/05/25/us/hawaii-hiker.html",
+          "views": 8,
+        },
+        Object {
+          "abstract": "Nancy Pelosi gets to the core of the Trump con, but he just rages on.",
+          "byline": "By MAUREEN DOWD",
+          "id": 100000006525826,
+          "image": "https://static01.nyt.com/images/2019/05/26/opinion/sunday/26Dowd/merlin_155251578_7b186b25-ccf5-4022-9ee4-d5d1eedca525-jumbo.jpg",
+          "published": "2019-05-24T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/26/opinion/sunday/26Dowd/merlin_155251578_7b186b25-ccf5-4022-9ee4-d5d1eedca525-square320.jpg",
+          "title": "Crazy Is as Crazy Does",
+          "url": "https://www.nytimes.com/2019/05/25/opinion/sunday/donald-trump-nancy-pelosi.html",
+          "views": 9,
+        },
+        Object {
+          "abstract": "Dive in! Here are 75 of the latest and greatest books to keep you company as temperatures climb and days grow long.",
+          "byline": "By THE NEW YORK TIMES",
+          "id": 100000006513014,
+          "image": "https://static01.nyt.com/images/2019/06/02/books/review/02SummerReading-INTRO/02SummerReading-INTRO-jumbo.jpg",
+          "published": "2019-05-22T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/06/02/books/review/02SummerReading-INTRO/02SummerReading-INTRO-square320.jpg",
+          "title": "Summer Reading",
+          "url": "https://www.nytimes.com/interactive/2019/books/summer-reading.html",
+          "views": 15,
+        },
+        Object {
+          "abstract": "皇室の存続は、彼女の肩にかかっていた。そして、その呪縛から逃れられなかった。",
+          "byline": "By MOTOKO RICH",
+          "id": 100000006484502,
+          "image": "https://static01.nyt.com/images/2019/04/30/world/00throne-08/00throne-08-jumbo.jpg",
+          "published": "2019-04-28T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/04/30/world/00throne-08/00throne-08-square320-v9.jpg",
+          "title": "籠の中の皇太子妃",
+          "url": "https://www.nytimes.com/ja/2019/04/29/world/asia/abdication-princess-masako-japanese-translation.html",
+          "views": 18,
+        },
+        Object {
+          "abstract": "We’ve plucked out the 50 best films currently streaming on Netflix in the United States. Take a look.",
+          "byline": "By JASON BAILEY",
+          "id": 100000006330108,
+          "image": "https://static01.nyt.com/images/2016/06/19/watching/pulp-fiction-watching-recommendation/pulp-fiction-watching-recommendation-jumbo.jpg",
+          "published": "2019-03-05T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2016/06/19/watching/pulp-fiction-watching-recommendation/pulp-fiction-watching-recommendation-square320.jpg",
+          "title": "The 50 Best Movies on Netflix Right Now",
+          "url": "https://www.nytimes.com/interactive/2019/arts/television/best-movies-on-netflix.html",
+          "views": 16,
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    refreshControl={
+      <RefreshControlMock
+        colors={
+          Array [
+            "#4CD964",
+          ]
+        }
+        onRefresh={[Function]}
+        refreshing={false}
+        tintColor="#4CD964"
+      />
+    }
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <RCTRefreshControl />
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "opacity": 1,
+              "padding": 20,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://static01.nyt.com/images/2019/06/02/realestate/31EXCLUSIVE-SOPRANOS-slide-4SEN/31EXCLUSIVE-SOPRANOS-slide-4SEN-square320.jpg",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#EFEFF4",
+                "borderRadius": 25,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "marginLeft": 20,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 15,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.24,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              Tony Soprano’s House Hits the Market
+            </Text>
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#8E8E93",
+                  "fontFamily": "System",
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.078,
+                  "lineHeight": 18,
+                  "marginVertical": 10,
+                }
+              }
+            >
+              By Stefanos Chen
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/icons8-calendar.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#8E8E93",
+                    "fontFamily": "System",
+                    "fontSize": 13,
+                    "fontWeight": "400",
+                    "letterSpacing": -0.078,
+                    "lineHeight": 18,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                5/31/2019
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderTopColor": "#EFEFF4",
+              "borderTopWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "opacity": 1,
+              "padding": 20,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://static01.nyt.com/images/2019/05/31/multimedia/31xp-virginia1/31xp-virginia1-square320-v2.jpg",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#EFEFF4",
+                "borderRadius": 25,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "marginLeft": 20,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 15,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.24,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              12 Killed in Rampage at Municipal Center in Virginia
+            </Text>
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#8E8E93",
+                  "fontFamily": "System",
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.078,
+                  "lineHeight": 18,
+                  "marginVertical": 10,
+                }
+              }
+            >
+              By Kate Andrews Christopher Mele And John Eligon
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/icons8-calendar.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#8E8E93",
+                    "fontFamily": "System",
+                    "fontSize": 13,
+                    "fontWeight": "400",
+                    "letterSpacing": -0.078,
+                    "lineHeight": 18,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                5/31/2019
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderTopColor": "#EFEFF4",
+              "borderTopWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "opacity": 1,
+              "padding": 20,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://static01.nyt.com/images/2019/05/31/world/31xp-spellingbee-1/merlin_155687544_c9235910-9dc0-4af4-987a-e33920b39a5f-square320.jpg",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#EFEFF4",
+                "borderRadius": 25,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "marginLeft": 20,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 15,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.24,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              National Spelling Bee, at a Loss for Words, Crowns 8 Co-Champions
+            </Text>
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#8E8E93",
+                  "fontFamily": "System",
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.078,
+                  "lineHeight": 18,
+                  "marginVertical": 10,
+                }
+              }
+            >
+              By Daniel Victor
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/icons8-calendar.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#8E8E93",
+                    "fontFamily": "System",
+                    "fontSize": 13,
+                    "fontWeight": "400",
+                    "letterSpacing": -0.078,
+                    "lineHeight": 18,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                5/31/2019
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderTopColor": "#EFEFF4",
+              "borderTopWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "opacity": 1,
+              "padding": 20,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-trumprussia-videosub/30dc-trumprussia-videosub-square320.jpg",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#EFEFF4",
+                "borderRadius": 25,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "marginLeft": 20,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 15,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.24,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              Trump Accuses Mueller of a Personal Vendetta as Calls for Impeachment Grow
+            </Text>
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#8E8E93",
+                  "fontFamily": "System",
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.078,
+                  "lineHeight": 18,
+                  "marginVertical": 10,
+                }
+              }
+            >
+              By Peter Baker And Eileen Sullivan
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/icons8-calendar.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#8E8E93",
+                    "fontFamily": "System",
+                    "fontSize": 13,
+                    "fontWeight": "400",
+                    "letterSpacing": -0.078,
+                    "lineHeight": 18,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                5/30/2019
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderTopColor": "#EFEFF4",
+              "borderTopWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "opacity": 1,
+              "padding": 20,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://static01.nyt.com/images/2019/05/30/us/30cardiac4/merlin_151018062_f631daca-d8b5-45de-aeae-184b81a271fe-square320.jpg",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#EFEFF4",
+                "borderRadius": 25,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "marginLeft": 20,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 15,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.24,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              Doctors Were Alarmed: ‘Would I Have My Children Have Surgery Here?’
+            </Text>
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#8E8E93",
+                  "fontFamily": "System",
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.078,
+                  "lineHeight": 18,
+                  "marginVertical": 10,
+                }
+              }
+            >
+              By Ellen Gabler
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/icons8-calendar.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#8E8E93",
+                    "fontFamily": "System",
+                    "fontSize": 13,
+                    "fontWeight": "400",
+                    "letterSpacing": -0.078,
+                    "lineHeight": 18,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                5/30/2019
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderTopColor": "#EFEFF4",
+              "borderTopWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "opacity": 1,
+              "padding": 20,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://static01.nyt.com/images/2019/05/31/us/31census-p1/29census-01-square320.jpg",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#EFEFF4",
+                "borderRadius": 25,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "marginLeft": 20,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 15,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.24,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              Deceased G.O.P. Strategist’s Hard Drives Reveal New Details on the Census Citizenship Question
+            </Text>
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#8E8E93",
+                  "fontFamily": "System",
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.078,
+                  "lineHeight": 18,
+                  "marginVertical": 10,
+                }
+              }
+            >
+              By Michael Wines
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/icons8-calendar.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#8E8E93",
+                    "fontFamily": "System",
+                    "fontSize": 13,
+                    "fontWeight": "400",
+                    "letterSpacing": -0.078,
+                    "lineHeight": 18,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                5/30/2019
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderTopColor": "#EFEFF4",
+              "borderTopWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "opacity": 1,
+              "padding": 20,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://static01.nyt.com/images/2019/05/29/us/politics/29dc-mueller-vid-sub/29dc-mueller-vid-sub-square320-v3.jpg",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#EFEFF4",
+                "borderRadius": 25,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "marginLeft": 20,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 15,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.24,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              Mueller, in First Comments on Russia Inquiry, Declines to Clear Trump
+            </Text>
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#8E8E93",
+                  "fontFamily": "System",
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.078,
+                  "lineHeight": 18,
+                  "marginVertical": 10,
+                }
+              }
+            >
+              By Sharon La Franiere
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/icons8-calendar.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#8E8E93",
+                    "fontFamily": "System",
+                    "fontSize": 13,
+                    "fontWeight": "400",
+                    "letterSpacing": -0.078,
+                    "lineHeight": 18,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                5/29/2019
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderTopColor": "#EFEFF4",
+              "borderTopWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "opacity": 1,
+              "padding": 20,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-mccain/29dc-mccain-square320.jpg",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#EFEFF4",
+                "borderRadius": 25,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "marginLeft": 20,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 15,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.24,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              Navy Destroyer John McCain Hidden During Trump’s Japan Visit
+            </Text>
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#8E8E93",
+                  "fontFamily": "System",
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.078,
+                  "lineHeight": 18,
+                  "marginVertical": 10,
+                }
+              }
+            >
+              By Maggie Haberman And Helene Cooper
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/icons8-calendar.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#8E8E93",
+                    "fontFamily": "System",
+                    "fontSize": 13,
+                    "fontWeight": "400",
+                    "letterSpacing": -0.078,
+                    "lineHeight": 18,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                5/29/2019
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderTopColor": "#EFEFF4",
+              "borderTopWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "opacity": 1,
+              "padding": 20,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://static01.nyt.com/images/2019/05/28/world/00china-tiananmen-8/00china-tiananmen-8-square320.jpg",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#EFEFF4",
+                "borderRadius": 25,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "marginLeft": 20,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 15,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.24,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              30 Years After Tiananmen, a Chinese Military Insider Warns: Never Forget
+            </Text>
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#8E8E93",
+                  "fontFamily": "System",
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.078,
+                  "lineHeight": 18,
+                  "marginVertical": 10,
+                }
+              }
+            >
+              By Chris Buckley
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/icons8-calendar.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#8E8E93",
+                    "fontFamily": "System",
+                    "fontSize": 13,
+                    "fontWeight": "400",
+                    "letterSpacing": -0.078,
+                    "lineHeight": 18,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                5/28/2019
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderTopColor": "#EFEFF4",
+              "borderTopWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "opacity": 1,
+              "padding": 20,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://static01.nyt.com/images/2019/05/29/multimedia/subwayoddities-1558558990709/subwayoddities-1558558990709-square320-v2.jpg",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#EFEFF4",
+                "borderRadius": 25,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "marginLeft": 20,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 15,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.24,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              Your Tales of Subway Oddities: Dog in a Bag Edition
+            </Text>
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#8E8E93",
+                  "fontFamily": "System",
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.078,
+                  "lineHeight": 18,
+                  "marginVertical": 10,
+                }
+              }
+            >
+              By Emma G Fitzsimmons
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/icons8-calendar.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#8E8E93",
+                    "fontFamily": "System",
+                    "fontSize": 13,
+                    "fontWeight": "400",
+                    "letterSpacing": -0.078,
+                    "lineHeight": 18,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                5/28/2019
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderTopColor": "#EFEFF4",
+              "borderTopWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "height": 0,
+          }
+        }
+      />
+    </View>
+  </RCTScrollView>
+</SafeAreaView>
+`;
+
+exports[`refresh 1`] = `
+<SafeAreaView
+  forceInset={
+    Object {
+      "top": "never",
+    }
+  }
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    ItemSeparatorComponent={[Function]}
+    ListEmptyComponent={<Loading />}
+    contentContainerStyle={
+      Object {
+        "flexGrow": 1,
+      }
+    }
+    data={
+      Array [
+        Object {
+          "abstract": "The owners of the 5,600-square-foot New Jersey home have set a “starting price” of $3.4 million.",
+          "byline": "By STEFANOS CHEN",
+          "id": 100000006525497,
+          "image": "https://static01.nyt.com/images/2019/06/02/realestate/31EXCLUSIVE-SOPRANOS-slide-4SEN/31EXCLUSIVE-SOPRANOS-slide-4SEN-jumbo.jpg",
+          "published": "2019-05-30T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/06/02/realestate/31EXCLUSIVE-SOPRANOS-slide-4SEN/31EXCLUSIVE-SOPRANOS-slide-4SEN-square320.jpg",
+          "title": "Tony Soprano’s House Hits the Market",
+          "url": "https://www.nytimes.com/2019/05/31/realestate/tony-sopranos-house-for-sale.html",
+          "views": 11,
+        },
+        Object {
+          "abstract": "Chief James A. Cervera of the Virginia Beach Police Department said at an evening news conference that the scene could “best be described as a war zone.”",
+          "byline": "By KATE ANDREWS, CHRISTOPHER MELE and JOHN ELIGON",
+          "id": 100000006535424,
+          "image": "https://static01.nyt.com/images/2019/05/31/multimedia/31xp-virginia1/31xp-virginia1-jumbo-v2.jpg",
+          "published": "2019-05-30T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/31/multimedia/31xp-virginia1/31xp-virginia1-square320-v2.jpg",
+          "title": "12 Killed in Rampage at Municipal Center in Virginia",
+          "url": "https://www.nytimes.com/2019/05/31/us/virginia-beach-shooting.html",
+          "views": 13,
+        },
+        Object {
+          "abstract": "A group of adolescents broke the Scripps National Spelling Bee, with eight contestants crowned co-champions after the competition said it was running out of challenging words.",
+          "byline": "By DANIEL VICTOR",
+          "id": 100000006533973,
+          "image": "https://static01.nyt.com/images/2019/05/31/world/31xp-spellingbee-1/merlin_155687544_c9235910-9dc0-4af4-987a-e33920b39a5f-jumbo.jpg",
+          "published": "2019-05-30T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/31/world/31xp-spellingbee-1/merlin_155687544_c9235910-9dc0-4af4-987a-e33920b39a5f-square320.jpg",
+          "title": "National Spelling Bee, at a Loss for Words, Crowns 8 Co-Champions",
+          "url": "https://www.nytimes.com/2019/05/31/us/national-spelling-bee-champions.html",
+          "views": 14,
+        },
+        Object {
+          "abstract": "President Trump dismissed comments from Robert S. Mueller III, the special counsel, that the Russia inquiry did not clear the president of wrongdoing. “He’s somebody that dislikes Donald Trump.”",
+          "byline": "By PETER BAKER and EILEEN SULLIVAN",
+          "id": 100000006532341,
+          "image": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-trumprussia-videosub/merlin_155666235_0e9ac1bb-f539-421a-909b-bcfab3da1fe0-jumbo.jpg",
+          "published": "2019-05-29T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-trumprussia-videosub/30dc-trumprussia-videosub-square320.jpg",
+          "title": "Trump Accuses Mueller of a Personal Vendetta as Calls for Impeachment Grow",
+          "url": "https://www.nytimes.com/2019/05/30/us/politics/trump-russia-help-elected.html",
+          "views": 4,
+        },
+        Object {
+          "abstract": "Secret recordings captured physicians’ concerns that more children seemed to fare poorly after heart surgery. Their hospital kept doing the operations.",
+          "byline": "By ELLEN GABLER",
+          "id": 100000006528829,
+          "image": "https://static01.nyt.com/images/2019/05/30/us/30cardiac4/merlin_151018062_f631daca-d8b5-45de-aeae-184b81a271fe-jumbo.jpg",
+          "published": "2019-05-29T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/30/us/30cardiac4/merlin_151018062_f631daca-d8b5-45de-aeae-184b81a271fe-square320.jpg",
+          "title": "Doctors Were Alarmed: ‘Would I Have My Children Have Surgery Here?’",
+          "url": "https://www.nytimes.com/interactive/2019/05/30/us/children-heart-surgery-cardiac.html",
+          "views": 6,
+        },
+        Object {
+          "abstract": "Weeks before the Supreme Court rules on the legality of the citizenship question, evidence filed in court could further erode the Trump administration’s rationale for the question.",
+          "byline": "By MICHAEL WINES",
+          "id": 100000006529792,
+          "image": "https://static01.nyt.com/images/2019/05/31/us/31census-p1/29census-01-jumbo.jpg",
+          "published": "2019-05-29T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/31/us/31census-p1/29census-01-square320.jpg",
+          "title": "Deceased G.O.P. Strategist’s Hard Drives Reveal New Details on the Census Citizenship Question",
+          "url": "https://www.nytimes.com/2019/05/30/us/census-citizenship-question-hofeller.html",
+          "views": 10,
+        },
+        Object {
+          "abstract": "Though he did not rule out congressional testimony, the special counsel also said that he would only testify about the facts already in the report.",
+          "byline": "By SHARON LaFRANIERE",
+          "id": 100000006530597,
+          "image": "https://static01.nyt.com/images/2019/05/29/us/politics/29dc-mueller-vid-sub/29dc-mueller-vid-sub-jumbo-v3.jpg",
+          "published": "2019-05-28T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/29/us/politics/29dc-mueller-vid-sub/29dc-mueller-vid-sub-square320-v3.jpg",
+          "title": "Mueller, in First Comments on Russia Inquiry, Declines to Clear Trump",
+          "url": "https://www.nytimes.com/2019/05/29/us/politics/mueller-special-counsel.html",
+          "views": 7,
+        },
+        Object {
+          "abstract": "While Navy officials insisted they did not hide the ship, they did give all of sailors aboard the day off on Tuesday as President Trump visited Yokosuka Naval Base in Japan.",
+          "byline": "By MAGGIE HABERMAN and HELENE COOPER",
+          "id": 100000006531877,
+          "image": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-mccain/69eebec85bf643fda28f10ae8b6b39af-jumbo.jpg",
+          "published": "2019-05-28T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-mccain/29dc-mccain-square320.jpg",
+          "title": "Navy Destroyer John McCain Hidden During Trump’s Japan Visit",
+          "url": "https://www.nytimes.com/2019/05/29/us/politics/uss-mccain-navy-ship.html",
+          "views": 19,
+        },
+        Object {
+          "abstract": "A former People’s Liberation Army journalist defied a political taboo to describe the bloody crackdown in Beijing and urge a national reckoning.",
+          "byline": "By CHRIS BUCKLEY",
+          "id": 100000006521291,
+          "image": "https://static01.nyt.com/images/2019/05/28/world/00china-tiananmen-8/merlin_155529279_5b5c2658-8abf-4757-949e-71158c19906d-jumbo.jpg",
+          "published": "2019-05-27T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/28/world/00china-tiananmen-8/00china-tiananmen-8-square320.jpg",
+          "title": "30 Years After Tiananmen, a Chinese Military Insider Warns: Never Forget",
+          "url": "https://www.nytimes.com/2019/05/28/world/asia/china-tiananmen-square-massacre.html",
+          "views": 17,
+        },
+        Object {
+          "abstract": "We’re taking a break from chronicling your subway woes to appreciate one of the best parts about riding the train: The weird and beautiful sights you regularly stumble upon.",
+          "byline": "By EMMA G. FITZSIMMONS",
+          "id": 100000006522146,
+          "image": "https://static01.nyt.com/images/2019/05/29/multimedia/subwayoddities-1558558990709/subwayoddities-1558558990709-jumbo.jpg",
+          "published": "2019-05-27T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/29/multimedia/subwayoddities-1558558990709/subwayoddities-1558558990709-square320-v2.jpg",
+          "title": "Your Tales of Subway Oddities: Dog in a Bag Edition",
+          "url": "https://www.nytimes.com/interactive/2019/05/28/nyregion/subway-dogs.html",
+          "views": 20,
+        },
+        Object {
+          "abstract": "Pakistan has charged dozens of people with trafficking women to China as wives. Rabia Kanwal was one bride who says she was lied to. In China, her husband has a different story.",
+          "byline": "By SALMAN MASOOD and AMY QIN",
+          "id": 100000006508137,
+          "image": "https://static01.nyt.com/images/2019/05/16/world/00pakistan-china-4/merlin_154911414_e7eb13e1-6942-44cf-af63-b9a900eb747b-jumbo.jpg",
+          "published": "2019-05-26T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/16/world/00pakistan-china-4/merlin_154911414_e7eb13e1-6942-44cf-af63-b9a900eb747b-square320.jpg",
+          "title": "She Thought She’d Married a Rich Chinese Farmer. She Hadn’t.",
+          "url": "https://www.nytimes.com/2019/05/27/world/asia/pakistan-china-trafficking.html",
+          "views": 2,
+        },
+        Object {
+          "abstract": "In a significant escalation, policymakers are seeking to undermine or discard research showing the most dire risks of inaction on climate change.",
+          "byline": "By CORAL DAVENPORT and MARK LANDLER",
+          "id": 100000006523569,
+          "image": "https://static01.nyt.com/images/2019/05/24/us/politics/00dc-cli-trump1/merlin_151256502_8b48e75c-4479-4e89-a186-ae5f913c1c7b-jumbo.jpg",
+          "published": "2019-05-26T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/24/us/politics/00dc-cli-trump1/00dc-cli-trump1-square320.jpg",
+          "title": "Trump Administration Hardens Its Attack on Climate Science",
+          "url": "https://www.nytimes.com/2019/05/27/us/politics/trump-climate-science.html",
+          "views": 12,
+        },
+        Object {
+          "abstract": "No one at the Pentagon is saying that the objects are extraterrestrial, but the Navy has issued new classified guidance for reporting unexplained aerial phenomena.",
+          "byline": "By HELENE COOPER, RALPH BLUMENTHAL and LESLIE KEAN",
+          "id": 100000006515727,
+          "image": "https://static01.nyt.com/images/2019/05/28/us/politics/00dc-ufo2/merlin_98047735_3653fd43-cc8d-4ece-8947-bc0653b1d92d-jumbo.jpg",
+          "published": "2019-05-25T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/28/us/politics/00dc-ufo2/00dc-ufo2-square320.jpg",
+          "title": "‘Wow, What Is That?’ Navy Pilots Report Unexplained Flying Objects",
+          "url": "https://www.nytimes.com/2019/05/26/us/politics/ufo-sightings-navy-pilots.html",
+          "views": 1,
+        },
+        Object {
+          "abstract": "This has been one of the deadliest climbing seasons on the world’s highest peak. Veteran climbers blame increased permits for climbers, including many who are inexperienced.",
+          "byline": "By KAI SCHULTZ, JEFFREY GETTLEMAN, MUJIB MASHAL and BHADRA SHARMA",
+          "id": 100000006527032,
+          "image": "https://static01.nyt.com/images/2019/05/27/world/26everest2-print/merlin_155279730_9a078aae-b874-4b50-9ff4-72a8ec2a93ae-jumbo.jpg",
+          "published": "2019-05-25T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/27/world/26everest2-print/26everest2-print-square320-v2.jpg",
+          "title": "‘It Was Like a Zoo’: Death on an Unruly, Overcrowded Everest",
+          "url": "https://www.nytimes.com/2019/05/26/world/asia/mount-everest-deaths.html",
+          "views": 3,
+        },
+        Object {
+          "abstract": "American cities are being hijacked with an N.S.A. cyberweapon that has already done billions of dollars in damage overseas. The N.S.A. will say nothing.",
+          "byline": "By NICOLE PERLROTH and SCOTT SHANE",
+          "id": 100000006525385,
+          "image": "https://static01.nyt.com/images/2019/05/25/multimedia/25nsa-01/merlin_155371923_6b11a80d-c00a-41bc-a77a-2fa05767d991-jumbo.jpg",
+          "published": "2019-05-24T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/25/multimedia/25nsa-01/25nsa-01-square320.jpg",
+          "title": "In Baltimore and Beyond, a Stolen N.S.A. Tool Wreaks Havoc",
+          "url": "https://www.nytimes.com/2019/05/25/us/nsa-hacking-tool-baltimore.html",
+          "views": 5,
+        },
+        Object {
+          "abstract": "Amanda Eller, 35, said she had started a short hike in a vast forest preserve on Maui when she lost her way.",
+          "byline": "By BREENA KERR",
+          "id": 100000006526666,
+          "image": "https://static01.nyt.com/images/2019/05/27/multimedia/26hiker-p1sub/25hiker1-jumbo.jpg",
+          "published": "2019-05-24T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/27/multimedia/26hiker-p1sub/25hiker1-square320.jpg",
+          "title": "Amanda Eller, Hiker Lost in Hawaii Forest, Is Found Alive After 17 Days",
+          "url": "https://www.nytimes.com/2019/05/25/us/hawaii-hiker.html",
+          "views": 8,
+        },
+        Object {
+          "abstract": "Nancy Pelosi gets to the core of the Trump con, but he just rages on.",
+          "byline": "By MAUREEN DOWD",
+          "id": 100000006525826,
+          "image": "https://static01.nyt.com/images/2019/05/26/opinion/sunday/26Dowd/merlin_155251578_7b186b25-ccf5-4022-9ee4-d5d1eedca525-jumbo.jpg",
+          "published": "2019-05-24T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/26/opinion/sunday/26Dowd/merlin_155251578_7b186b25-ccf5-4022-9ee4-d5d1eedca525-square320.jpg",
+          "title": "Crazy Is as Crazy Does",
+          "url": "https://www.nytimes.com/2019/05/25/opinion/sunday/donald-trump-nancy-pelosi.html",
+          "views": 9,
+        },
+        Object {
+          "abstract": "Dive in! Here are 75 of the latest and greatest books to keep you company as temperatures climb and days grow long.",
+          "byline": "By THE NEW YORK TIMES",
+          "id": 100000006513014,
+          "image": "https://static01.nyt.com/images/2019/06/02/books/review/02SummerReading-INTRO/02SummerReading-INTRO-jumbo.jpg",
+          "published": "2019-05-22T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/06/02/books/review/02SummerReading-INTRO/02SummerReading-INTRO-square320.jpg",
+          "title": "Summer Reading",
+          "url": "https://www.nytimes.com/interactive/2019/books/summer-reading.html",
+          "views": 15,
+        },
+        Object {
+          "abstract": "皇室の存続は、彼女の肩にかかっていた。そして、その呪縛から逃れられなかった。",
+          "byline": "By MOTOKO RICH",
+          "id": 100000006484502,
+          "image": "https://static01.nyt.com/images/2019/04/30/world/00throne-08/00throne-08-jumbo.jpg",
+          "published": "2019-04-28T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/04/30/world/00throne-08/00throne-08-square320-v9.jpg",
+          "title": "籠の中の皇太子妃",
+          "url": "https://www.nytimes.com/ja/2019/04/29/world/asia/abdication-princess-masako-japanese-translation.html",
+          "views": 18,
+        },
+        Object {
+          "abstract": "We’ve plucked out the 50 best films currently streaming on Netflix in the United States. Take a look.",
+          "byline": "By JASON BAILEY",
+          "id": 100000006330108,
+          "image": "https://static01.nyt.com/images/2016/06/19/watching/pulp-fiction-watching-recommendation/pulp-fiction-watching-recommendation-jumbo.jpg",
+          "published": "2019-03-05T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2016/06/19/watching/pulp-fiction-watching-recommendation/pulp-fiction-watching-recommendation-square320.jpg",
+          "title": "The 50 Best Movies on Netflix Right Now",
+          "url": "https://www.nytimes.com/interactive/2019/arts/television/best-movies-on-netflix.html",
+          "views": 16,
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    refreshControl={
+      <RefreshControlMock
+        colors={
+          Array [
+            "#4CD964",
+          ]
+        }
+        onRefresh={[Function]}
+        refreshing={false}
+        tintColor="#4CD964"
+      />
+    }
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <RCTRefreshControl />
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "opacity": 1,
+              "padding": 20,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://static01.nyt.com/images/2019/06/02/realestate/31EXCLUSIVE-SOPRANOS-slide-4SEN/31EXCLUSIVE-SOPRANOS-slide-4SEN-square320.jpg",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#EFEFF4",
+                "borderRadius": 25,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "marginLeft": 20,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 15,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.24,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              Tony Soprano’s House Hits the Market
+            </Text>
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#8E8E93",
+                  "fontFamily": "System",
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.078,
+                  "lineHeight": 18,
+                  "marginVertical": 10,
+                }
+              }
+            >
+              By Stefanos Chen
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/icons8-calendar.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#8E8E93",
+                    "fontFamily": "System",
+                    "fontSize": 13,
+                    "fontWeight": "400",
+                    "letterSpacing": -0.078,
+                    "lineHeight": 18,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                5/31/2019
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderTopColor": "#EFEFF4",
+              "borderTopWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "opacity": 1,
+              "padding": 20,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://static01.nyt.com/images/2019/05/31/multimedia/31xp-virginia1/31xp-virginia1-square320-v2.jpg",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#EFEFF4",
+                "borderRadius": 25,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "marginLeft": 20,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 15,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.24,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              12 Killed in Rampage at Municipal Center in Virginia
+            </Text>
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#8E8E93",
+                  "fontFamily": "System",
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.078,
+                  "lineHeight": 18,
+                  "marginVertical": 10,
+                }
+              }
+            >
+              By Kate Andrews Christopher Mele And John Eligon
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/icons8-calendar.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#8E8E93",
+                    "fontFamily": "System",
+                    "fontSize": 13,
+                    "fontWeight": "400",
+                    "letterSpacing": -0.078,
+                    "lineHeight": 18,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                5/31/2019
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderTopColor": "#EFEFF4",
+              "borderTopWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "opacity": 1,
+              "padding": 20,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://static01.nyt.com/images/2019/05/31/world/31xp-spellingbee-1/merlin_155687544_c9235910-9dc0-4af4-987a-e33920b39a5f-square320.jpg",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#EFEFF4",
+                "borderRadius": 25,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "marginLeft": 20,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 15,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.24,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              National Spelling Bee, at a Loss for Words, Crowns 8 Co-Champions
+            </Text>
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#8E8E93",
+                  "fontFamily": "System",
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.078,
+                  "lineHeight": 18,
+                  "marginVertical": 10,
+                }
+              }
+            >
+              By Daniel Victor
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/icons8-calendar.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#8E8E93",
+                    "fontFamily": "System",
+                    "fontSize": 13,
+                    "fontWeight": "400",
+                    "letterSpacing": -0.078,
+                    "lineHeight": 18,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                5/31/2019
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderTopColor": "#EFEFF4",
+              "borderTopWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "opacity": 1,
+              "padding": 20,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-trumprussia-videosub/30dc-trumprussia-videosub-square320.jpg",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#EFEFF4",
+                "borderRadius": 25,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "marginLeft": 20,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 15,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.24,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              Trump Accuses Mueller of a Personal Vendetta as Calls for Impeachment Grow
+            </Text>
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#8E8E93",
+                  "fontFamily": "System",
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.078,
+                  "lineHeight": 18,
+                  "marginVertical": 10,
+                }
+              }
+            >
+              By Peter Baker And Eileen Sullivan
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/icons8-calendar.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#8E8E93",
+                    "fontFamily": "System",
+                    "fontSize": 13,
+                    "fontWeight": "400",
+                    "letterSpacing": -0.078,
+                    "lineHeight": 18,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                5/30/2019
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderTopColor": "#EFEFF4",
+              "borderTopWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "opacity": 1,
+              "padding": 20,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://static01.nyt.com/images/2019/05/30/us/30cardiac4/merlin_151018062_f631daca-d8b5-45de-aeae-184b81a271fe-square320.jpg",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#EFEFF4",
+                "borderRadius": 25,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "marginLeft": 20,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 15,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.24,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              Doctors Were Alarmed: ‘Would I Have My Children Have Surgery Here?’
+            </Text>
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#8E8E93",
+                  "fontFamily": "System",
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.078,
+                  "lineHeight": 18,
+                  "marginVertical": 10,
+                }
+              }
+            >
+              By Ellen Gabler
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/icons8-calendar.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#8E8E93",
+                    "fontFamily": "System",
+                    "fontSize": 13,
+                    "fontWeight": "400",
+                    "letterSpacing": -0.078,
+                    "lineHeight": 18,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                5/30/2019
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderTopColor": "#EFEFF4",
+              "borderTopWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "opacity": 1,
+              "padding": 20,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://static01.nyt.com/images/2019/05/31/us/31census-p1/29census-01-square320.jpg",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#EFEFF4",
+                "borderRadius": 25,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "marginLeft": 20,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 15,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.24,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              Deceased G.O.P. Strategist’s Hard Drives Reveal New Details on the Census Citizenship Question
+            </Text>
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#8E8E93",
+                  "fontFamily": "System",
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.078,
+                  "lineHeight": 18,
+                  "marginVertical": 10,
+                }
+              }
+            >
+              By Michael Wines
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/icons8-calendar.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#8E8E93",
+                    "fontFamily": "System",
+                    "fontSize": 13,
+                    "fontWeight": "400",
+                    "letterSpacing": -0.078,
+                    "lineHeight": 18,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                5/30/2019
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderTopColor": "#EFEFF4",
+              "borderTopWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "opacity": 1,
+              "padding": 20,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://static01.nyt.com/images/2019/05/29/us/politics/29dc-mueller-vid-sub/29dc-mueller-vid-sub-square320-v3.jpg",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#EFEFF4",
+                "borderRadius": 25,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "marginLeft": 20,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 15,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.24,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              Mueller, in First Comments on Russia Inquiry, Declines to Clear Trump
+            </Text>
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#8E8E93",
+                  "fontFamily": "System",
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.078,
+                  "lineHeight": 18,
+                  "marginVertical": 10,
+                }
+              }
+            >
+              By Sharon La Franiere
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/icons8-calendar.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#8E8E93",
+                    "fontFamily": "System",
+                    "fontSize": 13,
+                    "fontWeight": "400",
+                    "letterSpacing": -0.078,
+                    "lineHeight": 18,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                5/29/2019
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderTopColor": "#EFEFF4",
+              "borderTopWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "opacity": 1,
+              "padding": 20,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-mccain/29dc-mccain-square320.jpg",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#EFEFF4",
+                "borderRadius": 25,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "marginLeft": 20,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 15,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.24,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              Navy Destroyer John McCain Hidden During Trump’s Japan Visit
+            </Text>
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#8E8E93",
+                  "fontFamily": "System",
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.078,
+                  "lineHeight": 18,
+                  "marginVertical": 10,
+                }
+              }
+            >
+              By Maggie Haberman And Helene Cooper
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/icons8-calendar.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#8E8E93",
+                    "fontFamily": "System",
+                    "fontSize": 13,
+                    "fontWeight": "400",
+                    "letterSpacing": -0.078,
+                    "lineHeight": 18,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                5/29/2019
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderTopColor": "#EFEFF4",
+              "borderTopWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "opacity": 1,
+              "padding": 20,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://static01.nyt.com/images/2019/05/28/world/00china-tiananmen-8/00china-tiananmen-8-square320.jpg",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#EFEFF4",
+                "borderRadius": 25,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "marginLeft": 20,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 15,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.24,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              30 Years After Tiananmen, a Chinese Military Insider Warns: Never Forget
+            </Text>
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#8E8E93",
+                  "fontFamily": "System",
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.078,
+                  "lineHeight": 18,
+                  "marginVertical": 10,
+                }
+              }
+            >
+              By Chris Buckley
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/icons8-calendar.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#8E8E93",
+                    "fontFamily": "System",
+                    "fontSize": 13,
+                    "fontWeight": "400",
+                    "letterSpacing": -0.078,
+                    "lineHeight": 18,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                5/28/2019
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderTopColor": "#EFEFF4",
+              "borderTopWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "opacity": 1,
+              "padding": 20,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://static01.nyt.com/images/2019/05/29/multimedia/subwayoddities-1558558990709/subwayoddities-1558558990709-square320-v2.jpg",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#EFEFF4",
+                "borderRadius": 25,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "marginLeft": 20,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 15,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.24,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              Your Tales of Subway Oddities: Dog in a Bag Edition
+            </Text>
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#8E8E93",
+                  "fontFamily": "System",
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.078,
+                  "lineHeight": 18,
+                  "marginVertical": 10,
+                }
+              }
+            >
+              By Emma G Fitzsimmons
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/icons8-calendar.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#8E8E93",
+                    "fontFamily": "System",
+                    "fontSize": 13,
+                    "fontWeight": "400",
+                    "letterSpacing": -0.078,
+                    "lineHeight": 18,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                5/28/2019
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderTopColor": "#EFEFF4",
+              "borderTopWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "height": 0,
+          }
+        }
+      />
+    </View>
+  </RCTScrollView>
+</SafeAreaView>
+`;
+
+exports[`renders 1`] = `
+<SafeAreaView
+  forceInset={
+    Object {
+      "top": "never",
+    }
+  }
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    ItemSeparatorComponent={[Function]}
+    ListEmptyComponent={<Loading />}
+    contentContainerStyle={
+      Object {
+        "flexGrow": 1,
+      }
+    }
+    data={
+      Array [
+        Object {
+          "abstract": "The owners of the 5,600-square-foot New Jersey home have set a “starting price” of $3.4 million.",
+          "byline": "By STEFANOS CHEN",
+          "id": 100000006525497,
+          "image": "https://static01.nyt.com/images/2019/06/02/realestate/31EXCLUSIVE-SOPRANOS-slide-4SEN/31EXCLUSIVE-SOPRANOS-slide-4SEN-jumbo.jpg",
+          "published": "2019-05-30T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/06/02/realestate/31EXCLUSIVE-SOPRANOS-slide-4SEN/31EXCLUSIVE-SOPRANOS-slide-4SEN-square320.jpg",
+          "title": "Tony Soprano’s House Hits the Market",
+          "url": "https://www.nytimes.com/2019/05/31/realestate/tony-sopranos-house-for-sale.html",
+          "views": 11,
+        },
+        Object {
+          "abstract": "Chief James A. Cervera of the Virginia Beach Police Department said at an evening news conference that the scene could “best be described as a war zone.”",
+          "byline": "By KATE ANDREWS, CHRISTOPHER MELE and JOHN ELIGON",
+          "id": 100000006535424,
+          "image": "https://static01.nyt.com/images/2019/05/31/multimedia/31xp-virginia1/31xp-virginia1-jumbo-v2.jpg",
+          "published": "2019-05-30T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/31/multimedia/31xp-virginia1/31xp-virginia1-square320-v2.jpg",
+          "title": "12 Killed in Rampage at Municipal Center in Virginia",
+          "url": "https://www.nytimes.com/2019/05/31/us/virginia-beach-shooting.html",
+          "views": 13,
+        },
+        Object {
+          "abstract": "A group of adolescents broke the Scripps National Spelling Bee, with eight contestants crowned co-champions after the competition said it was running out of challenging words.",
+          "byline": "By DANIEL VICTOR",
+          "id": 100000006533973,
+          "image": "https://static01.nyt.com/images/2019/05/31/world/31xp-spellingbee-1/merlin_155687544_c9235910-9dc0-4af4-987a-e33920b39a5f-jumbo.jpg",
+          "published": "2019-05-30T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/31/world/31xp-spellingbee-1/merlin_155687544_c9235910-9dc0-4af4-987a-e33920b39a5f-square320.jpg",
+          "title": "National Spelling Bee, at a Loss for Words, Crowns 8 Co-Champions",
+          "url": "https://www.nytimes.com/2019/05/31/us/national-spelling-bee-champions.html",
+          "views": 14,
+        },
+        Object {
+          "abstract": "President Trump dismissed comments from Robert S. Mueller III, the special counsel, that the Russia inquiry did not clear the president of wrongdoing. “He’s somebody that dislikes Donald Trump.”",
+          "byline": "By PETER BAKER and EILEEN SULLIVAN",
+          "id": 100000006532341,
+          "image": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-trumprussia-videosub/merlin_155666235_0e9ac1bb-f539-421a-909b-bcfab3da1fe0-jumbo.jpg",
+          "published": "2019-05-29T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-trumprussia-videosub/30dc-trumprussia-videosub-square320.jpg",
+          "title": "Trump Accuses Mueller of a Personal Vendetta as Calls for Impeachment Grow",
+          "url": "https://www.nytimes.com/2019/05/30/us/politics/trump-russia-help-elected.html",
+          "views": 4,
+        },
+        Object {
+          "abstract": "Secret recordings captured physicians’ concerns that more children seemed to fare poorly after heart surgery. Their hospital kept doing the operations.",
+          "byline": "By ELLEN GABLER",
+          "id": 100000006528829,
+          "image": "https://static01.nyt.com/images/2019/05/30/us/30cardiac4/merlin_151018062_f631daca-d8b5-45de-aeae-184b81a271fe-jumbo.jpg",
+          "published": "2019-05-29T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/30/us/30cardiac4/merlin_151018062_f631daca-d8b5-45de-aeae-184b81a271fe-square320.jpg",
+          "title": "Doctors Were Alarmed: ‘Would I Have My Children Have Surgery Here?’",
+          "url": "https://www.nytimes.com/interactive/2019/05/30/us/children-heart-surgery-cardiac.html",
+          "views": 6,
+        },
+        Object {
+          "abstract": "Weeks before the Supreme Court rules on the legality of the citizenship question, evidence filed in court could further erode the Trump administration’s rationale for the question.",
+          "byline": "By MICHAEL WINES",
+          "id": 100000006529792,
+          "image": "https://static01.nyt.com/images/2019/05/31/us/31census-p1/29census-01-jumbo.jpg",
+          "published": "2019-05-29T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/31/us/31census-p1/29census-01-square320.jpg",
+          "title": "Deceased G.O.P. Strategist’s Hard Drives Reveal New Details on the Census Citizenship Question",
+          "url": "https://www.nytimes.com/2019/05/30/us/census-citizenship-question-hofeller.html",
+          "views": 10,
+        },
+        Object {
+          "abstract": "Though he did not rule out congressional testimony, the special counsel also said that he would only testify about the facts already in the report.",
+          "byline": "By SHARON LaFRANIERE",
+          "id": 100000006530597,
+          "image": "https://static01.nyt.com/images/2019/05/29/us/politics/29dc-mueller-vid-sub/29dc-mueller-vid-sub-jumbo-v3.jpg",
+          "published": "2019-05-28T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/29/us/politics/29dc-mueller-vid-sub/29dc-mueller-vid-sub-square320-v3.jpg",
+          "title": "Mueller, in First Comments on Russia Inquiry, Declines to Clear Trump",
+          "url": "https://www.nytimes.com/2019/05/29/us/politics/mueller-special-counsel.html",
+          "views": 7,
+        },
+        Object {
+          "abstract": "While Navy officials insisted they did not hide the ship, they did give all of sailors aboard the day off on Tuesday as President Trump visited Yokosuka Naval Base in Japan.",
+          "byline": "By MAGGIE HABERMAN and HELENE COOPER",
+          "id": 100000006531877,
+          "image": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-mccain/69eebec85bf643fda28f10ae8b6b39af-jumbo.jpg",
+          "published": "2019-05-28T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-mccain/29dc-mccain-square320.jpg",
+          "title": "Navy Destroyer John McCain Hidden During Trump’s Japan Visit",
+          "url": "https://www.nytimes.com/2019/05/29/us/politics/uss-mccain-navy-ship.html",
+          "views": 19,
+        },
+        Object {
+          "abstract": "A former People’s Liberation Army journalist defied a political taboo to describe the bloody crackdown in Beijing and urge a national reckoning.",
+          "byline": "By CHRIS BUCKLEY",
+          "id": 100000006521291,
+          "image": "https://static01.nyt.com/images/2019/05/28/world/00china-tiananmen-8/merlin_155529279_5b5c2658-8abf-4757-949e-71158c19906d-jumbo.jpg",
+          "published": "2019-05-27T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/28/world/00china-tiananmen-8/00china-tiananmen-8-square320.jpg",
+          "title": "30 Years After Tiananmen, a Chinese Military Insider Warns: Never Forget",
+          "url": "https://www.nytimes.com/2019/05/28/world/asia/china-tiananmen-square-massacre.html",
+          "views": 17,
+        },
+        Object {
+          "abstract": "We’re taking a break from chronicling your subway woes to appreciate one of the best parts about riding the train: The weird and beautiful sights you regularly stumble upon.",
+          "byline": "By EMMA G. FITZSIMMONS",
+          "id": 100000006522146,
+          "image": "https://static01.nyt.com/images/2019/05/29/multimedia/subwayoddities-1558558990709/subwayoddities-1558558990709-jumbo.jpg",
+          "published": "2019-05-27T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/29/multimedia/subwayoddities-1558558990709/subwayoddities-1558558990709-square320-v2.jpg",
+          "title": "Your Tales of Subway Oddities: Dog in a Bag Edition",
+          "url": "https://www.nytimes.com/interactive/2019/05/28/nyregion/subway-dogs.html",
+          "views": 20,
+        },
+        Object {
+          "abstract": "Pakistan has charged dozens of people with trafficking women to China as wives. Rabia Kanwal was one bride who says she was lied to. In China, her husband has a different story.",
+          "byline": "By SALMAN MASOOD and AMY QIN",
+          "id": 100000006508137,
+          "image": "https://static01.nyt.com/images/2019/05/16/world/00pakistan-china-4/merlin_154911414_e7eb13e1-6942-44cf-af63-b9a900eb747b-jumbo.jpg",
+          "published": "2019-05-26T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/16/world/00pakistan-china-4/merlin_154911414_e7eb13e1-6942-44cf-af63-b9a900eb747b-square320.jpg",
+          "title": "She Thought She’d Married a Rich Chinese Farmer. She Hadn’t.",
+          "url": "https://www.nytimes.com/2019/05/27/world/asia/pakistan-china-trafficking.html",
+          "views": 2,
+        },
+        Object {
+          "abstract": "In a significant escalation, policymakers are seeking to undermine or discard research showing the most dire risks of inaction on climate change.",
+          "byline": "By CORAL DAVENPORT and MARK LANDLER",
+          "id": 100000006523569,
+          "image": "https://static01.nyt.com/images/2019/05/24/us/politics/00dc-cli-trump1/merlin_151256502_8b48e75c-4479-4e89-a186-ae5f913c1c7b-jumbo.jpg",
+          "published": "2019-05-26T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/24/us/politics/00dc-cli-trump1/00dc-cli-trump1-square320.jpg",
+          "title": "Trump Administration Hardens Its Attack on Climate Science",
+          "url": "https://www.nytimes.com/2019/05/27/us/politics/trump-climate-science.html",
+          "views": 12,
+        },
+        Object {
+          "abstract": "No one at the Pentagon is saying that the objects are extraterrestrial, but the Navy has issued new classified guidance for reporting unexplained aerial phenomena.",
+          "byline": "By HELENE COOPER, RALPH BLUMENTHAL and LESLIE KEAN",
+          "id": 100000006515727,
+          "image": "https://static01.nyt.com/images/2019/05/28/us/politics/00dc-ufo2/merlin_98047735_3653fd43-cc8d-4ece-8947-bc0653b1d92d-jumbo.jpg",
+          "published": "2019-05-25T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/28/us/politics/00dc-ufo2/00dc-ufo2-square320.jpg",
+          "title": "‘Wow, What Is That?’ Navy Pilots Report Unexplained Flying Objects",
+          "url": "https://www.nytimes.com/2019/05/26/us/politics/ufo-sightings-navy-pilots.html",
+          "views": 1,
+        },
+        Object {
+          "abstract": "This has been one of the deadliest climbing seasons on the world’s highest peak. Veteran climbers blame increased permits for climbers, including many who are inexperienced.",
+          "byline": "By KAI SCHULTZ, JEFFREY GETTLEMAN, MUJIB MASHAL and BHADRA SHARMA",
+          "id": 100000006527032,
+          "image": "https://static01.nyt.com/images/2019/05/27/world/26everest2-print/merlin_155279730_9a078aae-b874-4b50-9ff4-72a8ec2a93ae-jumbo.jpg",
+          "published": "2019-05-25T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/27/world/26everest2-print/26everest2-print-square320-v2.jpg",
+          "title": "‘It Was Like a Zoo’: Death on an Unruly, Overcrowded Everest",
+          "url": "https://www.nytimes.com/2019/05/26/world/asia/mount-everest-deaths.html",
+          "views": 3,
+        },
+        Object {
+          "abstract": "American cities are being hijacked with an N.S.A. cyberweapon that has already done billions of dollars in damage overseas. The N.S.A. will say nothing.",
+          "byline": "By NICOLE PERLROTH and SCOTT SHANE",
+          "id": 100000006525385,
+          "image": "https://static01.nyt.com/images/2019/05/25/multimedia/25nsa-01/merlin_155371923_6b11a80d-c00a-41bc-a77a-2fa05767d991-jumbo.jpg",
+          "published": "2019-05-24T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/25/multimedia/25nsa-01/25nsa-01-square320.jpg",
+          "title": "In Baltimore and Beyond, a Stolen N.S.A. Tool Wreaks Havoc",
+          "url": "https://www.nytimes.com/2019/05/25/us/nsa-hacking-tool-baltimore.html",
+          "views": 5,
+        },
+        Object {
+          "abstract": "Amanda Eller, 35, said she had started a short hike in a vast forest preserve on Maui when she lost her way.",
+          "byline": "By BREENA KERR",
+          "id": 100000006526666,
+          "image": "https://static01.nyt.com/images/2019/05/27/multimedia/26hiker-p1sub/25hiker1-jumbo.jpg",
+          "published": "2019-05-24T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/27/multimedia/26hiker-p1sub/25hiker1-square320.jpg",
+          "title": "Amanda Eller, Hiker Lost in Hawaii Forest, Is Found Alive After 17 Days",
+          "url": "https://www.nytimes.com/2019/05/25/us/hawaii-hiker.html",
+          "views": 8,
+        },
+        Object {
+          "abstract": "Nancy Pelosi gets to the core of the Trump con, but he just rages on.",
+          "byline": "By MAUREEN DOWD",
+          "id": 100000006525826,
+          "image": "https://static01.nyt.com/images/2019/05/26/opinion/sunday/26Dowd/merlin_155251578_7b186b25-ccf5-4022-9ee4-d5d1eedca525-jumbo.jpg",
+          "published": "2019-05-24T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/05/26/opinion/sunday/26Dowd/merlin_155251578_7b186b25-ccf5-4022-9ee4-d5d1eedca525-square320.jpg",
+          "title": "Crazy Is as Crazy Does",
+          "url": "https://www.nytimes.com/2019/05/25/opinion/sunday/donald-trump-nancy-pelosi.html",
+          "views": 9,
+        },
+        Object {
+          "abstract": "Dive in! Here are 75 of the latest and greatest books to keep you company as temperatures climb and days grow long.",
+          "byline": "By THE NEW YORK TIMES",
+          "id": 100000006513014,
+          "image": "https://static01.nyt.com/images/2019/06/02/books/review/02SummerReading-INTRO/02SummerReading-INTRO-jumbo.jpg",
+          "published": "2019-05-22T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/06/02/books/review/02SummerReading-INTRO/02SummerReading-INTRO-square320.jpg",
+          "title": "Summer Reading",
+          "url": "https://www.nytimes.com/interactive/2019/books/summer-reading.html",
+          "views": 15,
+        },
+        Object {
+          "abstract": "皇室の存続は、彼女の肩にかかっていた。そして、その呪縛から逃れられなかった。",
+          "byline": "By MOTOKO RICH",
+          "id": 100000006484502,
+          "image": "https://static01.nyt.com/images/2019/04/30/world/00throne-08/00throne-08-jumbo.jpg",
+          "published": "2019-04-28T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2019/04/30/world/00throne-08/00throne-08-square320-v9.jpg",
+          "title": "籠の中の皇太子妃",
+          "url": "https://www.nytimes.com/ja/2019/04/29/world/asia/abdication-princess-masako-japanese-translation.html",
+          "views": 18,
+        },
+        Object {
+          "abstract": "We’ve plucked out the 50 best films currently streaming on Netflix in the United States. Take a look.",
+          "byline": "By JASON BAILEY",
+          "id": 100000006330108,
+          "image": "https://static01.nyt.com/images/2016/06/19/watching/pulp-fiction-watching-recommendation/pulp-fiction-watching-recommendation-jumbo.jpg",
+          "published": "2019-03-05T20:00:00.000Z",
+          "thumb": "https://static01.nyt.com/images/2016/06/19/watching/pulp-fiction-watching-recommendation/pulp-fiction-watching-recommendation-square320.jpg",
+          "title": "The 50 Best Movies on Netflix Right Now",
+          "url": "https://www.nytimes.com/interactive/2019/arts/television/best-movies-on-netflix.html",
+          "views": 16,
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    refreshControl={
+      <RefreshControlMock
+        colors={
+          Array [
+            "#4CD964",
+          ]
+        }
+        onRefresh={[Function]}
+        refreshing={false}
+        tintColor="#4CD964"
+      />
+    }
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <RCTRefreshControl />
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "opacity": 1,
+              "padding": 20,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://static01.nyt.com/images/2019/06/02/realestate/31EXCLUSIVE-SOPRANOS-slide-4SEN/31EXCLUSIVE-SOPRANOS-slide-4SEN-square320.jpg",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#EFEFF4",
+                "borderRadius": 25,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "marginLeft": 20,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 15,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.24,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              Tony Soprano’s House Hits the Market
+            </Text>
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#8E8E93",
+                  "fontFamily": "System",
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.078,
+                  "lineHeight": 18,
+                  "marginVertical": 10,
+                }
+              }
+            >
+              By Stefanos Chen
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/icons8-calendar.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#8E8E93",
+                    "fontFamily": "System",
+                    "fontSize": 13,
+                    "fontWeight": "400",
+                    "letterSpacing": -0.078,
+                    "lineHeight": 18,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                5/31/2019
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderTopColor": "#EFEFF4",
+              "borderTopWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "opacity": 1,
+              "padding": 20,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://static01.nyt.com/images/2019/05/31/multimedia/31xp-virginia1/31xp-virginia1-square320-v2.jpg",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#EFEFF4",
+                "borderRadius": 25,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "marginLeft": 20,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 15,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.24,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              12 Killed in Rampage at Municipal Center in Virginia
+            </Text>
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#8E8E93",
+                  "fontFamily": "System",
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.078,
+                  "lineHeight": 18,
+                  "marginVertical": 10,
+                }
+              }
+            >
+              By Kate Andrews Christopher Mele And John Eligon
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/icons8-calendar.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#8E8E93",
+                    "fontFamily": "System",
+                    "fontSize": 13,
+                    "fontWeight": "400",
+                    "letterSpacing": -0.078,
+                    "lineHeight": 18,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                5/31/2019
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderTopColor": "#EFEFF4",
+              "borderTopWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "opacity": 1,
+              "padding": 20,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://static01.nyt.com/images/2019/05/31/world/31xp-spellingbee-1/merlin_155687544_c9235910-9dc0-4af4-987a-e33920b39a5f-square320.jpg",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#EFEFF4",
+                "borderRadius": 25,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "marginLeft": 20,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 15,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.24,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              National Spelling Bee, at a Loss for Words, Crowns 8 Co-Champions
+            </Text>
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#8E8E93",
+                  "fontFamily": "System",
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.078,
+                  "lineHeight": 18,
+                  "marginVertical": 10,
+                }
+              }
+            >
+              By Daniel Victor
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/icons8-calendar.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#8E8E93",
+                    "fontFamily": "System",
+                    "fontSize": 13,
+                    "fontWeight": "400",
+                    "letterSpacing": -0.078,
+                    "lineHeight": 18,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                5/31/2019
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderTopColor": "#EFEFF4",
+              "borderTopWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "opacity": 1,
+              "padding": 20,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-trumprussia-videosub/30dc-trumprussia-videosub-square320.jpg",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#EFEFF4",
+                "borderRadius": 25,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "marginLeft": 20,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 15,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.24,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              Trump Accuses Mueller of a Personal Vendetta as Calls for Impeachment Grow
+            </Text>
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#8E8E93",
+                  "fontFamily": "System",
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.078,
+                  "lineHeight": 18,
+                  "marginVertical": 10,
+                }
+              }
+            >
+              By Peter Baker And Eileen Sullivan
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/icons8-calendar.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#8E8E93",
+                    "fontFamily": "System",
+                    "fontSize": 13,
+                    "fontWeight": "400",
+                    "letterSpacing": -0.078,
+                    "lineHeight": 18,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                5/30/2019
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderTopColor": "#EFEFF4",
+              "borderTopWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "opacity": 1,
+              "padding": 20,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://static01.nyt.com/images/2019/05/30/us/30cardiac4/merlin_151018062_f631daca-d8b5-45de-aeae-184b81a271fe-square320.jpg",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#EFEFF4",
+                "borderRadius": 25,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "marginLeft": 20,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 15,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.24,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              Doctors Were Alarmed: ‘Would I Have My Children Have Surgery Here?’
+            </Text>
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#8E8E93",
+                  "fontFamily": "System",
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.078,
+                  "lineHeight": 18,
+                  "marginVertical": 10,
+                }
+              }
+            >
+              By Ellen Gabler
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/icons8-calendar.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#8E8E93",
+                    "fontFamily": "System",
+                    "fontSize": 13,
+                    "fontWeight": "400",
+                    "letterSpacing": -0.078,
+                    "lineHeight": 18,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                5/30/2019
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderTopColor": "#EFEFF4",
+              "borderTopWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "opacity": 1,
+              "padding": 20,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://static01.nyt.com/images/2019/05/31/us/31census-p1/29census-01-square320.jpg",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#EFEFF4",
+                "borderRadius": 25,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "marginLeft": 20,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 15,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.24,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              Deceased G.O.P. Strategist’s Hard Drives Reveal New Details on the Census Citizenship Question
+            </Text>
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#8E8E93",
+                  "fontFamily": "System",
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.078,
+                  "lineHeight": 18,
+                  "marginVertical": 10,
+                }
+              }
+            >
+              By Michael Wines
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/icons8-calendar.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#8E8E93",
+                    "fontFamily": "System",
+                    "fontSize": 13,
+                    "fontWeight": "400",
+                    "letterSpacing": -0.078,
+                    "lineHeight": 18,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                5/30/2019
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderTopColor": "#EFEFF4",
+              "borderTopWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "opacity": 1,
+              "padding": 20,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://static01.nyt.com/images/2019/05/29/us/politics/29dc-mueller-vid-sub/29dc-mueller-vid-sub-square320-v3.jpg",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#EFEFF4",
+                "borderRadius": 25,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "marginLeft": 20,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 15,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.24,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              Mueller, in First Comments on Russia Inquiry, Declines to Clear Trump
+            </Text>
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#8E8E93",
+                  "fontFamily": "System",
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.078,
+                  "lineHeight": 18,
+                  "marginVertical": 10,
+                }
+              }
+            >
+              By Sharon La Franiere
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/icons8-calendar.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#8E8E93",
+                    "fontFamily": "System",
+                    "fontSize": 13,
+                    "fontWeight": "400",
+                    "letterSpacing": -0.078,
+                    "lineHeight": 18,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                5/29/2019
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderTopColor": "#EFEFF4",
+              "borderTopWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "opacity": 1,
+              "padding": 20,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://static01.nyt.com/images/2019/05/30/us/politics/30dc-mccain/29dc-mccain-square320.jpg",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#EFEFF4",
+                "borderRadius": 25,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "marginLeft": 20,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 15,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.24,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              Navy Destroyer John McCain Hidden During Trump’s Japan Visit
+            </Text>
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#8E8E93",
+                  "fontFamily": "System",
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.078,
+                  "lineHeight": 18,
+                  "marginVertical": 10,
+                }
+              }
+            >
+              By Maggie Haberman And Helene Cooper
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/icons8-calendar.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#8E8E93",
+                    "fontFamily": "System",
+                    "fontSize": 13,
+                    "fontWeight": "400",
+                    "letterSpacing": -0.078,
+                    "lineHeight": 18,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                5/29/2019
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderTopColor": "#EFEFF4",
+              "borderTopWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "opacity": 1,
+              "padding": 20,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://static01.nyt.com/images/2019/05/28/world/00china-tiananmen-8/00china-tiananmen-8-square320.jpg",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#EFEFF4",
+                "borderRadius": 25,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "marginLeft": 20,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 15,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.24,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              30 Years After Tiananmen, a Chinese Military Insider Warns: Never Forget
+            </Text>
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#8E8E93",
+                  "fontFamily": "System",
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.078,
+                  "lineHeight": 18,
+                  "marginVertical": 10,
+                }
+              }
+            >
+              By Chris Buckley
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/icons8-calendar.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#8E8E93",
+                    "fontFamily": "System",
+                    "fontSize": 13,
+                    "fontWeight": "400",
+                    "letterSpacing": -0.078,
+                    "lineHeight": 18,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                5/28/2019
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderTopColor": "#EFEFF4",
+              "borderTopWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "opacity": 1,
+              "padding": 20,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://static01.nyt.com/images/2019/05/29/multimedia/subwayoddities-1558558990709/subwayoddities-1558558990709-square320-v2.jpg",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#EFEFF4",
+                "borderRadius": 25,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "marginLeft": 20,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 15,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.24,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              Your Tales of Subway Oddities: Dog in a Bag Edition
+            </Text>
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#8E8E93",
+                  "fontFamily": "System",
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "letterSpacing": -0.078,
+                  "lineHeight": 18,
+                  "marginVertical": 10,
+                }
+              }
+            >
+              By Emma G Fitzsimmons
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/icons8-calendar.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#8E8E93",
+                    "fontFamily": "System",
+                    "fontSize": 13,
+                    "fontWeight": "400",
+                    "letterSpacing": -0.078,
+                    "lineHeight": 18,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                5/28/2019
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderTopColor": "#EFEFF4",
+              "borderTopWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "height": 0,
+          }
+        }
+      />
+    </View>
+  </RCTScrollView>
+</SafeAreaView>
+`;

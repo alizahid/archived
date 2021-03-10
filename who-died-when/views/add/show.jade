@@ -1,0 +1,14 @@
+extends /layout
+
+block content
+	h1=title
+	h2 Search for show
+	form(id="add-show-search", action="/add/show", method="GET")
+		p.search-box
+			input(type="text", name="query", placeholder="Show name", value=searchQuery)
+			input(type="submit", value="Search")
+	if results
+		div#add-show.shows
+			each show in results
+				a(href="/add/show/" + show.id, style="background-image: url(" + baseUrl + show.poster + ")")
+					p=show.name

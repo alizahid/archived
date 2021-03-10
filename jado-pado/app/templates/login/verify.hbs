@@ -1,0 +1,14 @@
+<header>
+	<h1>Login</h1>
+</header>
+<main>
+	<form {{action 'verify' on='submit'}}>
+		{{error-message error}}
+		<label>
+			{{input type="number" value=token placeholder="Two factor code" pattern="\d{7}" required=true}}
+		</label>
+		<p>
+			<button type="submit">Login</button>
+		</p>
+	</form>
+</main>

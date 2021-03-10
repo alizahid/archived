@@ -1,0 +1,11 @@
+<header class={{theme}}>
+	<h1>Notifications</h1>
+</header>
+<main>
+	{{#each notifications as |notification|}}
+		{{aye-notification notification}}
+	{{else}}
+		{{empty-message 'No notifications yet' true}}
+	{{/each}}
+</main>
+{{nav-footer}}

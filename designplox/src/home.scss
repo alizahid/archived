@@ -1,0 +1,120 @@
+// imports
+
+@import './assets/variables';
+
+// components
+
+main {
+  .loading {
+    height: $spinner-size;
+    margin: $margin * 2 auto;
+    position: relative;
+    width: $spinner-size;
+
+    &:after,
+    &:before {
+      border-radius: 100%;
+      border: $spinner-border-width solid $color-primary;
+      content: '';
+      display: block;
+      height: $spinner-size;
+      left: 0;
+      top: 0;
+      position: absolute;
+      width: $spinner-size;
+    }
+
+    &:after {
+      border-color: $color-background-dark;
+    }
+
+    &:before {
+      animation: spinner 1s linear infinite;
+      border-left-color: transparent;
+      z-index: 1;
+    }
+  }
+
+  header {
+    margin: $margin * 2 $margin;
+
+    img {
+      border-radius: 100%;
+      height: $image;
+      margin-bottom: $margin;
+    }
+  }
+
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: $margin 0;
+
+    article {
+      margin: $margin * 2;
+
+      img {
+        height: $image;
+        width: $image;
+      }
+
+      > div {
+        flex: 1;
+
+        h2 {
+          margin: $padding 0;
+        }
+
+        nav {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          margin-top: $padding;
+
+          a {
+            padding: $padding;
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    align-items: center;
+    color: $color-text-light;
+    display: flex;
+    justify-content: center;
+    margin: $margin * 2 $margin;
+
+    nav {
+      justify-content: center;
+      display: flex;
+
+      a {
+        opacity: 0.5;
+        margin: 0 $padding / 2;
+
+        &:hover {
+          opacity: 1;
+        }
+
+        img {
+          height: $spinner-size;
+        }
+      }
+    }
+  }
+}
+
+// animations
+
+@keyframes spinner {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

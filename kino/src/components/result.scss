@@ -1,0 +1,64 @@
+@import '../assets/variables';
+
+.result {
+  flex-basis: 15em;
+  margin: 1em;
+
+  &:hover {
+    h3 {
+      color: $color-accent;
+    }
+  }
+
+  figure {
+    background-position: center;
+    background-size: cover;
+    border-radius: 0.25em;
+    padding-bottom: 150%;
+  }
+
+  h3 {
+    color: $color-text;
+    font-size: 1.5em;
+    line-height: 1.4;
+    margin: 1rem 0 0.5rem 0;
+    transition: 0.3s;
+  }
+
+  footer {
+    color: $color-text-light;
+    display: flex;
+
+    span {
+      align-items: center;
+      display: flex;
+
+      &:not(:first-child) {
+        margin-left: 1em;
+      }
+
+      &:before {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 1em;
+        content: '';
+        height: 1em;
+        margin-right: 0.25em;
+        opacity: 0.25;
+        width: 1em;
+      }
+
+      &.release-date {
+        &:before {
+          background-image: url('../assets/film_release_date.svg');
+        }
+      }
+
+      &.rating {
+        &:before {
+          background-image: url('../assets/film_rating.svg');
+        }
+      }
+    }
+  }
+}

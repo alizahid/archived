@@ -1,0 +1,7 @@
+<aside>
+	{{hearts post.hearts}}
+</aside>
+<section>
+	<p>{{post.body}}</p>
+	<small>{{moment-from-now post.created}} &#183; {{link-to post.tag.name 'tags.tag' post.tag.id}}</small>
+</section>

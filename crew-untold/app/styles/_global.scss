@@ -1,0 +1,253 @@
+*,
+*:after,
+*:before {
+	border-radius: 0;
+	box-sizing: border-box;
+	margin: 0;
+	outline: none;
+	padding: 0;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+	color: $color;
+	cursor: default;
+	font: normal 0.875em/1 -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+	overflow: hidden;
+
+	&.theme {
+		background-blend-mode: hard-light, hard-light;
+		background-position: center top, center top;
+		background-repeat: repeat-x, repeat-x;
+		background-size: cover, 300vw;
+		background-image: $theme-one;
+
+		&.one,
+		&.one .button,
+		&.one button {
+			background-image: $theme-one;
+		}
+
+		&.two,
+		&.two .button,
+		&.two button {
+			background-image: $theme-two;
+		}
+
+		&.three,
+		&.three .button,
+		&.three button {
+			background-image: $theme-three;
+		}
+
+		&.four,
+		&.four .button,
+		&.four button {
+			background-image: $theme-four;
+		}
+
+		&.five,
+		&.five .button,
+		&.five button {
+			background-image: $theme-five;
+		}
+	}
+}
+
+a {
+	color: $accent;
+	text-decoration: none;
+
+	&.button {
+		background: $theme-four;
+		border-radius: 0.25em;
+		color: $background;
+		display: inline-block;
+		padding: 1em;
+		transition: 100ms;
+
+		&:active {
+			color: transparentize($background, 0.5);
+		}
+
+		&.slim {
+			border-radius: 0.25em;
+			padding: 0 0.25em;
+		}
+	}
+}
+
+form {
+	min-width: 70%;
+
+	label,
+	p {
+		display: block;
+		line-height: 1;
+		margin: 1em 0;
+	}
+
+	button,
+	input,
+	select,
+	textarea {
+		appearance: none;
+		background: $border;
+		border: none;
+		border-radius: 0.25em;
+		font: inherit;
+		line-height: normal;
+		padding: 1em;
+		transition: 100ms;
+		width: 100%;
+	}
+
+	button {
+		background: $theme-four;
+		color: $background;
+		cursor: pointer;
+
+		&:active {
+			color: transparentize($background, 0.5);
+		}
+
+		&.ghost {
+			background: 0;
+			color: $color-light;
+			line-height: 1;
+		}
+
+		&.loading {
+			color: transparent;
+			position: relative;
+
+			&:before {
+				border-left-color: $background;
+				border-top-color: $background;
+				height: 1.5em;
+				left: calc(50% - 1.5em / 2);
+				position: absolute;
+				top: calc(50% - 1.5em / 2);
+				width: 1.5em;
+			}
+		}
+	}
+
+	input,
+	textarea {
+		user-select: text;
+
+		&:focus {
+			background: $border;
+		}
+	}
+
+	input {
+		&[type=checkbox] {
+			appearance: none;
+			background-color: $background;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			border: 2px solid $accent;
+			border-radius: 0.125em;
+			height: 1.5em;
+			padding: 0;
+			transform: translate3d(0, 0, 0);
+			transition: 300ms;
+			width: 1.5em;
+
+			&:checked {
+				background-color: $accent;
+				background-image: url('icons/check.png');
+			}
+
+			&:disabled {
+				animation: spinner 800ms infinite linear;
+				border-left-color: transparent;
+				border-radius: 100%;
+			}
+		}
+	}
+
+	textarea {
+		line-height: 1.6;
+		min-height: 8em;
+		resize: none;
+	}
+}
+
+h1,
+h2,
+h3,
+h4 {
+	color: $primary;
+	font-weight: 300;
+	margin: 2em 0;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2em;
+	margin: 1em 0;
+	text-transform: lowercase;
+}
+
+h3 {
+	font-size: 1em;
+	font-weight: normal;
+	margin: 1em 0;
+
+	&.hero {
+		font-size: 2em;
+		font-weight: 500;
+		margin: 1em 0;
+		text-align: center;
+	}
+}
+
+h4 {
+	color: $primary;
+	font-size: 1em;
+	font-weight: 500;
+	margin: 0;
+}
+
+hr {
+	border: none;
+	margin: 3em auto;
+}
+
+img {
+	border: none;
+	vertical-align: top;
+}
+
+p {
+	line-height: 1.6;
+	margin: 1em auto;
+}
+
+small {
+	font-size: 0.875em;
+}
+
+ul {
+	li {
+		list-style: none;
+	}
+
+	&.content {
+		margin: 1em 0;
+
+		li {
+			line-height: 1.6;
+			list-style: square;
+			margin: 0.5em 1em 0.5em 2em;
+		}
+	}
+}

@@ -1,0 +1,47 @@
+{
+  "metro": {
+    "standard": {
+      "silver": {
+        "one": 3,
+        "two": 5,
+        "three": 7.5
+      },
+      "blue": {
+        "one": 6,
+        "two": 10,
+        "three": 15
+      },
+      "red": {
+        "one": 4,
+        "two": 6,
+        "three": 8.5
+      }
+    },
+    "gold": {
+      "gold": {
+        "one": 6,
+        "two": 10,
+        "three": 15
+      },
+      "blue": {
+        "one": 6,
+        "two": 10,
+        "three": 15
+      },
+      "red": {
+        "one": 8,
+        "two": 12,
+        "three": 17
+      }
+    }
+  },
+  "tram": {
+    "silver": 3,
+    "gold": 6,
+    "red": 4
+  },
+  "monorail": {
+    "one": 15,
+    "return": 25
+  }
+}

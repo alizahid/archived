@@ -1,0 +1,6 @@
+export { Copy } from './copy'
+export { Description } from './description'
+export { Features } from './features'
+export { Hero } from './hero'
+export { Page } from './page'
+export { Title } from './title'

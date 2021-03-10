@@ -1,0 +1,953 @@
+[
+  {
+    "area": "Deira",
+    "line": "green",
+    "name": "Abu Baker Al Siddique",
+    "numbers": [
+      {
+        "line": "green",
+        "number": 18
+      }
+    ],
+    "type": "metro",
+    "zone": 5,
+    "coordinates": {
+      "latitude": 25.270984,
+      "longitude": 55.332947
+    }
+  },
+  {
+    "area": "Deira",
+    "line": "green",
+    "name": "Abu Hail",
+    "numbers": [
+      {
+        "line": "green",
+        "number": 17
+      }
+    ],
+    "type": "metro",
+    "zone": 5,
+    "coordinates": {
+      "latitude": 25.275248,
+      "longitude": 55.346331
+    }
+  },
+  {
+    "area": "Al Karama",
+    "line": "red",
+    "name": "ADCB",
+    "numbers": [
+      {
+        "line": "red",
+        "number": 20
+      }
+    ],
+    "type": "metro",
+    "zone": 6,
+    "coordinates": {
+      "latitude": 25.244618,
+      "longitude": 55.298271
+    }
+  },
+  {
+    "area": "Garhoud, Dubai Airport Free Zone",
+    "line": "red",
+    "name": "Airport Terminal 1",
+    "numbers": [
+      {
+        "line": "red",
+        "number": 14
+      }
+    ],
+    "type": "metro",
+    "zone": 5,
+    "coordinates": {
+      "latitude": 25.248442,
+      "longitude": 55.352457
+    }
+  },
+  {
+    "area": "Garhoud, Dubai Airport Free Zone",
+    "line": "red",
+    "name": "Airport Terminal 3",
+    "numbers": [
+      {
+        "line": "red",
+        "number": 13
+      }
+    ],
+    "type": "metro",
+    "zone": 5,
+    "coordinates": {
+      "latitude": 25.24504,
+      "longitude": 55.359589
+    }
+  },
+  {
+    "area": "Bur Dubai",
+    "line": "green",
+    "name": "Al Fahidi",
+    "numbers": [
+      {
+        "line": "green",
+        "number": 25
+      }
+    ],
+    "type": "metro",
+    "zone": 6,
+    "coordinates": {
+      "latitude": 25.258245,
+      "longitude": 55.297566
+    }
+  },
+  {
+    "area": "Bur Dubai",
+    "line": "green",
+    "name": "Al Ghubaiba",
+    "numbers": [
+      {
+        "line": "green",
+        "number": 24
+      }
+    ],
+    "type": "metro",
+    "zone": 6,
+    "coordinates": {
+      "latitude": 25.264974,
+      "longitude": 55.288945
+    }
+  },
+  {
+    "area": "Al Jadaf",
+    "line": "green",
+    "name": "Al Jadaf",
+    "numbers": [
+      {
+        "line": "green",
+        "number": 29
+      }
+    ],
+    "type": "metro",
+    "zone": 6,
+    "coordinates": {
+      "latitude": 25.22508,
+      "longitude": 55.333698
+    }
+  },
+  {
+    "area": "Al Jafiliya",
+    "line": "red",
+    "name": "Al Jafiliya",
+    "numbers": [
+      {
+        "line": "red",
+        "number": 20
+      }
+    ],
+    "type": "metro",
+    "zone": 6,
+    "coordinates": {
+      "latitude": 25.233676,
+      "longitude": 55.292218
+    }
+  },
+  {
+    "area": "Al Qusais",
+    "line": "green",
+    "name": "Al Nahda",
+    "numbers": [
+      {
+        "line": "green",
+        "number": 14
+      }
+    ],
+    "type": "metro",
+    "zone": 5,
+    "coordinates": {
+      "latitude": 25.273269,
+      "longitude": 55.369307
+    }
+  },
+  {
+    "area": "Al Twar",
+    "line": "green",
+    "name": "Al Qiyadah",
+    "numbers": [
+      {
+        "line": "green",
+        "number": 16
+      }
+    ],
+    "type": "metro",
+    "zone": 5,
+    "coordinates": {
+      "latitude": 25.277691,
+      "longitude": 55.352717
+    }
+  },
+  {
+    "area": "Al Qusais",
+    "line": "green",
+    "name": "Al Qusais",
+    "numbers": [
+      {
+        "line": "green",
+        "number": 12
+      }
+    ],
+    "type": "metro",
+    "zone": 5,
+    "coordinates": {
+      "latitude": 25.262664,
+      "longitude": 55.387415
+    }
+  },
+  {
+    "area": "Deira",
+    "line": "green",
+    "name": "Al Ras",
+    "numbers": [
+      {
+        "line": "green",
+        "number": 23
+      }
+    ],
+    "type": "metro",
+    "zone": 5,
+    "coordinates": {
+      "latitude": 25.268937,
+      "longitude": 55.293741
+    }
+  },
+  {
+    "area": "Deira",
+    "line": "red",
+    "name": "Al Rigga",
+    "numbers": [
+      {
+        "line": "red",
+        "number": 17
+      }
+    ],
+    "type": "metro",
+    "zone": 5,
+    "coordinates": {
+      "latitude": 25.263089,
+      "longitude": 55.324396
+    }
+  },
+  {
+    "area": "Deira",
+    "line": "green",
+    "name": "Baniyas Square",
+    "numbers": [
+      {
+        "line": "green",
+        "number": 21
+      }
+    ],
+    "type": "metro",
+    "zone": 5,
+    "coordinates": {
+      "latitude": 25.269281,
+      "longitude": 55.307662
+    }
+  },
+  {
+    "area": "Downtown Dubai",
+    "line": "red",
+    "name": "Burj Khalifa / Dubai Mall",
+    "numbers": [
+      {
+        "line": "red",
+        "number": 25
+      }
+    ],
+    "type": "metro",
+    "zone": 6,
+    "coordinates": {
+      "latitude": 25.201626,
+      "longitude": 55.269717
+    }
+  },
+  {
+    "area": "Bur Dubai",
+    "line": "red",
+    "name": "BurJuman",
+    "numbers": [
+      {
+        "line": "green",
+        "number": 26
+      },
+      {
+        "line": "red",
+        "number": 19
+      }
+    ],
+    "type": "metro",
+    "zone": 6,
+    "coordinates": {
+      "latitude": 25.254868,
+      "longitude": 55.304271
+    }
+  },
+  {
+    "area": "Business Bay",
+    "line": "red",
+    "name": "Business Bay",
+    "numbers": [
+      {
+        "line": "red",
+        "number": 26
+      }
+    ],
+    "type": "metro",
+    "zone": 6,
+    "coordinates": {
+      "latitude": 25.191319,
+      "longitude": 55.260433
+    }
+  },
+  {
+    "area": "Al Jadaf",
+    "line": "green",
+    "name": "Creek",
+    "numbers": [
+      {
+        "line": "green",
+        "number": 30
+      }
+    ],
+    "type": "metro",
+    "zone": 6,
+    "coordinates": {
+      "latitude": 25.219086,
+      "longitude": 55.338974
+    }
+  },
+  {
+    "area": "Dubai Marina",
+    "line": "red",
+    "name": "DAMAC Properties (Dubai Marina)",
+    "numbers": [
+      {
+        "line": "red",
+        "number": 36
+      }
+    ],
+    "type": "metro",
+    "zone": 2,
+    "coordinates": {
+      "latitude": 25.080133,
+      "longitude": 55.147526
+    }
+  },
+  {
+    "area": "Jebel Ali",
+    "line": "red",
+    "name": "Danube",
+    "numbers": [
+      {
+        "line": "red",
+        "number": 41
+      }
+    ],
+    "type": "metro",
+    "zone": 1,
+    "coordinates": {
+      "latitude": 25.0012378,
+      "longitude": 55.0957405
+    }
+  },
+  {
+    "area": "Deira",
+    "line": "red",
+    "name": "Deira City Centre",
+    "numbers": [
+      {
+        "line": "red",
+        "number": 16
+      }
+    ],
+    "type": "metro",
+    "zone": 5,
+    "coordinates": {
+      "latitude": 25.254943,
+      "longitude": 55.330243
+    }
+  },
+  {
+    "area": "Al Qusais",
+    "line": "green",
+    "name": "Dubai Airport Free Zone",
+    "numbers": [
+      {
+        "line": "green",
+        "number": 13
+      }
+    ],
+    "type": "metro",
+    "zone": 5,
+    "coordinates": {
+      "latitude": 25.270012,
+      "longitude": 55.374934
+    }
+  },
+  {
+    "area": "Umm Hurair",
+    "line": "green",
+    "name": "Dubai Healthcare City",
+    "numbers": [
+      {
+        "line": "green",
+        "number": 28
+      }
+    ],
+    "type": "metro",
+    "zone": 6,
+    "coordinates": {
+      "latitude": 25.230973,
+      "longitude": 55.32295
+    }
+  },
+  {
+    "area": "Al Sufouh",
+    "line": "red",
+    "name": "Dubai Internet City (DIC)",
+    "numbers": [
+      {
+        "line": "red",
+        "number": 34
+      }
+    ],
+    "type": "metro",
+    "zone": 2,
+    "coordinates": {
+      "latitude": 25.102308,
+      "longitude": 55.173846
+    }
+  },
+  {
+    "area": "Garhoud",
+    "line": "red",
+    "name": "Emirates",
+    "numbers": [
+      {
+        "line": "red",
+        "number": 12
+      }
+    ],
+    "type": "metro",
+    "zone": 5,
+    "coordinates": {
+      "latitude": 25.241101,
+      "longitude": 55.365614
+    }
+  },
+  {
+    "area": "Trade Centre",
+    "line": "red",
+    "name": "Emirates Towers",
+    "numbers": [
+      {
+        "line": "red",
+        "number": 23
+      }
+    ],
+    "type": "metro",
+    "zone": 6,
+    "coordinates": {
+      "latitude": 25.217184,
+      "longitude": 55.279651
+    }
+  },
+  {
+    "area": "Jebel Ali",
+    "line": "red",
+    "name": "Energy",
+    "numbers": [
+      {
+        "line": "red",
+        "number": 40
+      }
+    ],
+    "type": "metro",
+    "zone": 2,
+    "coordinates": {
+      "latitude": 25.0263414,
+      "longitude": 55.1013625
+    }
+  },
+  {
+    "area": "Al Qusais",
+    "line": "green",
+    "name": "Etisalat",
+    "numbers": [
+      {
+        "line": "green",
+        "number": 11
+      }
+    ],
+    "type": "metro",
+    "zone": 5,
+    "coordinates": {
+      "latitude": 25.254866,
+      "longitude": 55.400925
+    }
+  },
+  {
+    "area": "Dubai International Financial Centre",
+    "line": "red",
+    "name": "Financial Centre",
+    "numbers": [
+      {
+        "line": "red",
+        "number": 24
+      }
+    ],
+    "type": "metro",
+    "zone": 6,
+    "coordinates": {
+      "latitude": 25.211023,
+      "longitude": 55.275411
+    }
+  },
+  {
+    "area": "Al Quoz",
+    "line": "red",
+    "name": "First Gulf Bank (FGB)",
+    "numbers": [
+      {
+        "line": "red",
+        "number": 31
+      }
+    ],
+    "type": "metro",
+    "zone": 2,
+    "coordinates": {
+      "latitude": 25.126774,
+      "longitude": 55.207884
+    }
+  },
+  {
+    "area": "Garhoud",
+    "line": "red",
+    "name": "GGICO",
+    "numbers": [
+      {
+        "line": "red",
+        "number": 15
+      }
+    ],
+    "type": "metro",
+    "zone": 5,
+    "coordinates": {
+      "latitude": 25.249601,
+      "longitude": 55.340041
+    }
+  },
+  {
+    "area": "Jebel Ali",
+    "line": "red",
+    "name": "Ibn Battuta",
+    "numbers": [
+      {
+        "line": "red",
+        "number": 39
+      }
+    ],
+    "type": "metro",
+    "zone": 2,
+    "coordinates": {
+      "latitude": 25.046776,
+      "longitude": 55.117571
+    }
+  },
+  {
+    "area": "Jumeirah Lakes Towers",
+    "line": "red",
+    "name": "Jumeirah Lakes Towers (JLT)",
+    "numbers": [
+      {
+        "line": "red",
+        "number": 37
+      }
+    ],
+    "type": "metro",
+    "zone": 2,
+    "coordinates": {
+      "latitude": 25.070923,
+      "longitude": 55.138744
+    }
+  },
+  {
+    "area": "Al Barsha",
+    "line": "red",
+    "name": "Mall of the Emirates (MoE)",
+    "numbers": [
+      {
+        "line": "red",
+        "number": 32
+      }
+    ],
+    "type": "metro",
+    "zone": 2,
+    "coordinates": {
+      "latitude": 25.121342,
+      "longitude": 55.20051
+    }
+  },
+  {
+    "area": "Jumeirah Islands",
+    "line": "red",
+    "name": "Nakheel Harbour and Tower",
+    "numbers": [
+      {
+        "line": "red",
+        "number": 38
+      }
+    ],
+    "type": "metro",
+    "zone": 2,
+    "coordinates": {
+      "latitude": 25.057925,
+      "longitude": 55.127278
+    }
+  },
+  {
+    "area": "Al Sufouh",
+    "line": "red",
+    "name": "Nakheel",
+    "numbers": [
+      {
+        "line": "red",
+        "number": 35
+      }
+    ],
+    "type": "metro",
+    "zone": 2,
+    "coordinates": {
+      "latitude": 25.088937,
+      "longitude": 55.158139
+    }
+  },
+  {
+    "area": "Al Quoz",
+    "line": "red",
+    "name": "Noor Bank",
+    "numbers": [
+      {
+        "line": "red",
+        "number": 29
+      }
+    ],
+    "type": "metro",
+    "zone": 2,
+    "coordinates": {
+      "latitude": 25.15573,
+      "longitude": 55.228494
+    }
+  },
+  {
+    "area": "Oud Metha",
+    "line": "green",
+    "name": "Oud Metha",
+    "numbers": [
+      {
+        "line": "green",
+        "number": 27
+      }
+    ],
+    "type": "metro",
+    "zone": 6,
+    "coordinates": {
+      "latitude": 25.243764,
+      "longitude": 55.316103
+    }
+  },
+  {
+    "area": "Deira",
+    "line": "green",
+    "name": "Palm Deira",
+    "numbers": [
+      {
+        "line": "green",
+        "number": 22
+      }
+    ],
+    "type": "metro",
+    "zone": 5,
+    "coordinates": {
+      "latitude": 25.27615,
+      "longitude": 55.301611
+    }
+  },
+  {
+    "area": "Rashidiya",
+    "line": "red",
+    "name": "Rashidiya",
+    "numbers": [
+      {
+        "line": "red",
+        "number": 11
+      }
+    ],
+    "type": "metro",
+    "zone": 5,
+    "coordinates": {
+      "latitude": 25.23025,
+      "longitude": 55.39118
+    }
+  },
+  {
+    "area": "Deira",
+    "line": "green",
+    "name": "Salah Al Din",
+    "numbers": [
+      {
+        "line": "green",
+        "number": 19
+      }
+    ],
+    "type": "metro",
+    "zone": 5,
+    "coordinates": {
+      "latitude": 25.270475,
+      "longitude": 55.320754
+    }
+  },
+  {
+    "area": "Al Barsha",
+    "line": "red",
+    "name": "Sharaf DG",
+    "numbers": [
+      {
+        "line": "red",
+        "number": 33
+      }
+    ],
+    "type": "metro",
+    "zone": 2,
+    "coordinates": {
+      "latitude": 25.114887,
+      "longitude": 55.190959
+    }
+  },
+  {
+    "area": "Al Qusais",
+    "line": "green",
+    "name": "Stadium",
+    "numbers": [
+      {
+        "line": "green",
+        "number": 15
+      }
+    ],
+    "type": "metro",
+    "zone": 5,
+    "coordinates": {
+      "latitude": 25.277792,
+      "longitude": 55.361537
+    }
+  },
+  {
+    "area": "Jebel Ali",
+    "coordinates": {
+      "latitude": 24.977614,
+      "longitude": 55.091063
+    },
+    "line": "red",
+    "name": "UAE Exchange",
+    "numbers": [
+      {
+        "line": "red",
+        "number": 42
+      }
+    ],
+    "type": "metro",
+    "zone": 1
+  },
+  {
+    "area": "Deira",
+    "line": "green",
+    "name": "Union",
+    "numbers": [
+      {
+        "line": "green",
+        "number": 20
+      },
+      {
+        "line": "red",
+        "number": 19
+      }
+    ],
+    "type": "metro",
+    "zone": 5,
+    "coordinates": {
+      "latitude": 25.266194,
+      "longitude": 55.31371
+    }
+  },
+  {
+    "area": "Trade Centre",
+    "line": "red",
+    "name": "World Trade Centre (WTC)",
+    "numbers": [
+      {
+        "line": "red",
+        "number": 22
+      }
+    ],
+    "type": "metro",
+    "zone": 6,
+    "coordinates": {
+      "latitude": 25.224891,
+      "longitude": 55.285083
+    }
+  },
+  {
+    "name": "Al Sufouh",
+    "type": "tram",
+    "coordinates": {
+      "latitude": 25.1081399,
+      "longitude": 55.1652074
+    }
+  },
+  {
+    "name": "Dubai Marina Mall",
+    "type": "tram",
+    "coordinates": {
+      "latitude": 25.0762461,
+      "longitude": 55.1419955
+    }
+  },
+  {
+    "connections": [
+      {
+        "name": "DAMAC Properties",
+        "type": "metro"
+      }
+    ],
+    "name": "Dubai Marina",
+    "type": "tram",
+    "coordinates": {
+      "latitude": 25.080823,
+      "longitude": 55.1469898
+    }
+  },
+  {
+    "name": "Jumeirah Beach Residence 1",
+    "type": "tram",
+    "coordinates": {
+      "latitude": 25.0796593,
+      "longitude": 55.1381466
+    }
+  },
+  {
+    "name": "Jumeirah Beach Residence 2",
+    "type": "tram",
+    "coordinates": {
+      "latitude": 25.0738507,
+      "longitude": 55.1322645
+    }
+  },
+  {
+    "connections": [
+      {
+        "name": "Jumeirah Lakes Towers",
+        "type": "metro"
+      }
+    ],
+    "name": "Jumeirah Lakes Towers",
+    "type": "tram",
+    "coordinates": {
+      "latitude": 25.0715475,
+      "longitude": 55.1378489
+    }
+  },
+  {
+    "name": "Knowledge Village",
+    "type": "tram",
+    "coordinates": {
+      "latitude": 25.1041664,
+      "longitude": 55.1615274
+    }
+  },
+  {
+    "name": "Marina Towers",
+    "type": "tram",
+    "coordinates": {
+      "latitude": 25.08659,
+      "longitude": 55.1501012
+    }
+  },
+  {
+    "name": "Media City",
+    "type": "tram",
+    "coordinates": {
+      "latitude": 25.0945041,
+      "longitude": 55.15200560000001
+    }
+  },
+  {
+    "name": "Mina Seyahi",
+    "type": "tram",
+    "coordinates": {
+      "latitude": 25.091074,
+      "longitude": 55.148593
+    }
+  },
+  {
+    "connections": [
+      {
+        "name": "Palm Jumeirah",
+        "type": "monorail"
+      }
+    ],
+    "name": "Palm Jumeirah",
+    "type": "tram",
+    "coordinates": {
+      "latitude": 25.098269,
+      "longitude": 55.1558304
+    }
+  },
+  {
+    "name": "Atlantis Aquaventure",
+    "type": "monorail",
+    "coordinates": {
+      "latitude": 25.1328525,
+      "longitude": 55.1188481
+    }
+  },
+  {
+    "connections": [
+      {
+        "name": "Palm Jumeirah",
+        "type": "tram"
+      }
+    ],
+    "name": "Gateway",
+    "type": "monorail",
+    "coordinates": {
+      "latitude": 25.101344,
+      "longitude": 55.1546234
+    }
+  },
+  {
+    "name": "Palm Mall",
+    "type": "monorail",
+    "coordinates": {
+      "latitude": 25.1147217,
+      "longitude": 55.137763
+    }
+  },
+  {
+    "name": "Trump Tower",
+    "type": "monorail",
+    "coordinates": {
+      "latitude": 25.1096554,
+      "longitude": 55.1444846
+    }
+  }
+]

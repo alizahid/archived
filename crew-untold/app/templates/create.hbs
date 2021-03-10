@@ -1,0 +1,15 @@
+<header class={{theme}}>
+	<h1>Create {{title}}</h1>
+</header>
+<main class="content">
+	<form {{action 'create' on='submit'}}>
+		<label>
+			{{textarea value=body placeholder="What do you want to share today?" required=true}}
+		</label>
+		{{tag-picker tag}}
+		<p>
+			<button disabled={{busy}} class={{if busy 'loading'}}>Create</button>
+		</p>
+	</form>
+</main>
+{{nav-footer}}

@@ -1,0 +1,65 @@
+{
+  "common__yes": "پرکھ",
+  "common__no": "پرکھ",
+  "common__error": "پرکھ",
+
+  "screen__home__title": "پرکھ",
+
+  "screen__home__summary_new": "پرکھ",
+  "screen__home__summary_total": "پرکھ",
+  "screen__home__summary_updated": "پرکھ",
+
+  "sceen__user__empty__message": "پرکھ",
+  "sceen__user__empty__label": "پرکھ",
+
+  "screen__profile__title": "پرکھ",
+
+  "screen__profile__profile__menu_auth_title": "پرکھ",
+  "screen__profile__profile__menu_auth_description": "پرکھ",
+  "screen__profile__profile__menu_auth_signed_in": "پرکھ",
+  "screen__profile__profile__menu_auth_not_signed_in": "پرکھ",
+  "screen__profile__profile__menu_auth_sign_out": "پرکھ",
+  "screen__profile__profile__menu_location_title": "پرکھ",
+  "screen__profile__profile__menu_location_description": "پرکھ",
+  "screen__profile__profile__menu_location_map": "پرکھ",
+  "screen__profile__profile__menu_location_wifi": "پرکھ",
+  "screen__profile__profile__menu_location_list": "پرکھ",
+  "screen__profile__profile__menu_appearance_title": "پرکھ",
+  "screen__profile__profile__menu_appearance_description": "پرکھ",
+  "screen__profile__profile__menu_appearance_theme_light": "پرکھ",
+  "screen__profile__profile__menu_appearance_theme_dark": "پرکھ",
+  "screen__profile__profile__menu_appearance_theme_custom": "پرکھ",
+  "screen__profile__profile__menu_locale_title": "پرکھ",
+  "screen__profile__profile__menu_locale_description": "پرکھ",
+  "screen__profile__profile__menu_locale_locale_en": "English",
+  "screen__profile__profile__menu_locale_locale_ar": "عربی",
+  "screen__profile__profile__menu_locale_locale_ur": "اردو",
+
+  "screen__profile__map__title": "پرکھ",
+
+  "screen__profile__ip__title": "پرکھ",
+  "screen__profile__ip__message": "پرکھ",
+  "screen__profile__ip__fetch": "پرکھ",
+
+  "screen__profile__list__title": "پرکھ",
+  "screen__profile__list__filter": "پرکھ",
+
+  "component__country__recovered": "پرکھ",
+  "component__country__deaths": "پرکھ",
+  "component__country__cases": "پرکھ",
+  "component__country__new": "پرکھ",
+  "component__country__total": "پرکھ",
+
+  "component__details__active": "پرکھ",
+  "component__details__confirmed": "پرکھ",
+  "component__details__deaths": "پرکھ",
+  "component__details__recovered": "پرکھ",
+
+  "component__date_picker__from": "پرکھ",
+  "component__date_picker__to": "پرکھ",
+
+  "hook__auth__fetchCountry__title": "پرکھ",
+  "hook__auth__fetchCountry__message": "پرکھ",
+
+  "hook__details__fetch__message": "پرکھ"
+}

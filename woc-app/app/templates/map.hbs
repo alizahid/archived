@@ -1,0 +1,24 @@
+<header>
+	<h1>Discounts</h1>
+</header>
+<main class="flex">
+	{{#leaflet-map lat=model.lat lng=model.lng zoom=zoom maxZoom=maxZoom onLoad='mapLoaded' onMoveend='mapMoved'}}
+		<div class="map-overlay">
+			{{#if loading}}
+				{{loading-spinner}}
+			{{/if}}
+			{{#if moved}}
+				<a class="button" {{action 'loadDiscounts'}}>Search this area</a>
+			{{/if}}
+		</div>
+		{{google-tile-layer type="ROADMAP" opacity=0.9}}
+		{{#marker-cluster-layer}}
+			{{#each discounts as |discount|}}
+				{{#if discount.place.location}}
+					{{marker-layer location=discount.place.location onClick=(action 'navigate' discount)}}
+				{{/if}}
+			{{/each}}
+		{{/marker-cluster-layer}}
+	{{/leaflet-map}}
+</main>
+{{nav-bar}}

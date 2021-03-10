@@ -1,0 +1,11 @@
+@import '../../styles/variables';
+
+.settings {
+  padding: 0 1em;
+
+  // sections
+  > section {
+    border-top: 1px solid $border;
+    margin: 1em 0;
+  }
+}

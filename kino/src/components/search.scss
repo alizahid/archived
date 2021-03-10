@@ -1,0 +1,12 @@
+@import '../assets/variables';
+
+.search {
+  display: flex;
+  flex: 1;
+  margin: 0 1em;
+
+  input {
+    background: $color-background;
+    width: 100%;
+  }
+}

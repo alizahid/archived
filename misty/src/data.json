@@ -1,0 +1,341 @@
+{
+  "leadership": [
+    {
+      "name": "Moonbeam",
+      "race": "Blood Elf",
+      "class": "Priest",
+      "avatar": "https://render-eu.worldofwarcraft.com/character/magtheridon/111/126122351-avatar.jpg",
+      "roles": ["Council leader", "Main healer"],
+      "badge": "leader"
+    },
+    {
+      "name": "Hrdari",
+      "race": "Blood Elf",
+      "class": "Demon Hunter",
+      "avatar": "https://render-eu.worldofwarcraft.com/character/magtheridon/18/137677330-avatar.jpg",
+      "roles": ["Main tank"]
+    },
+    {
+      "name": "Makhir",
+      "race": "Blood Elf",
+      "class": "Paladin",
+      "avatar": "https://render-eu.worldofwarcraft.com/character/magtheridon/16/117281040-avatar.jpg",
+      "roles": ["Main healer"]
+    },
+    {
+      "name": "Thagram",
+      "race": "Blood Elf",
+      "class": "Hunter",
+      "avatar": "https://render-eu.worldofwarcraft.com/character/magtheridon/84/117196116-avatar.jpg",
+      "roles": ["Damage"]
+    },
+    {
+      "name": "Xisiri",
+      "race": "Blood Elf",
+      "class": "Paladin",
+      "avatar": "https://render-eu.worldofwarcraft.com/character/magtheridon/45/117247789-avatar.jpg",
+      "roles": ["Main tank"]
+    }
+  ],
+  "members": [
+    {
+      "name": "Thotus",
+      "avatar": "https://render-eu.worldofwarcraft.com/character/magtheridon/35/116167459-avatar.jpg",
+      "race": "Pandaren",
+      "class": "Monk",
+      "roles": ["Main tank"]
+    },
+    {
+      "name": "Høx",
+      "avatar": "https://render-eu.worldofwarcraft.com/character/magtheridon/243/116789747-avatar.jpg",
+      "race": "Tauren",
+      "class": "Shaman",
+      "roles": ["Damage"]
+    },
+    {
+      "name": "Ildzyrion",
+      "avatar": "https://render-eu.worldofwarcraft.com/character/magtheridon/99/116804963-avatar.jpg",
+      "race": "Blood Elf",
+      "class": "Death Knight",
+      "roles": ["Damage"]
+    },
+    {
+      "name": "Praffinstein",
+      "avatar": "https://render-eu.worldofwarcraft.com/character/magtheridon/96/117064032-avatar.jpg",
+      "race": "Orc",
+      "class": "Warrior",
+      "roles": ["Damage"]
+    },
+    {
+      "name": "Faenya",
+      "avatar": "https://render-eu.worldofwarcraft.com/character/magtheridon/71/117215559-avatar.jpg",
+      "race": "Blood Elf",
+      "class": "Warlock",
+      "roles": ["Damage"],
+      "badge": "me"
+    },
+    {
+      "name": "Xisiri",
+      "avatar": "https://render-eu.worldofwarcraft.com/character/magtheridon/45/117247789-avatar.jpg",
+      "race": "Blood Elf",
+      "class": "Paladin",
+      "roles": ["Damage"]
+    },
+    {
+      "name": "Baifik",
+      "avatar": "https://render-eu.worldofwarcraft.com/character/magtheridon/59/117282619-avatar.jpg",
+      "race": "Orc",
+      "class": "Shaman",
+      "roles": ["Damage"]
+    },
+    {
+      "name": "Reanal",
+      "avatar": "https://render-eu.worldofwarcraft.com/character/magtheridon/107/117290859-avatar.jpg",
+      "race": "Undead",
+      "class": "Priest",
+      "roles": ["Damage"]
+    },
+    {
+      "name": "Burbót",
+      "avatar": "https://render-eu.worldofwarcraft.com/character/magtheridon/86/120437846-avatar.jpg",
+      "race": "Troll",
+      "class": "Shaman",
+      "roles": ["Damage"]
+    },
+    {
+      "name": "Dianagrande",
+      "avatar": "https://render-eu.worldofwarcraft.com/character/magtheridon/77/121383501-avatar.jpg",
+      "race": "Blood Elf",
+      "class": "Warrior",
+      "roles": ["Damage"]
+    },
+    {
+      "name": "Gulrar",
+      "avatar": "https://render-eu.worldofwarcraft.com/character/magtheridon/30/123545630-avatar.jpg",
+      "race": "Orc",
+      "class": "Shaman",
+      "roles": ["Damage"]
+    },
+    {
+      "name": "Jinxet",
+      "avatar": "https://render-eu.worldofwarcraft.com/character/magtheridon/76/124093772-avatar.jpg",
+      "race": "Goblin",
+      "class": "Mage",
+      "roles": ["Damage"]
+    },
+    {
+      "name": "Liádrin",
+      "avatar": "https://render-eu.worldofwarcraft.com/character/magtheridon/200/124138952-avatar.jpg",
+      "race": "Blood Elf",
+      "class": "Paladin",
+      "roles": ["Damage"]
+    },
+    {
+      "name": "Lamphat",
+      "avatar": "https://render-eu.worldofwarcraft.com/character/magtheridon/8/126910984-avatar.jpg",
+      "race": "Orc",
+      "class": "Death Knight",
+      "roles": ["Damage"]
+    },
+    {
+      "name": "Kilrôgg",
+      "avatar": "https://render-eu.worldofwarcraft.com/character/magtheridon/125/130328701-avatar.jpg",
+      "race": "Blood Elf",
+      "class": "Mage",
+      "roles": ["Damage"]
+    },
+    {
+      "name": "Docsisguud",
+      "avatar": "https://render-eu.worldofwarcraft.com/character/magtheridon/137/132124297-avatar.jpg",
+      "race": "Troll",
+      "class": "Druid",
+      "roles": ["Damage"]
+    },
+    {
+      "name": "Xonia",
+      "avatar": "https://render-eu.worldofwarcraft.com/character/magtheridon/222/133695710-avatar.jpg",
+      "race": "Blood Elf",
+      "class": "Mage",
+      "roles": ["Damage"]
+    },
+    {
+      "name": "Fjórdin",
+      "avatar": "https://render-eu.worldofwarcraft.com/character/magtheridon/241/139582961-avatar.jpg",
+      "race": "Blood Elf",
+      "class": "Paladin",
+      "roles": ["Damage"]
+    },
+    {
+      "name": "Unqby",
+      "avatar": "https://render-eu.worldofwarcraft.com/character/magtheridon/218/140325850-avatar.jpg",
+      "race": "Undead",
+      "class": "Priest",
+      "roles": ["Damage"]
+    },
+    {
+      "name": "Asharri",
+      "avatar": "https://render-eu.worldofwarcraft.com/character/magtheridon/211/142762195-avatar.jpg",
+      "race": "Blood Elf",
+      "class": "Monk",
+      "roles": ["Healer"]
+    },
+    {
+      "name": "Cheekybreeky",
+      "avatar": "https://render-eu.worldofwarcraft.com/character/magtheridon/102/145296230-avatar.jpg",
+      "race": "Orc",
+      "class": "Death Knight",
+      "roles": ["Damage"]
+    },
+    {
+      "name": "Hubbíe",
+      "avatar": "https://render-eu.worldofwarcraft.com/character/magtheridon/81/148355153-avatar.jpg",
+      "race": "Blood Elf",
+      "class": "Rogue",
+      "roles": ["Damage"]
+    },
+    {
+      "name": "Jalalx",
+      "avatar": "https://render-eu.worldofwarcraft.com/character/magtheridon/173/153099437-avatar.jpg",
+      "race": "Blood Elf",
+      "class": "Monk",
+      "roles": ["Damage"]
+    },
+    {
+      "name": "Xanas",
+      "avatar": "https://render-eu.worldofwarcraft.com/character/magtheridon/30/153357342-avatar.jpg",
+      "class": "Mage",
+      "roles": ["Damage"]
+    },
+    {
+      "name": "Highberg",
+      "avatar": "https://render-eu.worldofwarcraft.com/character/magtheridon/183/153966775-avatar.jpg",
+      "race": "Blood Elf",
+      "class": "Rogue",
+      "roles": ["Damage"]
+    },
+    {
+      "name": "Natswend",
+      "avatar": "https://render-eu.worldofwarcraft.com/character/magtheridon/190/154080702-avatar.jpg",
+      "race": "Orc",
+      "class": "Shaman",
+      "roles": ["Damage"]
+    }
+  ],
+  "progression": [
+    {
+      "name": "Battle of Dazar'alor",
+      "bosses": [
+        {
+          "name": "Frida Ironbellows",
+          "normal": true,
+          "heroic": true,
+          "mythic": false
+        },
+        {
+          "name": "Grong, the Jungle Lord",
+          "normal": true,
+          "heroic": true,
+          "mythic": false
+        },
+        {
+          "name": "Jadefire Masters",
+          "normal": true,
+          "heroic": false,
+          "mythic": false
+        },
+        {
+          "name": "Opulence",
+          "normal": true,
+          "heroic": false,
+          "mythic": false
+        },
+        {
+          "name": "Conclave of the Chosen",
+          "normal": true,
+          "heroic": false,
+          "mythic": false
+        },
+        {
+          "name": "King Rastakhan",
+          "normal": true,
+          "heroic": false,
+          "mythic": false
+        },
+        {
+          "name": "High Tinker Mekkatorque",
+          "normal": true,
+          "heroic": false,
+          "mythic": false
+        },
+        {
+          "name": "Stormwall Blockade",
+          "normal": true,
+          "heroic": false,
+          "mythic": false
+        },
+        {
+          "name": "Jaina Proudmoore",
+          "normal": true,
+          "heroic": false,
+          "mythic": false
+        }
+      ]
+    },
+    {
+      "name": "Uldir",
+      "bosses": [
+        {
+          "name": "Taloc",
+          "normal": true,
+          "heroic": true,
+          "mythic": true
+        },
+        {
+          "name": "MOTHER",
+          "normal": true,
+          "heroic": true,
+          "mythic": true
+        },
+        {
+          "name": "Fetid Devourer",
+          "normal": true,
+          "heroic": true,
+          "mythic": false
+        },
+        {
+          "name": "Zek'voz",
+          "normal": true,
+          "heroic": true,
+          "mythic": false
+        },
+        {
+          "name": "Vectis",
+          "normal": true,
+          "heroic": true,
+          "mythic": false
+        },
+        {
+          "name": "Zul",
+          "normal": true,
+          "heroic": true,
+          "mythic": false
+        },
+        {
+          "name": "Mythrax",
+          "normal": true,
+          "heroic": true,
+          "mythic": false
+        },
+        {
+          "name": "G'huun",
+          "normal": true,
+          "heroic": true,
+          "mythic": false
+        }
+      ]
+    }
+  ],
+  "options": {
+    "applications": true
+  }
+}

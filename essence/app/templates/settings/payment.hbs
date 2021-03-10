@@ -1,0 +1,41 @@
+<header>
+	{{back-button}}
+	<h1>Payment</h1>
+</header>
+<main class="payment">
+	{{#if model.token}}
+	<h1>Card</h1>
+	<p>
+		<strong>Number</strong>
+		**** **** **** {{model.last4}}
+	</p>
+	<p>
+		<strong>Expiry</strong>
+		{{model.expiry.month}} / {{model.expiry.year}}
+	</p>
+	<p class={{if model.premium 'premium' 'basic'}}>
+		<strong>Premium</strong>
+		{{#if model.premium}}
+		<span>Yes</span>
+		{{else}}
+		<span>No</span>
+		<button {{action 'upgrade'}}>Upgrade</button>
+		{{/if}}
+	</p>
+	<hr>
+	{{#unless showCard}}
+	<p>
+		<button {{action 'showCard'}}>Update card</button>
+	</p>
+	{{/unless}}
+	{{/if}}
+	{{#if showCard}}
+	<form {{action 'save' on='submit'}}>
+		{{form-response error=error}}
+		{{credit-card card=card}}
+		<p>
+			<button {{action 'saveCard' card}} disabled={{invalid}}>Save</button>
+		</p>
+	</form>
+	{{/if}}
+</main>

@@ -1,0 +1,13 @@
+.users-remove {
+  width: 20em;
+
+  > section {
+    margin: 1em 0;
+
+    > p {
+      > span {
+        font-weight: bold;
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+.overlay {
+	align-items: center;
+	background: rgba(0, 0, 0, 0.25);
+	cursor: pointer;
+	display: flex;
+	font-size: 0.75em;
+	height: 100vh;
+	justify-content: center;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100vw;
+}
+.overlay .dialog {
+	background: #FFF;
+	border-radius: 0.25em;
+	cursor: default;
+	box-shadow: 0 0 2em rgba(0, 0, 0, 0.25);
+	margin: 2em;
+	max-width: 20em;
+	padding: 1em;
+	width: 100%;
+}
+.overlay .dialog p {
+	margin-top: 0;
+}
+.overlay .dialog input {
+	background: #E6E6E6;
+	appearance: none;
+	border: none;
+	border-radius: 0.25em;
+	font: inherit;
+	padding: 0.75em;
+	width: 100%;
+}
+.overlay .dialog footer {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 2em;
+}
+.overlay .dialog footer button {
+	background: #3F51B5;
+	appearance: none;
+	border: none;
+	border-radius: 0.25em;
+	color: #FFF;
+	cursor: pointer;
+	font: inherit;
+	padding: 0.75em 1em;
+	transition: all 300ms ease;
+}
+.overlay .dialog footer button:first-child {
+	background: #E91E63;
+}
+.overlay .dialog footer button:first-child:hover {
+	background: #EE4C83;
+}
+.overlay .dialog footer button:first-child:active {
+	background: #C1134E;
+}
+.overlay .dialog footer button:not(:first-child) {
+	margin-left: 1em;
+}
+.overlay .dialog footer button:hover {
+	background: #606FC7;
+}
+.overlay .dialog footer button:active {
+	background: #32408F;
+}
+.overlay img {
+	border-radius: 0.25em;
+	max-height: 80%;
+	max-width: 80%;
+}

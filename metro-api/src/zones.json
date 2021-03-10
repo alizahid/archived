@@ -1,0 +1,22 @@
+[
+  {
+    "number": 1,
+    "two": [2],
+    "three": [5, 6]
+  },
+  {
+    "number": 2,
+    "two": [1, 6],
+    "three": [5]
+  },
+  {
+    "number": 5,
+    "two": [6],
+    "three": [1, 2]
+  },
+  {
+    "number": 6,
+    "two": [2, 5],
+    "three": [1]
+  }
+]

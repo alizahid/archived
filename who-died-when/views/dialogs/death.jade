@@ -1,0 +1,17 @@
+form(action="/shows/death/" + character.id, method="DELETE", data-exclude="killer" data-onsuccess="reload")
+	label
+		input(type="text", readonly, placeholder="Name", value=character.name)
+	.grid
+		label
+			input(type="number", placeholder="Season" name="season")
+		label
+			input(type="number", placeholder="Episode" name="episode")
+	label
+		input(type="text", placeholder="Killed by" name="killer")
+	label
+		textarea(name="description", placeholder="Details" cols="30", rows="5")
+	label
+		h4 Episode air date
+		input(type="date", placeholder="Episode air date", name="updated", value=now)
+	p
+		button(type="submit") Submit

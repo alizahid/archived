@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "269348529307",
+    "firebase_url": "https://crew-untold.firebaseio.com",
+    "project_id": "crew-untold",
+    "storage_bucket": "crew-untold.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269348529307:android:5d3ba1550ed9d07e",
+        "android_client_info": {
+          "package_name": "com.crewuntold"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269348529307-nuog5b4i7e6aq22g7bfe21d5pmt3c674.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXk9JRGqNoU8sEtjA_caXaSS8cXz1cjwg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

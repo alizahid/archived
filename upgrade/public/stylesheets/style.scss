@@ -1,0 +1,123 @@
+// Variables
+
+$primary: #212121;
+$accent: #2196F3;
+
+$background: #FFF;
+$color: #333;
+$gray: #999;
+$border: #EEE;
+$overlay: #FAFAFA;
+
+$typeText: 'San Francisco', sans-serif;
+$typeDisplay: 'San Francisco Display', sans-serif;
+
+// Reset
+
+*,
+*:after,
+*:before {
+	border-radius: 0;
+	box-sizing: border-box;
+	font-weight: normal;
+	outline: none;
+	margin: 0;
+	padding: 0;
+}
+
+// Styles
+
+body {
+	background: $background;
+	color: $color;
+	cursor: default;
+	font: normal 1em/1 $typeText;
+}
+
+a {
+	color: $primary;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+form {
+	label {
+		display: block;
+	}
+
+	button,
+	input,
+	textarea {
+		appearance: none;
+		background: $border;
+		border-radius: 0.25em;
+		border: none;
+		color: $typeText;
+		display: block;
+		font: inherit;
+		line-height: normal;
+		padding: 1em;
+		width: 100%;
+		user-select: text;
+
+		&::placeholder {
+			color: $gray;
+		}
+	}
+
+	textarea {
+		line-height: 1.4;
+		min-height: 4em;
+	}
+
+	button {
+		background: $primary;
+		cursor: pointer;
+		color: $background;
+		line-height: 1;
+		padding: 1em;
+
+		&:active {
+			background: lighten($primary, 10%);
+		}
+	}
+}
+
+h1,
+h2,
+h3 {
+	font-family: $typeDisplay;
+	line-height: 1.4;
+}
+
+h1 {
+	font-size: 1em;
+	font-weight: 500;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	color: $gray;
+	font-size: 1em;
+	margin: 1em 0;
+}
+
+hr {
+	border: none;
+	border-top: 1px solid $border;
+	margin: 1em 0;
+}
+
+img {
+	border: none;
+	max-width: 100%;
+	vertical-align: top;
+}
+
+p {
+	line-height: 1.4;
+	margin: 1em 0;
+}

@@ -1,0 +1,23 @@
+@import '../../variables';
+
+.textbox {
+	appearance: none;
+	background: none;
+	border: none;
+	border-bottom: 2px solid transparent;
+	color: $color;
+	font: inherit;
+	padding: 1em 0;
+	transition: 200ms;
+	user-select: text;
+	width: 100%;
+
+	&.focus,
+	&:focus {
+		border-bottom: 2px solid $primary;
+	}
+
+	&::-webkit-search-decoration {
+		appearance: none;
+	}
+}

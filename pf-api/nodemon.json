@@ -1,0 +1,11 @@
+{
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "execMap": {
+    "ts": "node -r ts-node/register/files"
+  },
+  "ext": "ts",
+  "restartable": "r",
+  "watch": ["src"]
+}

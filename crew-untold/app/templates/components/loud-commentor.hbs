@@ -1,0 +1,15 @@
+<div class="handler">
+	<a href="#"></a>
+</div>
+{{#ember-wormhole to="wormhole"}}
+	<div class="overlay">
+		<form {{action 'post' on='submit'}}>
+			<label>
+				{{textarea value=body placeholder="Write a reply…" required=true}}
+			</label>
+			<p>
+				<button>Post</button>
+			</p>
+		</form>
+	</div>
+{{/ember-wormhole}}

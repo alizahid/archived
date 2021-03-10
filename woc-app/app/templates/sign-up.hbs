@@ -1,0 +1,31 @@
+<header>
+	{{back-button}}
+	<h1>Sign up</h1>
+</header>
+<main>
+	<form {{action 'signUp' on='submit'}}>
+		{{error-message error}}
+		<label>
+			{{input type="text" value=user.name placeholder="Name" required=true}}
+		</label>
+		<label>
+			{{input type="email" value=user.email placeholder="Email" required=true}}
+		</label>
+		<label>
+			{{input type="password" value=user.password placeholder="Password" required=true}}
+		</label>
+		<label class="phone">
+			<span>{{user.phone.code}}</span>
+			{{input type="tel" value=user.phone.number placeholder="Phone" required=true}}
+		</label>
+		<label>
+			{{select-view content=genders value=user.gender key='value' placeholder="Gender" required=true}}
+		</label>
+		<label>
+			{{input type="text" value=user.birthday placeholder="Birthday" required=true}}
+		</label>
+		<p>
+			<button disabled={{busy}}>Sign up</button>
+		</p>
+	</form>
+</main>

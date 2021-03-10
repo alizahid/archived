@@ -1,0 +1,66 @@
+@import '../../variables';
+
+.matches {
+	.hidden {
+		display: none;
+	}
+
+	p {
+		color: $color-light;
+		margin: 0;
+		text-align: center;
+	}
+
+	.films,
+	.people {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		max-width: 30em;
+
+		.film,
+		.person {
+			flex: 0 0 calc(50% - 1em);
+
+			&:nth-child(even) {
+				text-align: right;
+
+				figure {
+					margin-left: auto;
+				}
+			}
+
+			figure {
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				border-radius: 0.25em;
+				padding: 60% 0;
+				width: 80%;
+			}
+
+			h3,
+			small {
+				margin: 1em 0 0;
+			}
+
+			h3 {
+				line-height: 1.2;
+				word-break: break-word;
+			}
+
+			small {
+				color: $color-light;
+				display: block;
+			}
+		}
+	}
+
+	.films {
+		.film {
+			&:nth-child(n + 3) {
+				margin: 2em 0 0;
+			}
+		}
+	}
+}

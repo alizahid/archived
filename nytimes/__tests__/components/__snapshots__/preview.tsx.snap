@@ -1,0 +1,231 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "opacity": 1,
+      "padding": 20,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "https://via.placeholder.com/150",
+      }
+    }
+    style={
+      Object {
+        "backgroundColor": "#EFEFF4",
+        "borderRadius": 25,
+        "height": 50,
+        "width": 50,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginLeft": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "color": "#000000",
+          "fontFamily": "System",
+          "fontSize": 15,
+          "fontWeight": "400",
+          "letterSpacing": -0.24,
+          "lineHeight": 20,
+        }
+      }
+    >
+      A test article
+    </Text>
+    <Text
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "color": "#8E8E93",
+          "fontFamily": "System",
+          "fontSize": 13,
+          "fontWeight": "400",
+          "letterSpacing": -0.078,
+          "lineHeight": 18,
+          "marginVertical": 10,
+        }
+      }
+    >
+      By Ali Zahid
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/icons8-calendar.png",
+          }
+        }
+        style={
+          Object {
+            "height": 20,
+            "width": 20,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "color": "#8E8E93",
+            "fontFamily": "System",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "letterSpacing": -0.078,
+            "lineHeight": 18,
+            "marginLeft": 10,
+          }
+        }
+      >
+        6/2/2019
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`tap 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "opacity": 1,
+      "padding": 20,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "https://via.placeholder.com/150",
+      }
+    }
+    style={
+      Object {
+        "backgroundColor": "#EFEFF4",
+        "borderRadius": 25,
+        "height": 50,
+        "width": 50,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginLeft": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "color": "#000000",
+          "fontFamily": "System",
+          "fontSize": 15,
+          "fontWeight": "400",
+          "letterSpacing": -0.24,
+          "lineHeight": 20,
+        }
+      }
+    >
+      A test article
+    </Text>
+    <Text
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "color": "#8E8E93",
+          "fontFamily": "System",
+          "fontSize": 13,
+          "fontWeight": "400",
+          "letterSpacing": -0.078,
+          "lineHeight": 18,
+          "marginVertical": 10,
+        }
+      }
+    >
+      By Ali Zahid
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/icons8-calendar.png",
+          }
+        }
+        style={
+          Object {
+            "height": 20,
+            "width": 20,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "color": "#8E8E93",
+            "fontFamily": "System",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "letterSpacing": -0.078,
+            "lineHeight": 18,
+            "marginLeft": 10,
+          }
+        }
+      >
+        6/2/2019
+      </Text>
+    </View>
+  </View>
+</View>
+`;

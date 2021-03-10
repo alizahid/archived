@@ -1,0 +1,15 @@
+<header>
+	{{back-button}}
+	<h1>Settings</h1>
+</header>
+<main class="full">
+	<ul class="action">
+		{{link-to 'Orders' 'orders' tagName="li" class="orders"}}
+		<li class="divider"></li>
+		{{link-to 'Payment' 'settings.payment' tagName="li" class="payment"}}
+		{{link-to 'Profile' 'settings.profile' tagName="li" class="profile"}}
+		{{link-to 'Password' 'settings.password' tagName="li" class="password"}}
+		<li class="divider"></li>
+		<li {{action 'logout'}} class="logout">Logout</li>
+	</ul>
+</main>

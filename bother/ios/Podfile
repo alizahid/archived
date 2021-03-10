@@ -1,0 +1,22 @@
+target 'Bother' do
+  node_modules = '../node_modules'
+  react_native = "#{node_modules}/react-native"
+  third_party = "#{react_native}/third-party-podspecs"
+
+  pod 'yoga', path: "#{react_native}/ReactCommon/yoga/yoga.podspec"
+  pod 'React', path: react_native
+
+  pod 'DoubleConversion', podspec: "#{third_party}/DoubleConversion.podspec"
+  pod 'glog', podspec: "#{third_party}/glog.podspec"
+  pod 'Folly', podspec: "#{third_party}/Folly.podspec"
+
+  pod 'RNCAsyncStorage', path: "#{node_modules}/@react-native-community/async-storage"
+  pod 'RNGestureHandler', path: "#{node_modules}/react-native-gesture-handler"
+  pod 'RNReanimated', path: "#{node_modules}/react-native-reanimated"
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.remove_from_project if %w[React yoga].include? target.name
+  end
+end

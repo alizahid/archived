@@ -1,0 +1,17 @@
+<header class={{theme}}>
+	{{back-button}}
+	<h1>Post about <em>{{model.tag.name}}</em></h1>
+</header>
+<main>
+	{{rage-post model class="single"}}
+	<header>
+		<h3 class="reload {{if reloading 'reloading'}}" {{action 'reload'}}>Replies</h3>
+		{{loud-commentor model}}
+	</header>
+	{{#each model._comments as |comment|}}
+		{{le-comment comment}}
+	{{else}}
+		{{empty-message 'No replies yet'}}
+	{{/each}}
+</main>
+{{nav-footer 'feed'}}

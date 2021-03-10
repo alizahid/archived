@@ -1,0 +1,17 @@
+@font-face {
+	font-family: 'San Francisco';
+	font-weight: 100;
+	src: url('san-francisco-light.woff');
+}
+
+@font-face {
+	font-family: 'San Francisco';
+	font-weight: normal;
+	src: url('san-francisco-regular.woff');
+}
+
+@font-face {
+	font-family: 'San Francisco';
+	font-weight: 500;
+	src: url('san-francisco-medium.woff');
+}

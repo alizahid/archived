@@ -1,0 +1,47 @@
+/* fonts */
+
+@import url('https://rsms.me/inter/inter.css');
+
+/* tailwind */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* global */
+
+*,
+*:active,
+*:focus {
+  outline: 0 !important;
+}
+
+a {
+  transition: 0.2s;
+}
+
+form label {
+  @apply block my-4;
+}
+
+form input {
+  @apply bg-gray-300 rounded p-4;
+}
+
+form button {
+  @apply bg-gray-800 text-white rounded font-medium p-4;
+}
+
+form textarea {
+  @apply bg-gray-300 rounded p-4 max-w-3xl w-full h-64;
+}
+
+h2 {
+  @apply text-gray-800 text-4xl font-semibold;
+}
+
+/* layout */
+
+main {
+  @apply m-8;
+}

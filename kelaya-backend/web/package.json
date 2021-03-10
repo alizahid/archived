@@ -1,0 +1,52 @@
+{
+  "name": "kelaya-test-backend-web",
+  "private": true,
+  "scripts": {
+    "build": "react-scripts build",
+    "lint": "eslint src --ext .ts,tsx",
+    "prebuild": "tailwind build src/tailwind.css -o src/index.css",
+    "prestart": "tailwind build src/tailwind.css -o src/index.css",
+    "start": "react-scripts start"
+  },
+  "dependencies": {
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "react-sweet-state": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^13.11.0",
+    "@types/react": "^16.9.32",
+    "@types/react-dom": "^16.9.6",
+    "@types/react-router-dom": "^5.1.3",
+    "@typescript-eslint/eslint-plugin": "^2.26.0",
+    "@typescript-eslint/parser": "^2.26.0",
+    "autoprefixer": "^9.7.5",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-simple-import-sort": "^5.0.2",
+    "eslint-plugin-sort-destructure-keys": "^1.3.3",
+    "eslint-plugin-sort-keys-fix": "^1.1.0",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.0.2",
+    "tailwindcss": "^1.2.0",
+    "typescript": "~3.8.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

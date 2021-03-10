@@ -1,0 +1,25 @@
+extends layout
+
+block content
+	h1 Deaths
+	.pagination
+		each i in pages
+			if page == i
+				span=i
+			else
+				a(href="?page=" + i)=i
+	.characters
+		each character in characters
+			div
+				.character
+					h2=character.name
+					p.show
+						a(href="/shows/" + character.show.id)=character.show.name
+					p.death="Season " + character.death.season + " Episode " + character.death.episode
+					if character.death.killer
+						p.killer=character.death.killer
+					p.description=character.death.description
+				if character.death
+					p.dead Dead
+				else
+					p.alive Alive

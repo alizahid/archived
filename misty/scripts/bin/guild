@@ -1,0 +1,61 @@
+#!/usr/bin/env node
+
+const yargs = require('yargs')
+
+const Guild = require('../src/guild')
+
+const args = yargs
+  .usage('$0 [args]')
+  .option('name', {
+    default: 'Misty',
+    describe: 'Guild name',
+    type: 'string'
+  })
+  .option('realm', {
+    default: 'Magtheridon',
+    describe: 'Realm name',
+    type: 'string'
+  })
+  .option('server', {
+    default: 'EU',
+    describe: 'Server -- EU, US, etc.',
+    type: 'string'
+  })
+  .option('ranks', {
+    default: [0, 1, 2, 3],
+    describe: 'Which ranks to fetch from the Armory',
+    type: 'array'
+  })
+  .option('leadership', {
+    default: [0, 1],
+    describe: 'Which ranks are leaders?',
+    type: 'array'
+  })
+  .option('sortBy', {
+    default: 'rank',
+    describe: 'Sort by `name` or `rank`',
+    type: 'string'
+  })
+  .option('spec', {
+    default: false,
+    describe: 'Include `spec` field',
+    type: 'boolean'
+  })
+  .option('rank', {
+    default: false,
+    describe: 'Include `rank` field',
+    type: 'boolean'
+  })
+  .option('about', {
+    default: false,
+    describe: 'Include `about` field with role',
+    type: 'boolean'
+  })
+  .option('pretty', {
+    default: false,
+    describe: 'Pretty print JSON',
+    type: 'boolean'
+  })
+  .help('help').argv
+
+Guild(args)

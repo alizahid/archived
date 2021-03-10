@@ -1,0 +1,35 @@
+<header>
+	{{menu-button open=menuOpen}}
+	{{header-button class="right add" action=(action 'createPlan')}}
+	<h1>Events</h1>
+</header>
+{{#pull-to-refresh pull-to-refresh=ptr reload='reload'}}
+	{{#each model as |event|}}
+		{{#link-to 'event' event.id tagName="div" class="event-card"}}
+			{{profile-photo event.user}}
+			<section>
+				<p>{{event.description}}</p>
+				<small class="time">{{moment-from-now event.created interval=60000}}</small>
+				<small class="comments">{{event.comments.length}}</small>
+				<small class="attending">{{event.attending.length}}</small>
+			</section>
+		{{/link-to}}
+	{{else}}
+		<div class="super-hero">
+			<p>No events near you.</p>
+			<p>
+				{{#link-to 'create' tagName="button" class="primary"}}Create your own{{/link-to}}
+			</p>
+		</div>
+	{{/each}}
+{{/pull-to-refresh}}
+{{#slide-menu open=menuOpen}}
+	<a href="#" class="menu"></a>
+	<ul>
+		{{#link-to 'profile' user.id tagName="li" class="profile"}}Profile{{/link-to}}
+		{{#link-to 'notifications' tagName="li" class="notifications"}}Notifications <span class="notifications">{{user.notifications}}</span>{{/link-to}}
+		<li href="#" {{action 'rateApp'}} class="rate">Rate Plan X</li>
+		<li href="#" {{action 'shareApp'}} class="share">Share Plan X</li>
+		<li href="#" {{action 'logout'}} class="logout">Logout</li>
+	</ul>
+{{/slide-menu}}

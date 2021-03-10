@@ -1,0 +1,109 @@
+{
+  "name": "dota-picker-api",
+  "private": true,
+  "version": "0.0.0",
+  "author": "Ali Zahid <ali.zahid@live.com> (https://designplox.com/)",
+  "homepage": "https://github.com/alizahid/dota-picker-api",
+  "keywords": ["dota-picker-api", "lass"],
+  "bugs": {
+    "url": "https://github.com/alizahid/dota-picker-api/issues",
+    "email": "ali.zahid@live.com"
+  },
+  "contributors": ["Ali Zahid <ali.zahid@live.com> (https://designplox.com/)"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alizahid/dota-picker-api"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "cors": "^2.8.4",
+    "fastify": "^0.37.0",
+    "jsonwebtoken": "^8.1.0",
+    "lodash.get": "^4.4.2",
+    "mongoose": "4.13.8",
+    "newrelic": "^2.4.2",
+    "shortid": "^2.2.8"
+  },
+  "ava": {
+    "failFast": true,
+    "verbose": true
+  },
+  "devDependencies": {
+    "auto-bind": "^1.1.0",
+    "ava": "^0.24.0",
+    "codecov": "^3.0.0",
+    "cross-env": "^5.1.3",
+    "dotenv": "^4.0.0",
+    "eslint": "^4.14.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.4.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^6.0.0",
+    "nodemon": "^1.14.7",
+    "nyc": "^11.4.1",
+    "prettier": "^1.9.2",
+    "remark-cli": "^4.0.0",
+    "remark-preset-github": "^0.0.7",
+    "xo": "^0.19.0"
+  },
+  "engines": {
+    "node": ">=8.3"
+  },
+  "lint-staged": {
+    "*.{js,json}": [
+      "prettier --write --single-quote --no-semi --trailing-comma none",
+      "git add"
+    ],
+    "*.md": ["remark . -qfo", "git add"]
+  },
+  "main": "index.js",
+  "nyc": {
+    "check-coverage": true,
+    "lines": 100,
+    "functions": 100,
+    "branches": 100,
+    "reporter": ["lcov", "html", "text"]
+  },
+  "remarkConfig": {
+    "plugins": ["preset-github"]
+  },
+  "scripts": {
+    "start": "node -r newrelic index.js",
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "lint": "xo && remark . -qfo",
+    "precommit": "lint-staged",
+    "test": "npm run lint && npm run test-coverage",
+    "test-coverage": "cross-env NODE_ENV=test nyc ava",
+    "dev": "nodemon --exec 'node -r dotenv/config' index.js"
+  },
+  "xo": {
+    "extends": "prettier",
+    "plugins": ["prettier"],
+    "parserOptions": {
+      "sourceType": "script"
+    },
+    "rules": {
+      "prettier/prettier": [
+        "error",
+        {
+          "singleQuote": true,
+          "bracketSpacing": true,
+          "trailingComma": "none",
+          "semi": false
+        }
+      ],
+      "max-len": [
+        "error",
+        {
+          "code": 80,
+          "ignoreUrls": true
+        }
+      ],
+      "capitalized-comments": "off",
+      "camelcase": "off",
+      "no-warning-comments": "off"
+    },
+    "space": true,
+    "semicolon": false
+  }
+}

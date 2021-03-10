@@ -1,0 +1,29 @@
+platform :ios, '9.0'
+
+target 'PushBump' do
+  pod 'React', path: '../node_modules/react-native', subspecs: %w[RCTImage]
+
+  pod 'yoga', path: '../node_modules/react-native/ReactCommon/yoga'
+
+  pod 'DoubleConversion', podspec: '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
+  pod 'glog', podspec: '../node_modules/react-native/third-party-podspecs/glog.podspec'
+  pod 'Folly', podspec: '../node_modules/react-native/third-party-podspecs/Folly.podspec'
+
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Messaging'
+
+  pod 'RNSVG', path: '../node_modules/react-native-svg'
+  pod 'SentryReactNative', path: '../node_modules/react-native-sentry/SentryReactNative.podspec'
+  pod 'react-native-camera', path: '../node_modules/react-native-camera'
+  pod 'CodePush', path: '../node_modules/react-native-code-push'
+end
+
+post_install do |installer|
+  targets_to_ignore = %w[React yoga]
+
+  installer.pods_project.targets.each do |target|
+    target.remove_from_project if targets_to_ignore.include? target.name
+  end
+end

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Jado Pado</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	{{content-for "head"}}
+
+	<link rel="stylesheet" href="{{rootURL}}assets/vendor.css">
+	<link rel="stylesheet" href="{{rootURL}}assets/jado-pado.css">
+
+	{{content-for "head-footer"}}
+</head>
+
+<body>
+	{{content-for "body"}}
+
+	<script pace-src="{{rootURL}}assets/vendor.js"></script>
+	<script pace-src="{{rootURL}}assets/jado-pado.js"></script>
+
+	{{content-for "body-footer"}}
+</body>
+
+</html>

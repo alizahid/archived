@@ -1,0 +1,1 @@
+export { comics } from './comics'

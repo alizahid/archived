@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "Dota Picker",
+    "description": "Counter picker for Dota",
+    "version": "1.0.0",
+    "slug": "dota-picker",
+    "icon": "./assets/icon.png",
+    "orientation": "portrait",
+    "platforms": ["ios", "android"],
+    "privacy": "public",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#242425"
+    },
+    "sdkVersion": "24.0.0"
+  }
+}

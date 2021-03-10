@@ -1,0 +1,140 @@
+.ember-application > .ember-view {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+
+	& > header {
+		background: $background;
+		border-bottom: 1px solid darken($background, 5%);
+		flex: 0 0 auto;
+		padding: 1em;
+		position: relative;
+
+		h1 {
+			color: $primary;
+			font-size: 1em;
+			font-weight: 500;
+			margin: 0;
+			text-align: center;
+		}
+
+		.action,
+		.back {
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 40%;
+			cursor: pointer;
+			display: block;
+			height: 3em;
+			position: absolute;
+			top: 0;
+			width: 3em;
+
+			&:active {
+				background-color: darken($background, 2%);
+				opacity: 1;
+			}
+		}
+
+		.action {
+			right: 0;
+
+			&.filter {
+				background-image: url('icons/filter.png');
+			}
+
+			&.settings {
+				background-image: url('icons/settings.png');
+			}
+		}
+
+		.back {
+			background-image: url('icons/arrow-left.png');
+			left: 0;
+		}
+	}
+
+	& > main {
+		flex: 1;
+		padding: 0 1em;
+		position: relative;
+		overflow-y: scroll;
+		-webkit-overflow-scrolling: touch;
+
+		&.full {
+			padding: 0;
+		}
+
+		&.flex {
+			padding: 0;
+			display: flex;
+		}
+
+		&.hero {
+			align-items: center;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			padding: 1em;
+
+			button {
+				appearance: none;
+				background: $accent;
+				border: none;
+				border-radius: 0.25em;
+				color: $background;
+				cursor: pointer;
+				font: inherit;
+				line-height: normal;
+				padding: 1em;
+				transition: 100ms;
+
+				&:active {
+					background: lighten($accent, 10%);
+				}
+
+				&:not(:first-child) {
+					margin-top: 1em;
+				}
+			}
+		}
+	}
+
+	& > footer {
+		background: $primary;
+		flex: 0 0 auto;
+
+		nav {
+			display: flex;
+
+			a {
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: 1.5em;
+				flex: 1;
+				height: 3em;
+				opacity: 0.5;
+
+				&.active {
+					opacity: 1;
+				}
+
+				&.feed {
+					background-image: url('icons/feed.png');
+				}
+
+				&.map {
+					background-image: url('icons/map.png');
+				}
+
+				&.create {
+					background-image: url('icons/create.png');
+				}
+
+				&.profile {
+					background-image: url('icons/profile.png');
+				}
+			}
+		}
+	}
+}

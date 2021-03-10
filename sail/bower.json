@@ -1,0 +1,13 @@
+{
+  "name": "sail",
+  "description": "Smart App Banner for Android",
+  "homepage": "http://alizahid.github.io/sail/",
+  "license": "MIT",
+  "authors": [
+    "Ali Zahid <ali@designplox.co>"
+  ],
+  "keywords": [
+    "smart-app-banner",
+    "android"
+  ]
+}

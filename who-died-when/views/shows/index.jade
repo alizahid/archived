@@ -1,0 +1,24 @@
+extends /layout
+
+block content
+	h1 Shows
+	.index
+		each i in index
+			if start == i
+				span=i
+			else
+				a(href="?start=" + i)=i
+	if shows.length
+		table
+			thead
+				tr
+					th Name
+					th Deaths
+			tbody
+				each show in shows
+					tr
+						td
+							a(href="/shows/" + show.id)=show.name
+						td=show.deaths
+	else
+		p.error No shows

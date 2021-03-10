@@ -1,0 +1,19 @@
+target 'NYTimes' do
+  rn_path = '../node_modules/react-native'
+  third_party = "#{rn_path}/third-party-podspecs"
+
+  pod 'yoga', path: "#{rn_path}/ReactCommon/yoga/yoga.podspec"
+  pod 'React', path: rn_path
+
+  pod 'DoubleConversion', podspec: "#{third_party}/DoubleConversion.podspec"
+  pod 'glog', podspec: "#{third_party}/glog.podspec"
+  pod 'Folly', podspec: "#{third_party}/Folly.podspec"
+
+  pod 'RNGestureHandler', path: '../node_modules/react-native-gesture-handler'
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.remove_from_project if %w[React yoga].include? target.name
+  end
+end

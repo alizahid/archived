@@ -1,0 +1,49 @@
+<header class="header">
+	{{back-button}}
+	{{#if model.isCreator}}
+		{{header-button class="right group" action=(action 'showAttending')}}
+	{{/if}}
+	<h1>Event</h1>
+</header>
+{{#pull-to-refresh pull-to-refresh=ptr contentClass="event" reload='reload'}}
+	<div class="description">
+		{{profile-photo model.user}}
+		<section>
+			<p>{{model.description}}</p>
+			<small>{{moment-from-now model.created interval=60000}}</small>
+		</section>
+	</div>
+	{{#if model.canJoin}}
+		<p class="super-hero">
+			<button class="primary" {{action 'join'}}>Ask to join</button>
+		</p>
+	{{/if}}
+	{{#if model.hasRequested}}
+		<p class="super-hero">Waiting for event creator to accept your request.</p>
+	{{/if}}
+	{{#if model.canComment}}
+		<div class="details">
+			{{#if model.tags}}
+				<p class="tags">{{event-tags model.tags}}</p>
+			{{/if}}
+			<p class="when">{{moment-format model.when 'MMMM D, YYYY'}}</p>
+			<p class="where">{{model.where}}</p>
+		</div>
+		<h3>Comments</h3>
+		{{#each model.comments as |comment|}}
+			<div class="comment-card">
+				{{profile-photo comment.user}}
+				<section>
+					<p>{{comment.body}}</p>
+					<small class="time">{{moment-from-now comment.created interval=60000}}</small>
+				</section>
+			</div>
+		{{else}}
+			<p class="comment-card">No comments yet.</p>
+		{{/each}}
+		<div class="reply">
+			{{textarea placeholder="Write a reply" value=reply disabled=replying}}
+			<button disabled="{{replying}}" {{action 'reply'}}>Send</button>
+		</div>
+	{{/if}}
+{{/pull-to-refresh}}

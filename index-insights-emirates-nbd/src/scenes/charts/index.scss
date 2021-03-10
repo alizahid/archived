@@ -1,0 +1,28 @@
+@import '../../styles/variables';
+
+.charts {
+  form {
+    margin-bottom: 2em;
+
+    button {
+      border-radius: 0;
+      filter: grayscale(1);
+      font-size: 0.75em;
+      padding: 1em;
+      opacity: 0.5;
+
+      &:first-child {
+        border-radius: $layout-border-radius 0 0 $layout-border-radius;
+      }
+
+      &:last-child {
+        border-radius: 0 $layout-border-radius $layout-border-radius 0;
+      }
+
+      &.current {
+        filter: grayscale(0);
+        opacity: 1;
+      }
+    }
+  }
+}

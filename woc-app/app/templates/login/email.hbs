@@ -1,0 +1,18 @@
+<header>
+	{{back-button}}
+	<h1>Login</h1>
+</header>
+<main>
+	<form {{action 'login' on='submit'}}>
+		{{error-message error}}
+		<label>
+			{{input type="email" value=email placeholder="Email" required=true}}
+		</label>
+		<label>
+			{{input type="password" value=password placeholder="Password" required=true}}
+		</label>
+		<p>
+			<button disabled={{busy}}>Login</button>
+		</p>
+	</form>
+</main>

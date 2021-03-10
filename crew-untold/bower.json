@@ -1,0 +1,7 @@
+{
+  "name": "crew-untold",
+  "dependencies": {
+    "pace": "^1.0.2",
+    "trianglify": "^1.0.0"
+  }
+}

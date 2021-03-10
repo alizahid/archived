@@ -1,0 +1,15 @@
+<header>
+	{{back-button}}
+	<h1>Reset password</h1>
+</header>
+<main>
+	<form {{action 'reset' on='submit'}}>
+		{{form-response error=error message=message}}
+		<label>
+			{{input type="email" value=email placeholder="Email" required=true}}
+		</label>
+		<p>
+			<button>Reset password</button>
+		</p>
+	</form>
+</main>

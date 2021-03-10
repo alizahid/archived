@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Semplicita';
+  src: url('semplicita-light.woff') format('woff');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Semplicita';
+  src: url('semplicita-medium.woff') format('woff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Semplicita';
+  src: url('semplicita-bold.woff') format('woff');
+  font-weight: bold;
+}

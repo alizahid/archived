@@ -1,0 +1,24 @@
+<header>
+	{{back-button}}
+	{{header-button class="right check" action=(action 'createEvent')}}
+	<h1>Create event</h1>
+</header>
+<section class="create-event">
+	<label>
+		{{length-counter max description}}
+		<strong>Describe your event. Add as many details as possible.</strong>
+		{{textarea rows="5" placeholder="Example: I'm throwing a launch party for my new startup soon. Lots of VCs will be there. Anyone interested?" value=description maxlength=max}}
+	</label>
+	<label>
+		<strong>Pick a date and time</strong>
+		{{date-picker value=when placeholder="Example: 10/12/2016"}}
+	</label>
+	<label>
+		<strong>Describe or specify the location</strong>
+		{{input type="text" value=where placeholder="Example: Penthouse in JLT"}}
+	</label>
+	<label>
+		<strong>Tag your event</strong>
+		{{tag-picker content=activities value=tags placeholder="Example: #party #startup"}}
+	</label>
+</section>

@@ -1,0 +1,131 @@
+@import '../../styles/variables';
+
+.counter {
+  margin: 0.5em;
+
+  // avatar
+  > figure {
+    cursor: pointer;
+  }
+
+  // modal
+  .modal {
+    // modal content
+    > section {
+      display: flex;
+      margin: 1em 0;
+
+      // avatar
+      > figure {
+        margin-right: 1em;
+      }
+
+      // form
+      > form {
+        > *:first-child {
+          margin-top: 0 !important;
+        }
+
+        > .error,
+        > .message {
+          border-radius: $radius;
+          margin: 1em 0;
+        }
+
+        // remove
+        &.remove {
+          > section {
+            p {
+              margin-top: 0;
+            }
+          }
+        }
+
+        // label
+        > label {
+          // textarea
+          > textarea {
+            background: $overlay-light;
+            height: 20em;
+          }
+        }
+
+        > div {
+          &:last-child {
+            display: block;
+            margin: 0;
+
+            // save
+            > button {
+              border-radius: $radius;
+
+              &:last-child {
+                appearance: none;
+                background: none;
+                border: none;
+                color: $primary;
+                margin-left: 1em;
+                min-width: 0;
+                padding: 0;
+
+                &:hover {
+                  color: $primary-dark;
+                }
+
+                &:active {
+                  color: $primary-light;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      // reason
+      > div {
+        // title
+        > h3 {
+          margin-top: 0;
+        }
+
+        // reason
+        > div {
+          line-height: 1.4;
+          margin: 1em 0;
+          width: 20em;
+        }
+
+        // edit
+        button {
+          appearance: none;
+          background: none;
+          border: none;
+          color: $accent;
+          cursor: pointer;
+          font: inherit;
+
+          &:hover {
+            color: $accent-dark;
+          }
+
+          &:active {
+            color: $accent-light;
+          }
+
+          &.remove {
+            color: $primary;
+            margin-left: 1em;
+
+            &:hover {
+              color: $primary-dark;
+            }
+
+            &:active {
+              color: $primary-light;
+            }
+          }
+        }
+      }
+    }
+  }
+}

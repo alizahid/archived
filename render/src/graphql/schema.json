@@ -1,0 +1,123 @@
+{
+  "__schema": {
+    "types": [
+      {
+        "kind": "INTERFACE",
+        "name": "Service",
+        "possibleTypes": [
+          {
+            "name": "CronJob"
+          },
+          {
+            "name": "Server"
+          }
+        ]
+      },
+      {
+        "kind": "UNION",
+        "name": "Subject",
+        "possibleTypes": [
+          {
+            "name": "User"
+          }
+        ]
+      },
+      {
+        "kind": "UNION",
+        "name": "Object",
+        "possibleTypes": [
+          {
+            "name": "Server"
+          },
+          {
+            "name": "CronJob"
+          }
+        ]
+      },
+      {
+        "kind": "UNION",
+        "name": "IACManagedResource",
+        "possibleTypes": [
+          {
+            "name": "Server"
+          },
+          {
+            "name": "CronJob"
+          },
+          {
+            "name": "Database"
+          },
+          {
+            "name": "EnvGroup"
+          }
+        ]
+      },
+      {
+        "kind": "INTERFACE",
+        "name": "ServiceEvent",
+        "possibleTypes": [
+          {
+            "name": "DeployEnded"
+          },
+          {
+            "name": "ExtraInstancesChanged"
+          },
+          {
+            "name": "BranchDeleted"
+          },
+          {
+            "name": "BuildStarted"
+          },
+          {
+            "name": "DiskEvent"
+          },
+          {
+            "name": "SuspenderAdded"
+          },
+          {
+            "name": "ServerAvailable"
+          },
+          {
+            "name": "DeployStarted"
+          },
+          {
+            "name": "PlanChanged"
+          },
+          {
+            "name": "CronJobRunStarted"
+          },
+          {
+            "name": "SuspenderRemoved"
+          },
+          {
+            "name": "ServiceResumed"
+          },
+          {
+            "name": "ServiceSuspended"
+          },
+          {
+            "name": "BuildEnded"
+          },
+          {
+            "name": "CronJobRunEnded"
+          },
+          {
+            "name": "ServerFailed"
+          }
+        ]
+      },
+      {
+        "kind": "INTERFACE",
+        "name": "Toast",
+        "possibleTypes": [
+          {
+            "name": "OOMKillToast"
+          },
+          {
+            "name": "TestToast"
+          }
+        ]
+      }
+    ]
+  }
+}

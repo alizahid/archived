@@ -1,0 +1,38 @@
+version: '2'
+
+services:
+  api:
+    image: node:latest
+    command: bash -c 'yarn; yarn dev'
+    depends_on:
+      - postgres
+    env_file: ./api/.env
+    ports:
+      - '3030:3030'
+    volumes:
+      - ./api:/www
+    working_dir: /www
+  web:
+    image: node:latest
+    command: bash -c 'yarn; yarn start'
+    depends_on:
+      - api
+    env_file: ./web/.env
+    ports:
+      - '3000:3000'
+    tty: true
+    volumes:
+      - ./web:/www
+    working_dir: /www
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: blog
+      POSTGRES_DB: blog
+      POSTGRES_PASSWORD: blog
+    restart: always
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:

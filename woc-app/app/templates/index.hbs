@@ -1,0 +1,10 @@
+<header>
+	<h1>Discounts</h1>
+</header>
+<main>
+	{{#each model as |discount|}}
+		{{discount-view discount}}
+	{{/each}}
+	{{infinity-loader infinityModel=model scrollable='main'}}
+</main>
+{{nav-bar}}

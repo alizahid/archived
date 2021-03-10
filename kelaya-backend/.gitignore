@@ -1,0 +1,11 @@
+# directories
+build
+coverage
+node_modules
+pgdata
+
+# files
+.DS_Store
+.env
+*.log
+index.css

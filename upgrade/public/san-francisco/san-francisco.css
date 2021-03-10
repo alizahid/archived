@@ -1,0 +1,25 @@
+@font-face {
+    src: url('san-francisco-text-light.woff') format('woff');
+    font-family: 'San Francisco';
+    font-weight: 200;
+}
+@font-face {
+    src: url('san-francisco-text-medium.woff') format('woff');
+    font-family: 'San Francisco';
+    font-weight: 500;
+}
+@font-face {
+    src: url('san-francisco-text-regular.woff') format('woff');
+    font-family: 'San Francisco';
+    font-weight: normal;
+}
+@font-face {
+    src: url('san-francisco-display-bold.woff') format('woff');
+    font-family: 'San Francisco Display';
+    font-weight: bold;
+}
+@font-face {
+    src: url('san-francisco-display-regular.woff') format('woff');
+    font-family: 'San Francisco Display';
+    font-weight: normal;
+}

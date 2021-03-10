@@ -1,0 +1,263 @@
+// Variables
+
+$primary: #3F51B5;
+$accent: #E91E63;
+
+$background: #FFF;
+$color: #333;
+
+$error: #F44336;
+
+$highlight: rgba(255, 255, 255, 0.1);
+
+$type: normal 1em/1 'San Francisco', sans-serif;
+
+// Global
+
+*,
+*:after,
+*:before {
+	border-radius: 0;
+	box-sizing: border-box;
+	font-weight: normal;
+	margin: 0;
+	outline: none;
+	padding: 0;
+	-webkit-tap-highlight-color: transparent;
+}
+
+// Styles
+
+body {
+	cursor: default;
+	font: $type;
+}
+
+a {
+	color: $accent;
+	cursor: pointer;
+	text-decoration: none;
+	transition: all 300ms ease;
+
+	&:active {
+		color: lighten($accent, 10%);
+	}
+}
+
+form {
+	.error {
+		border: 1px solid $error;
+		border-radius: 0.25em;
+		color: $error;
+		line-height: 1;
+		padding: 1em;
+	}
+
+	label {
+		display: block;
+		line-height: 1;
+		margin: 1em 0;
+	}
+
+	p {
+		margin: 1em 0 0;
+	}
+
+	button,
+	input {
+		appearance: none;
+		background: none;
+		border: none;
+		border-radius: 0.25em;
+		padding: 1em;
+		font: $type;
+		width: 100%;
+	}
+
+	button {
+		@extend .button;
+		color: $background;
+		cursor: pointer;
+		transition: all 300ms ease;
+
+		&:disabled {
+			background: darken($background, 30%);
+		}
+	}
+
+	input {
+		background: darken($background, 3%);
+		height: 3em;
+	}
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-weight: 100;
+	margin: 1rem 0;
+}
+
+img {
+	border: none;
+	max-width: 100%;
+	vertical-align: top;
+}
+
+p {
+	line-height: 1.6;
+	margin: 1em 0;
+}
+
+// Layout
+
+header {
+	background: $primary;
+	color: $background;
+
+	.grid-100 {
+		align-items: center;
+		display: flex;
+	}
+
+	.divider {
+		flex: 1;
+	}
+
+	h1 {
+		margin: 1em 0;
+	}
+
+	a {
+		border-radius: 100%;
+
+		&:active {
+			background-color: $highlight;
+		}
+
+		&.action {
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 1.75em;
+			height: 3em;
+			width: 3em;
+
+			&.restart {
+				background-image: url('images/restart.png');
+			}
+		}
+	}
+}
+
+// Components
+
+.button {
+	background: $accent;
+
+	&:active {
+		background: lighten($accent, 10%);
+	}
+}
+
+article {
+	margin: 1em 0;
+
+	&:first-of-type {
+		padding-top: 1em;
+	}
+
+	&:last-of-type {
+		padding-bottom: 1em;
+	}
+
+	&:not(:first-of-type) {
+		border-top: 1px solid darken($background, 10%);
+		margin-top: 2em;
+		padding-top: 2em;
+	}
+
+	h2 {
+		color: $primary;
+		line-height: 1.6;
+	}
+
+	h3,
+	h4 {
+		font-weight: 500;
+	}
+
+	h3 {
+		margin-top: 0;
+	}
+
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+
+	ul {
+		display: flex;
+
+		li {
+			list-style: none;
+		}
+	}
+
+	.currency {
+		display: inline-block;
+		margin: 0;
+	}
+
+	.link {
+		display: inline-block;
+
+	}
+
+	.grid-33 {
+		p {
+			line-height: 1;
+		}
+	}
+
+	.action {
+		@extend .button;
+		border-radius: 0.25em;
+		color: $background;
+		padding: 0.75em;
+	}
+}
+
+.read-more {
+	white-space: pre-line;
+
+	.more {
+		&:after {
+			content: '\a0\bb';
+		}
+	}
+}
+
+.spinner {
+	@extend .rotate;
+	background: url('images/spinner.svg') center no-repeat / 100%;
+	height: 3em;
+	margin: 3em auto;
+	width: 3em;
+}
+
+// Animations
+
+.rotate {
+	animation: rotate 750ms linear infinite;
+}
+
+@keyframes rotate {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}

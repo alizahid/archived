@@ -1,0 +1,18 @@
+<header class="header">
+	{{back-button}}
+	{{header-button class="right refresh" action=(action 'reload')}}
+	<h1>Requests</h1>
+</header>
+<section class="no-scroll">
+	<div class="request-cards">
+		{{#each model.requests as |request index|}}
+			{{#swipe-card class="request-card" total=model.requests.length index=index accept=(action 'accept' request) decline=(action 'decline' request)}}
+				{{profile-photo request}}
+				<button class="decline" {{action 'decline' request}}></button>
+				<button class="accept" {{action 'accept' request}}></button>
+			{{/swipe-card}}
+		{{else}}
+			<p class="super-hero">Kinda lonely in here.</p>
+		{{/each}}
+	</div>
+</section>

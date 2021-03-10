@@ -1,0 +1,37 @@
+version: 1
+
+services:
+  - type: web
+    name: cote
+    env: node
+    repo: https://github.com/alizahid/cote
+    buildCommand: yarn
+    startCommand: node index.js
+
+  - type: pserv
+    name: cote-home
+    env: node
+    envVars:
+      - key: COTE_DISCOVERY_REDIS_HOST
+        value: redis-90n9
+      - key: COTE_DISCOVERY_REDIS_PORT
+        value: 10000
+      - key: DISCOVERY_HOSTNAME
+        value: cote-home:10000
+    repo: https://github.com/alizahid/cote
+    buildCommand: yarn
+    startCommand: node services/home.js
+
+  - type: pserv
+    name: cote-search
+    env: node
+    envVars:
+      - key: COTE_DISCOVERY_REDIS_HOST
+        value: redis-90n9
+      - key: COTE_DISCOVERY_REDIS_PORT
+        value: 10000
+      - key: DISCOVERY_HOSTNAME
+        value: cote-search:10000
+    repo: https://github.com/alizahid/cote
+    buildCommand: yarn
+    startCommand: node services/search.js

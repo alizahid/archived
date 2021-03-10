@@ -1,0 +1,27 @@
+<header>
+	<h1>OneTouch Requests</h1>
+	<nav>
+		<button class="action" {{action 'reload'}}>Reload</button>
+		<button class="action" {{action 'generate'}}>Generate</button>
+	</nav>
+</header>
+<main>
+	<table>
+		<thead>
+			<tr>
+				<td>UUID</td>
+				<td>Status</td>
+				<td>Created</td>
+			</tr>
+		</thead>
+		<tbody>
+			{{#each model as |request|}}
+				<tr>
+					<td>{{request.uuid}}</td>
+					<td class="tag"><span class={{request.status}}>{{request.status}}</span></td>
+					<td title={{request.created}}>{{moment-from-now request.created}}</td>
+				</tr>
+			{{/each}}
+		</tbody>
+	</table>
+</main>

@@ -1,0 +1,66 @@
+<header>
+	<div class="grid-container">
+		<div class="grid-100">
+			<h1>Parse</h1>
+			<div class="divider">
+			</div>
+			{{action-button class="restart" action=(action 'restart')}}
+		</div>
+	</div>
+</header>
+<main>
+	{{#if products}}
+		{{#each products as |product|}}
+			<article class="grid-container">
+				<div class="grid-100 grid-parent">
+					<div class="grid-80 mobile-grid-100">
+						<h3>{{product.id}}</h3>
+						<h2>{{product.name}}</h2>
+						{{read-more product.description}}
+					</div>
+					<div class="grid-20 mobile-grid-100">
+						<img src="{{product.image}}">
+					</div>
+				</div>
+				<div class="grid-100 grid-parent">
+					<div class="grid-33 mobile-grid-100">
+						<h4>Price</h4>
+						<p class="currency action">{{currency product}}</p>
+					</div>
+					<div class="grid-33 mobile-grid-100">
+						<h4>Categories</h4>
+						<ul>
+							{{#each product.categories as |category|}}
+								<li class="action">{{category}}</li>
+							{{/each}}
+						</ul>
+					</div>
+					<div class="grid-33 mobile-grid-100">
+						<h4>Links</h4>
+						<a href="{{product.link}}" class="link action" target="_blank">Buy</a>
+					</div>
+				</div>
+			</article>
+	{{else}}
+		<p>No products found.</p>
+		{{/each}}
+	{{else}}
+		<div class="spinner" hidden= {{isLoading}}></div>
+		<form class="grid-container" {{action 'submit' on='submit'}}>
+			<div class="grid-100">
+				<p>Please enter your URL below and I'll parse it for you.</p>
+				<p class="error" hidden= {{isError}}>{{error}}</p>
+			</div>
+			<div class="grid-80 mobile-grid-100">
+				<p>
+					{{input type="text" value=url disabled=loading required=true placeholder="http://pf.tradetracker.net/?aid=1&type=xml&encoding=utf-8&fid=251713&categoryType=2&additionalType=2&limit=10"}}
+				</p>
+			</div>
+			<div class="grid-20 mobile-grid-100">
+				<p>
+					<button disabled= {{loading}}>Parse</button>
+				</p>
+			</div>
+		</form>
+	{{/if}}
+</main>

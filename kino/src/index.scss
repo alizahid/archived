@@ -1,0 +1,99 @@
+@import './assets/variables';
+
+// reset
+
+*,
+*:after,
+*:before {
+  border-radius: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+// global
+
+body {
+  background: $color-background;
+  color: $color-text;
+  font: normal 1em/1 -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: $color-accent;
+  text-decoration: none;
+  transition: 0.3s;
+
+  &:hover {
+    filter: brightness(1.2);
+  }
+}
+
+form {
+  button,
+  input {
+    appearance: none;
+    border-radius: 0.25em;
+    border: none;
+    font: inherit;
+    line-height: 1;
+    padding: 1em;
+  }
+
+  button {
+    background: $color-accent;
+    color: $color-background;
+    cursor: pointer;
+  }
+
+  input {
+    background: $color-background-dark;
+    user-select: auto;
+  }
+}
+
+h1,
+h2,
+h3 {
+  margin: 1em 0;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+p {
+  line-height: 1.4;
+  margin: 1em 0;
+}
+
+// layout
+
+main {
+  min-height: calc(100vh - 5.125em);
+  overflow: hidden;
+}

@@ -1,0 +1,19 @@
+<label>
+	<input type="text" value={{tag.name}} placeholder="Pick a tag" readonly>
+</label>
+{{#ember-wormhole to="wormhole"}}
+	<div class="overlay">
+		<form>
+			{{input type="search" value=query placeholder="Search for a tag"}}
+			<ul>
+				{{#each results as |tag|}}
+					<li {{action 'select' tag}}>
+						<h4>{{tag.name}}</h4>
+					</li>
+				{{else}}
+					{{empty-message 'No tags found'}}
+				{{/each}}
+			</ul>
+		</form>
+	</div>
+{{/ember-wormhole}}

@@ -1,0 +1,21 @@
+<header>
+	{{back-button}}
+	<h1>Login</h1>
+</header>
+<section>
+	<form {{action 'login' on="submit" }} class="super-hero">
+		<img src="assets/images/plan-x.svg" alt="Plan X" class="logo-small">
+		{{#if error}}
+			<p class="error">{{error}}</p>
+		{{/if}}
+		<label>
+			{{input type="email" value=email placeholder="Email" required="required" disabled=disabled}}
+		</label>
+		<label>
+			{{input type="password" value=password placeholder="Password" required="required" disabled=disabled}}
+		</label>
+		<p>
+			<button type="submit" disabled="{{disabled}}">Login</button>
+		</p>
+	</form>
+</section>

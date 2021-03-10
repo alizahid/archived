@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "description": "Dubai Metro, Tram, Monorail",
+    "icon": "./artwork/icon.png",
+    "name": "Metro",
+    "orientation": "portrait",
+    "platforms": ["ios", "android"],
+    "privacy": "public",
+    "sdkVersion": "24.0.0",
+    "slug": "metro",
+    "splash": {
+      "image": "./artwork/splash.png",
+      "resizeMode": "contain"
+    },
+    "version": "1.0.0",
+    "android": {
+      "package": "com.designplox.metro"
+    },
+    "ios": {
+      "bundleIdentifier": "com.designplox.metro"
+    },
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "dp",
+            "project": "metro",
+            "authToken": "94cadef558e4476d9685f66070368238c2b232750787488fb4d9fd0dfe96267a"
+          }
+        }
+      ]
+    }
+  }
+}

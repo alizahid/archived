@@ -1,0 +1,101 @@
+@import '../../styles/variables';
+
+.users {
+  padding: 0 1em;
+
+  // header
+  > header {
+    align-items: center;
+    display: flex;
+    margin: 1em 0;
+
+    // title
+    > h2 {
+      margin: 0;
+    }
+
+    // add
+    > button {
+      background: url('../../assets/add.svg') center no-repeat;
+      background-size: auto 75%;
+      border: none;
+      cursor: pointer;
+      font: inherit;
+      height: 3em;
+      margin-left: 1em;
+      opacity: 0.75;
+      padding: 0;
+      width: 3em;
+
+      &:hover {
+        opacity: 0.85;
+      }
+
+      &:active {
+        opacity: 1;
+      }
+    }
+  }
+
+  // users
+  > table {
+    > tbody {
+      > tr {
+        > td {
+          &:last-child {
+            padding: 0;
+            width: 7em;
+
+            > button {
+              background-color: transparent;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: auto 50%;
+              border: none;
+              cursor: pointer;
+              font: inherit;
+              height: 3em;
+              opacity: 0.75;
+              padding: 0;
+              width: 3em;
+
+              &:not(:first-child) {
+                margin-left: 1em;
+              }
+
+              &:hover {
+                opacity: 0.85;
+              }
+
+              &:active {
+                opacity: 1;
+              }
+
+              &.edit {
+                background-image: url('../../assets/edit.svg');
+              }
+
+              &.remove {
+                background-image: url('../../assets/clear.svg');
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // modal
+  .modal {
+    // modal content
+    section {
+      // form
+      form {
+        // textboxes
+        input {
+          background: $overlay-light;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+@import '../assets/variables';
+
+.header {
+  align-items: center;
+  background: $color-background-dark;
+  display: flex;
+  padding: 1em 2em;
+
+  .kino {
+    img {
+      display: block;
+      height: 3em;
+      width: 3em;
+    }
+  }
+
+  .favorites {
+    align-items: center;
+    display: flex;
+    margin: auto;
+
+    img {
+      height: 2em;
+      margin-right: 0.5em;
+    }
+  }
+}

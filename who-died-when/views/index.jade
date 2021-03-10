@@ -1,0 +1,8 @@
+extends layout
+
+block content
+	h1 Latest deaths
+	.shows
+		each show in shows
+			a(href="/shows/" + show.id, style="background-image: url(" + baseUrl + show.poster + ")")
+				p=show.name

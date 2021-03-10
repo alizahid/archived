@@ -1,0 +1,42 @@
+{
+  "name": "dota-picker-manager",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "lodash.get": "^4.4.2",
+    "lodash.sortby": "^4.7.0",
+    "mobx": "^3.4.1",
+    "mobx-react": "^4.3.5",
+    "moment": "^2.20.1",
+    "node-sass-chokidar": "^0.0.3",
+    "npm-run-all": "^4.1.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17",
+    "whatwg-fetch": "^2.0.3"
+  },
+  "scripts": {
+    "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",
+    "start-js": "react-scripts start",
+    "start": "npm-run-all -p watch-css start-js",
+    "build-js": "react-scripts build",
+    "build": "npm-run-all build-css build-js",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "precommit": "lint-staged"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^6.0.0",
+    "prettier": "^1.9.2"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write --single-quote --no-semi --trailing-comma none",
+      "git add"
+    ]
+  }
+}

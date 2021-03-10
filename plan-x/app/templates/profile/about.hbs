@@ -1,0 +1,24 @@
+<div class="overlay">
+	<div class="modal">
+		<header>
+			{{back-button}}
+		</header>
+		<section>
+			<label>
+				<strong>About</strong>
+				{{textarea value=model.about placeholder="About" required="required" maxlength="160"}}
+			</label>
+			<label>
+				<strong>Birthday</strong>
+				{{date-picker value=model.birthday}}
+			</label>
+			<label>
+				<strong>Gender</strong>
+				{{select-menu content=genders value=model.gender}}
+			</label>
+		</section>
+		<footer>
+			<button class="primary" {{action 'saveAbout'}}>Save</button>
+		</footer>
+	</div>
+</div>

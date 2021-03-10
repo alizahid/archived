@@ -1,0 +1,17 @@
+<header>
+	{{back-button}}
+</header>
+<section>
+	<div class="super-hero profile">
+		{{profile-photo model canRotate=true}}
+		<h3>{{first-name model.name}}</h3>
+		<p>{{model.about}}</p>
+		{{#if editable}}
+			<div class="editable">
+				<img src="assets/images/icons/ic_photo_camera_gray_48px.svg" {{action 'editPhoto'}}>
+				<img src="assets/images/icons/ic_edit_gray_48px.svg" {{action 'editAbout'}}>
+			</div>
+		{{/if}}
+	</div>
+</section>
+{{outlet}}

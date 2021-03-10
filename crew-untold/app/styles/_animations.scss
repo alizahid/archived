@@ -1,0 +1,22 @@
+@keyframes spinner {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
+@keyframes finger {
+	from {
+		transform: none;
+	}
+
+	50% {
+		transform: scale(2);
+	}
+
+	to {
+		transform: scale(1.25);
+	}
+}

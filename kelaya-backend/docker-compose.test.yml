@@ -1,0 +1,19 @@
+version: '2'
+
+services:
+  test:
+    image: node:latest
+    command: bash -c 'yarn; yarn build; yarn test'
+    depends_on:
+      - postgres_test
+    env_file: ./api/.env.test
+    volumes:
+      - ./api:/www
+    working_dir: /www
+  postgres_test:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: blog
+      POSTGRES_DB: blog
+      POSTGRES_PASSWORD: blog
+    restart: always

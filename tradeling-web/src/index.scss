@@ -1,0 +1,62 @@
+// fonts
+
+@import url('https://rsms.me/inter/inter.css');
+
+html {
+  font-family: 'Inter', sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter var', sans-serif;
+  }
+}
+
+// reset
+
+* {
+  appearance: none;
+  box-sizing: border-box;
+  margin: 0;
+  outline: none;
+  padding: 0;
+}
+
+// global
+
+a {
+  color: #ff2d55;
+  text-decoration: none;
+}
+
+body {
+  cursor: default;
+  font-size: 1em;
+}
+
+form {
+  button,
+  input,
+  select {
+    background: transparent;
+    border: 1px solid #ccc;
+    font: inherit;
+    max-width: 100%;
+    padding: 1em;
+  }
+}
+
+p {
+  line-height: 1.4;
+}
+
+// layout
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
