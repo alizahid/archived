@@ -1,0 +1,53 @@
+apply plugin: 'com.android.application'
+
+import com.android.build.OutputFile
+
+project.ext.react = [
+        entryFile: 'index.js'
+]
+
+apply from: '../../node_modules/react-native/react.gradle'
+apply from: '../../node_modules/react-native-sentry/sentry.gradle'
+apply from: '../../node_modules/react-native-code-push/android/codepush.gradle'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        applicationId 'co.moviemate'
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 9
+        versionName '1.1'
+        ndk {
+            abiFilters 'armeabi-v7a', 'x86'
+        }
+    }
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def versionCodes = ['armeabi-v7a': 1, 'x86': 2]
+            def abi = output.getFilter(OutputFile.ABI)
+
+            if (abi != null) {
+                output.versionCodeOverride = versionCodes.get(abi) * 1048576 + defaultConfig.versionCode
+            }
+        }
+    }
+}
+
+dependencies {
+    compile project(':react-native-code-push')
+    compile project(':react-native-sentry')
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
+
+    implementation 'com.facebook.react:react-native:+'
+}
+
+task copyDownloadableDepsToLibs(type: Copy) {
+    from configurations.compile
+    into 'libs'
+}
